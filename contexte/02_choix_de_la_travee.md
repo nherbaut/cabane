@@ -35,3 +35,7 @@ Les équerres **au-dessus** de la traverse restent une proposition conditionnell
 ## Anciennes cotes et étiquettes
 
 L’estimation de **53 cm**, puis la mesure de **47 cm** pour l’espace nord, sont remplacées par **45 cm** entre T1 et T2. La hauteur de **187 cm** concerne une marche au-dessus de T2, et non le sommet de ce montant. Les anciens documents appelaient parfois « T1 » et « T2 » les *espaces* entre montants ; cette nomenclature était incorrecte. Ces variantes sont conservées dans `historique/` et n’apparaissent plus sur les plans actuels.
+
+## Essai dimensionnel pour l’objectif de 168 cm
+
+La fiche d’habillage fournit un gabarit A4 : panneau 12 mm + traverse 20 mm + équerre 20 mm = 52 mm, soit 8 mm de marge nominale sous les 60 mm disponibles. Hettich 9240442 est repérée pour un essai physique, sans validation de résistance ni choix des vis pour cet usage. La hauteur de coupe reste ouverte jusqu’à vérification de l’assemblage réel.

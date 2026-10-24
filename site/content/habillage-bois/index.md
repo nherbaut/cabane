@@ -102,7 +102,43 @@ Les cales[^cale] sous la traverse **ne font plus partie du montage ni des achats
 
 **Difficulté côté T1 :** son métal s’arrête à 169,5 cm. Avec une planche de 15 mm, le dessous de la traverse serait à ce même niveau ; le bois de la traverse et l’équerre au-dessus dépasseraient donc le sommet du M48. Avec 12 mm, le dessous serait seulement 0,3 cm plus bas. Il faut vérifier le maintien du tasseau prolongé, les distances des vis aux extrémités et l’espace pour visser. La pièce liée à l’escalier reste intacte.
 
-**Achat à ne pas déduire du schéma :** la fiche Simpson ES citée pour le principe comporte notamment des équerres ES10/40 à branches de 62,5 mm. Une telle branche dépasse à elle seule les 6 cm disponibles, avant même la traverse et l’habillage : ce modèle ne convient pas à cette implantation au-dessus pour 168 cm finis. Un détail plus compact reste à sélectionner et à vérifier ; aucune petite équerre n’est validée par défaut. [Dimensions fabricant des équerres ES](https://www.simpson.fr/fr-FR/produits/equerre-simple-es).
+**Achat à ne pas déduire du schéma :** la fiche Simpson ES citée pour le principe comporte notamment des équerres ES10/40 à branches de 62,5 mm. Une telle branche dépasse à elle seule les 6 cm disponibles, avant même la traverse et l’habillage : ce modèle ne convient pas à cette implantation au-dessus pour 168 cm finis. Le candidat compact ci-dessous peut servir à un essai d’encombrement ; aucune petite équerre n’est validée mécaniquement par sa seule taille. [Dimensions fabricant des équerres ES](https://www.simpson.fr/fr-FR/produits/equerre-simple-es).
+
+### Essai compact proposé pour 168 cm finis
+
+**Proposition à essayer, pas un assemblage de chantier validé :** planche de contreplaqué de **1,2 cm**, traverse de **2 cm de hauteur × 4 cm de profondeur**, et petite équerre au-dessus avec une branche verticale nominale de **2 cm**. La longueur de la traverse sera relevée entre les bois réellement installés ; les 45 cm mesurent le vide entre les montants et ne constituent pas une longueur de coupe garantie.
+
+Une référence repérée pour cet essai est l’**équerre de chaise Hettich 9240442**, EAN **4008057927147**, donnée pour **16 × 20 × 20 × 2 mm**. Les fixations ne sont pas fournies. La [fiche du fabricant Hettich](https://shop-diy.hettich.com/de/fr/Hettich/Assemblage-de-meuble/Equerres-et-profils-d'assemblage/Équerre-de-chaise,-16-x-20-x-20-x-2-mm,-Acier,-zingué/p/9240442) ne fournit pas de charge admissible pour notre cloison ni de vis à employer dans notre bois : cette référence sert à vérifier la place, sans valider le maintien du plâtre.
+
+| Niveau depuis le sol fini | Valeur pour cet essai |
+|---|---:|
+| Dessous de la planche supérieure, hauteur finie cible | **168 cm** |
+| Dessous de la traverse, après 1,2 cm de planche | **169,2 cm** |
+| Dessus de la traverse, après 2 cm de bois | **171,2 cm** |
+| Haut nominal de l’équerre, après 2 cm | **173,2 cm** |
+| Pièce liée à l’escalier, conservée intacte | **174 cm** |
+| Marge nominale restante | **0,8 cm, soit 8 mm** |
+
+La somme des épaisseurs et hauteurs vaut **1,2 + 2 + 2 = 5,2 cm**, pour 6 cm disponibles. La marge de 8 mm peut être réduite par la forme réelle de l’équerre, les défauts du bois et les écarts de mesure ; elle ne prouve pas que l’outil passe. Il n’y a que **2,8 cm au-dessus de la traverse** pour introduire les fixations et l’outil : l’ordre d’assemblage doit être essayé avant de fermer les planches.
+
+Pour comparer à panneau et traverse identiques :
+
+| Équerre, dimension verticale nominale | Encombrement planche + traverse + équerre | Résultat sous les 6 cm |
+|---|---:|---|
+| Hettich 9240442, 2 cm | 5,2 cm | Marge nominale de 8 mm ; essai nécessaire |
+| [Simpson EC30/2, 3 cm](https://www.simpson.fr/fr-FR/produits/equerre-de-chaise-ec) | 6,2 cm | Dépasse de 2 mm |
+| [Simpson EA442/2, 4,2 cm](https://www.simpson.fr/fr-FR/produits/equerre-dassemblage-ea) | 7,4 cm | Dépasse de 14 mm |
+
+![Gabarit coté de l’essai : panneau de 12 mm, traverse de 20 mm de hauteur et équerre de 20 mm, avec les niveaux de 168 à 174 cm.](gabarit-168.svg)
+
+**[Télécharger le gabarit A4 en PDF](gabarit-168.pdf)**, puis imprimer à **100 % / taille réelle**, sans ajuster à la page. La barre de contrôle doit mesurer exactement **5 cm**. Le dessin est un gabarit[^gabarit] d’encombrement ; les extrémités du tasseau et les trous de vis n’y sont pas arrêtés.
+
+1. Présentez une chute de bois dans T1 puis T2, sans forcer ni modifier les M48, pour vérifier la section réellement utilisable.
+2. Présentez le gabarit au haut de T1 et contrôlez les niveaux par rapport au sol fini. Le tasseau de T1 devra recevoir l’équerre au-dessus du métal, dont le sommet reste à 169,5 cm.
+3. Avec l’équerre réelle, vérifiez l’appui, ses trous, les distances aux extrémités du bois et le passage des vis et du tournevis. Faites préciser les fixations adaptées aux bois par le fournisseur ou la personne qui vérifiera l’encadrement ; aucune longueur ou quantité de vis n’est déduite du gabarit.
+4. Faites vérifier la tenue du bois prolongé dans T1 et celle de la plaque de plâtre conservée. Un essai visuel ou un appui à la main ne suffit pas à déterminer la résistance de la cloison.
+
+**Point de sécurité :** tant que les fixations, le plâtre conservé et le rôle de la cloison ne sont pas vérifiés, **168 cm reste une hauteur cible**. L’essai n’autorise aucune coupe ni fixation dans la pièce de l’escalier.
 
 On détermine d’abord le niveau du dessous de la traverse, puis on soustrait l’épaisseur de la planche qui l’habille :
 
@@ -133,16 +169,16 @@ Poncez les surfaces et les **chants**[^chant], adoucissez les coins, puis vérif
 
 ## 7. Achats prévisionnels pour la disposition retenue
 
-Cette liste concerne l’habillage actuel du passage T1–T2 et remplace, pour ce montage, les indications d’achat du guide historique. **Les quantités de pièces décrivent le principe ; les dimensions et références non vérifiées restent à déterminer avant achat.** Les 45 cm libres ne constituent pas à eux seuls une longueur de coupe définitive.
+Cette liste concerne l’habillage actuel du passage T1–T2 et remplace, pour ce montage, les indications d’achat du guide historique. **Les achats définitifs restent conditionnés à la vérification des supports et fixations.** Pour l’essai à blanc, préparer une chute de contreplaqué de 12 mm, une chute de bois de section 20 × 40 mm et le gabarit. Une équerre Hettich 9240442 peut être achetée comme échantillon de contrôle ; deux pièces sont envisagées pour l’assemblage, sans nombre de vis ou capacité validés. Les 45 cm libres ne constituent pas à eux seuls une longueur de coupe définitive.
 
 | Fourniture | Quantité envisagée | À déterminer avant achat |
 |---|---:|---|
 | Supports bois verticaux (tasseaux) | 2 pièces | Section vérifiée par essai dans T1 et T2, tous deux ouverts vers le passage ; longueur permettant la fixation au-dessus de la traverse et un maintien suffisant dans les montants. |
-| Traverse en bois | 1 pièce | Section selon les charges et fixations ; longueur entre les supports réellement installés. |
-| Équerres pour le dessus de la traverse | 2 pièces, une par extrémité | Modèle compatible avec la disposition, les charges, la largeur des bois, les distances aux bords et l’accès de vissage ; vérifier en particulier la place côté T1 sous la pièce de l’escalier. |
+| Traverse en bois | 1 pièce après vérification | Candidat d’essai : **20 mm verticalement × 40 mm en profondeur** ; longueur à relever entre supports installés. Tenue et fixations à vérifier. |
+| Équerres pour le dessus de la traverse | 1 échantillon d’essai ; 2 envisagées au total | **Hettich 9240442** : candidat dimensionnel 20 × 20 mm, largeur 16 mm, tôle 2 mm ; capacité pour cet usage et fixations non validées. |
 | Vis de liaison des équerres aux bois | Quantité à définir | Type, diamètre, longueur et nombre selon le modèle d’équerre et les bois ; ne pas les remplacer par des vis de finition choisies au hasard. |
 | Fixations des supports bois aux M48 | Quantité à définir | Compatibilité métal mince–bois et tenue requise ; dimensions selon le montage réel. |
-| Planches d’habillage | 3 bandes : 2 côtés et 1 dessus | Épaisseur à choisir (hypothèses : 1,2 ou 1,5 cm), profondeur réelle de cloison et longueurs finales. |
+| Planches d’habillage | 3 bandes : 2 côtés et 1 dessus | **12 mm proposés pour l’essai compact**, profondeur réelle de cloison et longueurs finales à relever. Les 15 mm restent une variante à recalculer. |
 | Vis de finition | Quantité à définir | Longueur selon panneau et bois disponible, sans pointe sortante ni collision avec les autres vis. |
 | Fixations du plâtre conservé au support supérieur | Selon la disposition vérifiée | Type et quantité à définir avec le maintien de la plaque avant découpe. |
 | Couvre-joints ou bandes de retour | En option, quantité à mesurer | Seulement selon les raccords et les parties métalliques encore accessibles. |
@@ -171,3 +207,5 @@ La [fiche Knauf du montant 48/35](https://knauf.com/fr-FR/p/produit/montant-48-3
 [^chant]: **Chant** : bord étroit d’une planche, correspondant à son épaisseur.
 [^rail]: **Rail** : pièce métallique horizontale dans laquelle viennent se placer les montants.
 [^arete]: **Arête** : ligne de rencontre de deux faces ; une arête vive est un bord non adouci qui peut être coupant.
+
+[^gabarit]: **Gabarit** : dessin ou pièce de référence servant à vérifier une forme et sa place ; ici, le PDF doit être imprimé à taille réelle.

@@ -273,9 +273,9 @@ ot(690,720,'Porte sud du cellier à supprimer',14,fill=green)
 ot(1085,235,'Cotes de l’accès T1–T2',19,font_weight='bold')
 for yy,value in [(275,'T1–T2 : 45 cm libres'),(309,'T1 : sommet à 169,5 cm'),(343,'Pièce de l’escalier : 174 cm'),(377,'Marche au-dessus T2 : 187 cm'),(411,'T2–T3 : 37,5 cm, sans passage')]:ot(1085,yy,value,14)
 ot(1085,468,f'Objectif fini : {ofmt(target_cm)} cm',16,font_weight='bold',fill='#a65d2e')
-ot(1085,496,'6 cm pour l’habillage,',14)
-ot(1085,520,'la traverse et les équerres.',14)
-ot(1085,548,'Faisabilité à vérifier côté T1.',14,fill='#a65d2e')
+ot(1085,496,'Essai : 12 + 20 + 20 = 52 mm',14)
+ot(1085,520,'Marge nominale : 8 mm.',14)
+ot(1085,548,'Fixations et outil à vérifier.',14,fill='#a65d2e')
 ot(1085,600,'Pièce de l’escalier intacte.',15,font_weight='bold',fill=red)
 # Triangle en vue de côté : hauteur et pente non relevées.
 ot(1085,687,'Accès existant · vue de côté',15,font_weight='bold')
@@ -288,3 +288,69 @@ ot(280,960,'Repère : x vers l’est, y vers le nord, z vers le haut ; cotes en 
 ot(280,990,'Source : donnees/geometrie.json • cabane 190 + 70 = 260 cm ; épaisseur de cloison non représentée.',14,fill=gray)
 overview.save()
 print(overview_file)
+
+# Gabarit A4 à taille réelle pour l’essai d’encombrement, sans trous de vis
+# inventés et sans validation de résistance de la liaison.
+trial=data['current_geometric_hypotheses']['compact_joint_trial_168']
+levels=trial['calculated_levels_cm']
+template_path=root/trial['print_template']
+mock=Drawing(str(template_path),size=('210mm','297mm'),viewBox='0 0 210 297')
+mock.root.set('role','img')
+title=ET.SubElement(mock.root,f'{{{SVG_NS}}}title');title.text='Gabarit A4 1:1 : essai compact pour 168 cm finis, résistance non validée'
+mock.add(mock.rect(insert=(0,0),size=(210,297),fill='white'))
+def mt(x,y,value,size=3.3,**style):
+    style.setdefault('fill',dark)
+    mock.add(mock.text(value,insert=(x,y),font_family='DejaVu Sans',font_size=size,**style))
+def ml(x1,y1,x2,y2,**style):
+    mock.add(mock.line(start=(x1,y1),end=(x2,y2),**style))
+MY=lambda z:80+(levels['ceiling_limit']-z)*10
+panel_top=MY(levels['crosspiece_underside']);beam_top=MY(levels['crosspiece_top'])
+angle_top=MY(levels['nominal_bracket_top']);finish_y=MY(levels['finished_underside'])
+mt(12,15,'Essai compact — objectif 168 cm finis',5,font_weight='bold')
+mt(12,24,'Gabarit A4 à taille réelle · contrôle de place uniquement',3.4)
+mt(12,34,'Panneau 12 mm + traverse 20 mm + équerre de 20 mm = 52 mm.')
+mt(12,41,'Marge nominale : 8 mm sous la pièce de l’escalier à 174 cm.')
+mt(12,48,'Bois des montants, perçages et vis : à vérifier sur place.',fill=red)
+# Support vertical non coté : ses extrémités ne sont pas fixées par ce dessin.
+mock.add(mock.rect(insert=(48,84),size=(22,96),fill='#e5bc7b'))
+ml(48,84,48,180,stroke='#98713f',stroke_width=0.5)
+ml(70,84,70,180,stroke='#98713f',stroke_width=0.5)
+ml(48,84,70,84,stroke='#98713f',stroke_width=0.5,stroke_dasharray='2 2')
+mock.add(mock.rect(insert=(70,beam_top),size=(40,trial['crosspiece_section_cm']['height']*10),fill='#e5bc7b',stroke='#98713f',stroke_width=0.5))
+mock.add(mock.rect(insert=(70,panel_top),size=(40,trial['finish_panel_thickness_cm']*10),fill='#a9d2ae',stroke=green,stroke_width=0.5))
+# Équerre nominale : enveloppe 20 × 20 mm, tôle 2 mm.
+mock.add(ET.Element(f'{{{SVG_NS}}}path',{'d':f'M70 {angle_top} H72 V{beam_top-2} H90 V{beam_top} H70 Z','fill':'#d6834b'}))
+metal_top=MY(facts['partition']['T1_stud_top_heights']['T1_north_stud'])
+mock.add(mock.rect(insert=(44,metal_top),size=(3,180-metal_top),fill='#617986'))
+ml(30,80,112,80,stroke=red,stroke_width=0.8)
+ml(24,80,24,angle_top,stroke=green,stroke_width=0.5)
+for y in [80,angle_top]:ml(22,y,26,y,stroke=green,stroke_width=0.5)
+mt(13,85,'8 mm',2.9,fill=green)
+for z,label,color,dy in [
+ (174,'174 cm · pièce de l’escalier',red,0),
+ (173.2,'173,2 cm · haut de l’équerre','#a65d2e',2),
+ (171.2,'171,2 cm · dessus traverse',dark,2),
+ (169.2,'169,2 cm · dessous traverse',dark,2),
+ (168,'168 cm · hauteur finie cible',green,4)]:
+ y=MY(z);ml(111,y,119,y,stroke=color,stroke_width=0.4);mt(122,y+dy,label,3.1,fill=color)
+ml(35,metal_top,48,metal_top,stroke='#617986',stroke_width=0.4)
+mt(5,metal_top-2,'T1 : 169,5 cm',3,fill='#617986')
+mt(61,174,'Support bois à vérifier',3,transform='rotate(-90 61 174)')
+mt(122,158,'Traverse : 20 × 40 mm',3.2,font_weight='bold')
+mt(122,165,'20 mm verticalement,',3)
+mt(122,171,'40 mm en profondeur.',3)
+mt(122,178,'Longueur à relever.',3)
+mt(12,194,'Essai à blanc avant achat définitif et découpe',4,font_weight='bold')
+for y,value in [(204,'1. Vérifier l’entrée et le maintien du bois dans T1 et T2.'),
+ (212,'2. Présenter l’équerre, les vis envisagées et le tournevis.'),
+ (220,'3. Vérifier la prise des vis dans les 20 mm de traverse'),
+ (227,'   et dans le bois prolongé au-dessus du métal de T1.'),
+ (235,'4. Vérifier la tenue du plâtre conservé et de la cloison.')]:mt(12,y,value,3.2)
+ml(20,253,70,253,stroke=dark,stroke_width=0.5)
+for x in [20,70]:ml(x,250,x,256,stroke=dark,stroke_width=0.5)
+mt(20,263,'Contrôle d’impression : cette barre doit mesurer 50 mm.',3.1)
+mt(12,275,'Imprimer à 100 % / taille réelle, sans adapter à la page.',3.3,font_weight='bold')
+mt(12,283,'Géométrie proposée ; capacité de la liaison non validée.',3.2,fill=red)
+mt(12,291,'Référence d’essai : Hettich 9240442, 16 × 20 × 20 × 2 mm. Vis non fournies.',2.8)
+mock.save()
+print(template_path)

@@ -246,7 +246,7 @@
     "condition": "mur nord commun confirmé : milieu de T2 à y=180-50=130 cm",
     "north_wall_alignment_confirmed": true,
     "upper_crosspiece_connection": {
-      "status": "disposition privilégiée demandée par l’utilisateur ; faisabilité et dimensionnement à vérifier avant achat",
+      "status": "option privilégiée au-dessus ; candidat Hettich 9240442 avec traverse 20 mm et panneau 12 mm pour essai dimensionnel, non validation mécanique",
       "bracket_position": "au-dessus de la traverse",
       "provisional_bracket_count": 2,
       "vertical_timber": "tasseaux à vérifier dans T1 et T2 ; T1 s’arrête à 169,5 cm, et la pièce de l’escalier à 174 cm reste intacte ; position réelle des équerres à valider",
@@ -272,7 +272,47 @@
       "basis": "enveloppe de 260 × 90 cm ; 190 cm jusqu’à l’accès puis 70 cm supplémentaires ; épaisseur de cloison non représentée"
     },
     "target_finished_passage_height_cm": 168,
-    "target_finished_passage_height_status": "objectif de conception, non hauteur de coupe validée"
+    "target_finished_passage_height_status": "objectif de conception, non hauteur de coupe validée",
+    "compact_joint_trial_168": {
+      "status": "candidat pour essai dimensionnel à blanc ; résistance, vis et montage sur place non validés",
+      "finish_panel_thickness_cm": 1.2,
+      "crosspiece_section_cm": {
+        "height": 2,
+        "depth_through_partition": 4
+      },
+      "crosspiece_length_cm": null,
+      "bracket": {
+        "manufacturer": "Hettich",
+        "reference": "9240442",
+        "ean": "4008057927147",
+        "leg_height_cm": 2,
+        "leg_length_cm": 2,
+        "strip_width_cm": 1.6,
+        "steel_thickness_cm": 0.2,
+        "provisional_count": 2,
+        "scope": "petite équerre de chaise pour assemblages de meubles ; pas de charge admissible ni de vis spécifiées sur la fiche consultée",
+        "source_url": "https://shop-diy.hettich.com/de/fr/Hettich/Assemblage-de-meuble/Equerres-et-profils-d'assemblage/Équerre-de-chaise,-16-x-20-x-20-x-2-mm,-Acier,-zingué/p/9240442"
+      },
+      "calculated_levels_cm": {
+        "finished_underside": 168,
+        "crosspiece_underside": 169.2,
+        "crosspiece_top": 171.2,
+        "nominal_bracket_top": 173.2,
+        "ceiling_limit": 174,
+        "nominal_remaining_gap": 0.8,
+        "clearance_above_crosspiece": 2.8
+      },
+      "fasteners": null,
+      "unresolved": [
+        "essai du tasseau dans T1 et T2",
+        "diamètre, longueur et nombre des vis selon perçages et bois",
+        "distance des trous aux extrémités du bois",
+        "maintien du bois prolongé au-dessus de T1",
+        "accès de vissage dans les 2,8 cm au-dessus de la traverse",
+        "charge du plâtre conservé et tenue globale de la cloison"
+      ],
+      "print_template": "site/content/habillage-bois/gabarit-168.svg"
+    }
   },
   "calculated_clearances_cm": {
     "between_shelf_A_and_MTA_along_x_when_y_0_to_50": 70,

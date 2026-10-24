@@ -9,6 +9,7 @@ plan:
 	rsvg-convert plans/01_cellier_plan_cote.svg -o plans/01_cellier_plan_cote.png
 	rsvg-convert plans/02_passage_T1_T2_elevation_cotee.svg -o plans/02_passage_T1_T2_elevation_cotee.png
 	rsvg-convert plans/03_ensemble_cellier_cabane.svg -o plans/03_ensemble_cellier_cabane.png
+	rsvg-convert --format=pdf site/content/habillage-bois/gabarit-168.svg -o site/content/habillage-bois/gabarit-168.pdf
 
 guide-historique:
 	$(MAKE) -C historique/guide_2026_09 pdf

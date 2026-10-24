@@ -31,3 +31,5 @@ HUGO_BASEURL=https://nherbaut.github.io/cabane/ make site-build
 ```
 
 Les fichiers générés et le binaire Hugo sont exclus du dépôt par `.gitignore`. Le workflow installe la même version de Hugo que le Makefile local et le moteur `rsvg-convert` pour les aperçus des plans.
+
+Le guide d’habillage inclut un gabarit SVG/PDF A4 généré par `make plan`, pour l’essai compact à 168 cm finis. Le PDF doit être imprimé à 100 %, contrôle par une barre de 50 mm. Il vérifie l’encombrement proposé (12 + 20 + 20 mm), sans valider les fixations ou la charge.

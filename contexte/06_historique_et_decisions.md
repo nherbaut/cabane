@@ -71,3 +71,7 @@ L’utilisateur précise que les 70 cm correspondent à la distance dans le prol
 ## Longueur totale confirmée et objectif de hauteur (24 octobre 2026)
 
 L’utilisateur confirme que les 70 cm s’ajoutent aux 190 cm : **260 cm de longueur totale**, sur 90 cm de largeur. L’accès triangulaire existant se situe le long du prolongement du mur ouest du cellier, de y=-10 à y=-80. Il propose un passage fini de **168 cm** entre T1 et T2. Cette hauteur devient un objectif à vérifier : réserve totale de 6 cm sous la pièce de l’escalier, panneau inclus ; avec 15 mm, le dessous de la traverse serait à 169,5 cm, au sommet du métal de T1. L’assemblage au-dessus reste à dimensionner et la hauteur de coupe n’est pas arrêtée.
+
+## Recherche de liaison compacte et gabarit (24 octobre 2026)
+
+À la demande de l’utilisateur, recherche de références et préparation d’un essai concret. La fiche fabricant Hettich 9240442 décrit une équerre de chaise 16 × 20 × 20 × 2 mm, sans fixations fournies ni charge admissible pour notre cloison. Avec un panneau de 12 mm et une traverse de 20 mm de hauteur × 40 mm de profondeur, l’encombrement nominal est de 52 mm pour 60 mm disponibles. Un gabarit A4 à taille réelle et une liste de pièces d’essai sont ajoutés. Le dimensionnement mécanique, les vis et l’accessibilité de l’outil ne sont pas validés ; les 168 cm restent une cible avant essai sur place et vérification du support.

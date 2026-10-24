@@ -31,3 +31,7 @@ Deux panneaux latéraux de 12 mm laisseraient théoriquement **42,6 cm** de pass
 Les équerres au-dessus de la traverse sont l’option privilégiée pour dégager son dessous, **sous réserve** de disposer du bois, de la place et de fixations suffisantes, notamment côté T1. Les ailes nominales de 35 mm des M48/35 ne garantissent pas la place intérieure pour un tasseau : un essai avec une chute dans chaque profil précédera les achats définitifs. L’épaisseur de cloison et la hauteur utilisable de la traverse restent à mesurer.
 
 **Points de sécurité :** ne pas couper ni percer la pièce liée à l’escalier ou un support potentiellement porteur sans avoir vérifié sa fonction. Vérifier la tenue du bord de plâtre conservé et la fonction de la cloison avant découpe. Les dégagements du chauffage nécessitent sa notice ; les options de ventilation et d’éclairage ne sont pas des validations de conformité.
+
+## Candidat compact pour essai à blanc
+
+Un essai dimensionnel est documenté : panneau de 12 mm, traverse de 20 mm de hauteur × 40 mm de profondeur et équerre Hettich 9240442 à branches de 20 mm. Niveaux : 168 cm finis, dessous de traverse 169,2 cm, dessus 171,2 cm, haut nominal de l’équerre 173,2 cm, marge 8 mm sous la pièce à 174 cm. Le gabarit A4 SVG/PDF est généré depuis les données. La capacité de la petite équerre, le choix des vis, les distances aux bords, le maintien dans les M48 et l’accès de vissage dans les 28 mm au-dessus de la traverse restent à vérifier. Ce candidat n’est pas un plan de découpe validé.
