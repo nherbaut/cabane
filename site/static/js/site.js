@@ -2,7 +2,7 @@
   const svg = document.getElementById('room-plan');
   const status = document.getElementById('plan-status');
   const ns = 'http://www.w3.org/2000/svg';
-  const ox = 350, oy = 625, scale = 2.9;
+  const ox = 350, oy = 575, scale = 2.5;
   const X = x => ox + x * scale;
   const Y = y => oy - y * scale;
   const add = (tag, attrs, parent = svg) => {
@@ -30,22 +30,27 @@
       rect(room,{fill:'none',stroke:'#213b32','stroke-width':3});
       const north=room.y[1], t2Y=f.stud_2_measurement.center_y;
       const cabinBox=data.current_geometric_hypotheses.cabin_plan_box, cabinInfo=f.cabin;
-      const cabin=add('g',{'aria-label':'Cabane : largeur de 90 cm, relevé de 190 cm jusqu’à l’accès triangulaire'});
+      const access=f.existing_other_entrance.plan_location.y;
+      const cabin=add('g',{'aria-label':'Cabane : 260 par 90 cm, dont accès triangulaire de 70 cm'});
       rect(cabinBox,{fill:'#edf2eb',stroke:'none'},cabin);
-      line(cabinBox.x[0],cabinBox.y[0],cabinBox.x[0],cabinBox.y[1],{stroke:'#236f58','stroke-width':2});
-      line(0,cabinBox.y[0],0,cabinBox.y[1],{stroke:'#236f58','stroke-width':2});
-      line(cabinBox.x[0],cabinBox.y[0],0,cabinBox.y[0],{stroke:'#236f58','stroke-width':2,'stroke-dasharray':'8 6'});
+      rect({x:cabinBox.x,y:access},{fill:'#f6ead8',stroke:'none'},cabin);
+      line(-90,cabinBox.y[0],-90,north,{stroke:'#236f58','stroke-width':2});
+      line(-90,cabinBox.y[0],0,cabinBox.y[0],{stroke:'#236f58','stroke-width':2});
+      line(0,access[1],0,north,{stroke:'#236f58','stroke-width':2});
+      line(0,access[0],0,access[1],{stroke:'#236f58','stroke-width':2,'stroke-dasharray':'7 6'});
+      line(-90,access[1],0,access[1],{stroke:'#cda464','stroke-width':1,'stroke-dasharray':'7 6'});
       const textAt=(x,y,value,attrs={})=>{const n=add('text',{x,y,fill:'#236f58','font-size':14,...attrs},cabin);n.textContent=value};
       textAt(X(-80),Y(80),'CABANE',{'font-size':21,'font-weight':800});
-      textAt(X(-80),Y(80)+28,`Largeur : ${cabinInfo.width_east_west} cm`,{'font-size':16,'font-weight':700});
-      textAt(X(-80),Y(80)+51,'190 cm jusqu’à l’accès',{'font-size':12});
+      textAt(X(-80),Y(80)+28,`${cabinInfo.length_north_south} × ${cabinInfo.width_east_west} cm`,{'font-size':16,'font-weight':700});
+      textAt(X(-80),Y(80)+51,'190 cm + accès de 70 cm',{'font-size':12});
       line(-90,190,0,190,{stroke:'#236f58','stroke-width':1.5});
       for(const x of [-90,0])line(x,186,x,194,{stroke:'#236f58','stroke-width':1.5});
       label(-45,194,`${cabinInfo.width_east_west} cm`,{'font-size':16,'text-anchor':'middle','font-weight':700,fill:'#236f58'});
-      line(-100,-10,-100,180,{stroke:'#236f58','stroke-width':1.5});
-      for(const y of [-10,180])line(-104,y,-96,y,{stroke:'#236f58','stroke-width':1.5});
-      const cabinDim=label(-107,85,`${cabinInfo.length_north_south} cm`,{'font-size':16,'text-anchor':'middle','font-weight':700,fill:'#236f58'});
-      cabinDim.setAttribute('transform',`rotate(-90 ${X(-107)} ${Y(85)})`);
+      line(-100,cabinBox.y[0],-100,north,{stroke:'#236f58','stroke-width':1.5});
+      for(const y of [cabinBox.y[0],north])line(-104,y,-96,y,{stroke:'#236f58','stroke-width':1.5});
+      const mid=(north+cabinBox.y[0])/2;
+      const cabinDim=label(-107,mid,`${cabinInfo.length_north_south} cm`,{'font-size':16,'text-anchor':'middle','font-weight':700,fill:'#236f58'});
+      cabinDim.setAttribute('transform',`rotate(-90 ${X(-107)} ${Y(mid)})`);
       line(0,north,115,north,{stroke:'#213b32','stroke-width':3});
       textAt(X(-90),28,'Mur nord commun',{'font-size':14,'font-weight':700});
       add('circle',{cx:X(0),cy:Y(t2Y),r:5,fill:'#236f58'});
@@ -54,8 +59,11 @@
       textAt(ox,symbolY+9,'↔',{'font-size':32,'text-anchor':'middle'});
       textAt(X(-85),symbolY+12,'Passage T1–T2',{'font-size':14,'font-weight':700});
       textAt(X(-85),symbolY+34,`${f.new_west_passage.actual_clear_width} cm libres`,{'font-size':13});
-      textAt(X(-90),Y(-10)+28,'Fin du relevé de 190 cm',{'font-size':12,'font-weight':700});
-      textAt(X(-90),Y(-10)+46,`Accès triangulaire : ${cabinInfo.triangular_access_horizontal_span} cm`,{'font-size':11});
+      const accessY=Y((access[0]+access[1])/2);
+      textAt(ox,accessY+9,'↔',{'font-size':32,'text-anchor':'middle'});
+      textAt(X(-85),accessY,'Zone basse : 70 cm',{'font-size':13,'fill':'#986627'});
+      textAt(X(6),accessY,'PIÈCE DE VIE',{'font-size':15,'font-weight':700});
+      textAt(X(6),accessY+25,'Accès triangulaire existant',{'font-size':12});
       label(5,43,'A',{'font-size':22,'font-weight':800,fill:'#253d30'});
       label(90,132,'B',{'font-size':22,'font-weight':800,fill:'#253d30'});
       label(96,22,'MTA',{'font-size':13,'font-weight':800,fill:'#562e2c'});
@@ -77,12 +85,12 @@
       label(5,-24,'Sud · porte à supprimer',{'font-size':12,fill:'#455c50'});
       const toggle=document.getElementById('show-heights');
       toggle.addEventListener('change',()=>{heights.style.display=toggle.checked?'':'none'});
-      initializeFinish(f);
+      initializeFinish(f,data.current_geometric_hypotheses);
       status.textContent='Plan chargé à partir des données du projet.';
     })
     .catch(err => {status.textContent=err.message; svg.setAttribute('aria-label',err.message)});
 
-  function initializeFinish(facts) {
+  function initializeFinish(facts,hypotheses) {
     const rawWidth=facts.new_west_passage.actual_clear_width;
     const availableHeight=facts.partition.stair_support_at_first_gap.height_from_floor_to_lower_face;
     const t1Top=facts.partition.T1_stud_top_heights.T1_north_stud;
@@ -115,8 +123,9 @@
     for (const y of [top,floor]) shape('line',{x1:left-30,y1:y,x2:left-20,y2:y,stroke:'#236f58'});
     const midY=(top+floor)/2;
     note(left-35,midY,`${fmt(availableHeight)} cm sous la pièce de l’escalier`,{'text-anchor':'middle',transform:`rotate(-90 ${left-35} ${midY})`});
-    note(right+22,top+15,'Haut du passage');
-    note(right+22,top+34,'à définir');
+    note(right+22,top+15,`Objectif : ${hypotheses.target_finished_passage_height_cm} cm`);
+    note(right+22,top+34,'à vérifier');
+    shape('line',{x1:left,y1:floor-hypotheses.target_finished_passage_height_cm*s,x2:right,y2:floor-hypotheses.target_finished_passage_height_cm*s,stroke:'#d6834b','stroke-dasharray':'5 4'});
     note(right+22,top+77,`T1 : ${fmt(t1Top)} cm`,{'font-size':13});
     note(right+22,top+96,'T2 rejoint l’escalier',{'font-size':13});
     note(right+22,top+190,'Limite locale à 174 cm',{'font-size':12,fill:'#506459'});

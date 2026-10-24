@@ -22,6 +22,7 @@ Aider à concevoir, documenter et éventuellement produire des plans ou schémas
 - La préférence ancienne de l’assistant pour l’espace T2–T3 est dépassée : l’utilisateur a acté le passage **T1–T2**, large de 45 cm libres, pour préserver les rangements du cellier ; T2–T3 (37,5 cm) restera sans ouverture. Le milieu de T2 est à 50 cm du mur nord de la cabane ; ce n’est pas une largeur libre. Le milieu de T2 est donc à `y=130 cm` ; ne plus demander une nouvelle vérification d’alignement des murs nord. La cote au milieu ne doit toutefois pas être transformée en cote de bord de coupe.
 - Le chauffage doit rester accessible par sa face ouest ; les dégagements définitifs nécessitent la notice de l'appareil.
 - T1 s’arrête à 169,5 cm ; la pièce liée à l’escalier au niveau du passage T1–T2 a sa sous-face à 174 cm et restera intacte. Les 187 cm concernent la sous-face d’une marche au-dessus de T2. Aucune modification de la structure de l’escalier, du poteau ni d’un support potentiellement porteur ne doit être prescrite sans vérification de sa fonction.
+- La hauteur finie de 168 cm est un **objectif proposé**, non une cote de chantier validée. Sous la pièce à 174 cm, les 6 cm doivent recevoir panneau, traverse et liaison. Le maintien côté T1 à 169,5 cm reste à vérifier.
 - Les recommandations sur ventilation, électrique et sécurité enfant restent des **options à vérifier** avec les conditions techniques réelles, pas une validation de conformité.
 - Pour un texte de chantier destiné à un débutant, définir **en note de bas de page** chaque terme technique nouveau (BA13, montant, rail, traverse, jambage, chant, tasseau, etc.).
 - L'utilisateur travaille sur Linux et souhaite conserver le Markdown et un Makefile de génération PDF via Pandoc ; conserver ces formats lors des révisions.
@@ -31,5 +32,5 @@ Aider à concevoir, documenter et éventuellement produire des plans ou schémas
 ## Entrées dans le projet
 
 - `contexte/08_travaux_pour_codex.md` décrit des tâches possibles, non commandées d'avance.
-- `plans/03_ensemble_cellier_cabane.svg` est la vue d’ensemble commune ; le cellier et la cabane sont à la même échelle ; la cabane mesure 190 cm du mur nord à l’accès de la pièce de vie, sur 90 cm de large, avec un accès triangulaire dont la base horizontale mesure 70 cm ; cette cote ne désigne pas une ouverture transversale sur les 90 cm. Le plan détaillé du cellier et l’élévation T1–T2 restent disponibles dans `plans/`.
+- `plans/03_ensemble_cellier_cabane.svg` est la vue d’ensemble commune ; le cellier et la cabane sont à la même échelle ; la cabane mesure 260 × 90 cm au total : 190 cm puis 70 cm supplémentaires d’accès triangulaire, le long du prolongement de la cloison (x=0, y=-80..-10) ; cette cote ne désigne pas une ouverture transversale sur les 90 cm. Le plan détaillé du cellier et l’élévation T1–T2 restent disponibles dans `plans/`.
 - Le script de conversion PDF existant est `historique/guide_2026_09/Makefile`.

@@ -93,7 +93,18 @@ Les branches verticales des équerres restent au-dessus de l’ouverture. Elles 
 
 Les cales[^cale] sous la traverse **ne font plus partie du montage ni des achats prévus**. L’ancienne variante avec équerres dessous et cales est conservée dans l’historique. Si les vérifications empêchent la disposition supérieure, il faudra revoir le détail avant achat et découpe, sans réintroduire automatiquement cette ancienne variante.
 
-**Objectif proposé pour l’accès :** conserver la plus grande hauteur utile compatible avec un encadrement correctement fixé, afin de faciliter le passage des enfants et l’intervention d’un adulte. On détermine d’abord le niveau du dessous de la traverse, puis on soustrait l’épaisseur de la planche qui l’habille :
+**Objectif proposé par l’utilisateur : 168 cm de hauteur finie**, du sol au dessous de la planche supérieure. Cette cote reste un objectif à vérifier avant achat et découpe. Sous la pièce liée à l’escalier à 174 cm, il reste donc **6 cm au total** pour la planche, la traverse et la liaison au-dessus.
+
+| Planche supérieure | Dessous de la traverse requis pour 168 cm finis | Hauteur restante jusqu’à 174 cm pour la traverse et la liaison |
+|---|---:|---:|
+| 1,2 cm | 169,2 cm | 4,8 cm |
+| 1,5 cm | 169,5 cm | 4,5 cm |
+
+**Difficulté côté T1 :** son métal s’arrête à 169,5 cm. Avec une planche de 15 mm, le dessous de la traverse serait à ce même niveau ; le bois de la traverse et l’équerre au-dessus dépasseraient donc le sommet du M48. Avec 12 mm, le dessous serait seulement 0,3 cm plus bas. Il faut vérifier le maintien du tasseau prolongé, les distances des vis aux extrémités et l’espace pour visser. La pièce liée à l’escalier reste intacte.
+
+**Achat à ne pas déduire du schéma :** la fiche Simpson ES citée pour le principe comporte notamment des équerres ES10/40 à branches de 62,5 mm. Une telle branche dépasse à elle seule les 6 cm disponibles, avant même la traverse et l’habillage : ce modèle ne convient pas à cette implantation au-dessus pour 168 cm finis. Un détail plus compact reste à sélectionner et à vérifier ; aucune petite équerre n’est validée par défaut. [Dimensions fabricant des équerres ES](https://www.simpson.fr/fr-FR/produits/equerre-simple-es).
+
+On détermine d’abord le niveau du dessous de la traverse, puis on soustrait l’épaisseur de la planche qui l’habille :
 
 `hauteur finie = hauteur du dessous de la traverse − épaisseur de la planche supérieure`
 
@@ -110,7 +121,7 @@ Dans la disposition proposée, les deux planches verticales montent jusqu’au s
 
 Reprenez cette longueur entre les planches installées avant la coupe définitive. Ces valeurs supposent que seuls les panneaux latéraux prennent de la place dans les 45 cm ; un tasseau ou une cale[^cale] ajouté devant le métal réduirait encore cette largeur.
 
-La largeur de la planche du haut couvre, elle aussi, l’épaisseur réelle de la cloison. La hauteur finie du passage est la distance entre le sol et le dessous de cette planche. **On ne peut pas annoncer 172,5 cm en soustrayant seulement 1,5 cm aux 174 cm** : il faut d’abord connaître la place occupée par le support supérieur.
+La largeur de la planche du haut couvre, elle aussi, l’épaisseur réelle de la cloison. La hauteur finie du passage est la distance entre le sol et le dessous de cette planche. **Les 168 cm finis sont une cible et ne constituent pas la hauteur de découpe du plâtre** : le support et ses fixations restent à définir.
 
 ## 6. Masquer les raccords et adoucir les bords
 

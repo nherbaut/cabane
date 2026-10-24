@@ -23,7 +23,7 @@ T1 est vissé aux cloisons côté nord et côté cellier, sans rail supérieur s
 
 L’habillage latéral seul donne une largeur théorique de **42,6 cm** avec deux panneaux de 12 mm, ou **42 cm** avec deux panneaux de 15 mm. Un tasseau, une équerre ou un retour débordant dans le passage réduirait davantage cette largeur. Un adulte doit pouvoir essayer le passage avant la découpe définitive.
 
-Les équerres **au-dessus** de la traverse restent une proposition conditionnelle. Le côté T1, haut de 169,5 cm, et la pièce de l’escalier à 174 cm limitent l’espace de fixation. La section des bois, les équerres, la tenue des supports et la hauteur finie ne sont pas définies. Les deux C étant ouverts vers le passage, le schéma de fixation doit être adapté à leur forme réelle.
+Les équerres **au-dessus** de la traverse restent une proposition conditionnelle. Le côté T1, haut de 169,5 cm, et la pièce de l’escalier à 174 cm limitent l’espace de fixation. La section des bois, les équerres, la tenue des supports et la réalisation de l’objectif de **168 cm finis** restent à vérifier. Cette cible laisse 6 cm sous la pièce de l’escalier pour l’habillage, la traverse et les équerres ; T1 s’arrête à 169,5 cm. Les deux C étant ouverts vers le passage, le schéma de fixation doit être adapté à leur forme réelle.
 
 ## Mesures et vérifications manquantes
 

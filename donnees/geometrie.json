@@ -129,7 +129,15 @@
         "transverse_clear_width": null,
         "height": null
       },
-      "relation_to_190_cm": "à préciser : 70 cm ajoutés aux 190 cm ou compris dans les 190 cm"
+      "relation_to_190_cm": "les 70 cm s’ajoutent aux 190 cm, confirmé par l’utilisateur",
+      "plan_location": {
+        "boundary": "x=0 dans le prolongement de la cloison ouest du cellier",
+        "y": [
+          -80,
+          -10
+        ],
+        "scope": "accès triangulaire en vue de côté, base horizontale de 70 cm le long de y ; pas une ouverture sur la largeur de 90 cm"
+      }
     },
     "partition": {
       "cellier_side_plasterboard_sheets": 1,
@@ -186,14 +194,15 @@
       "source": "confirmation explicite de l’utilisateur : le mur nord est commun à la cabane et au cellier"
     },
     "cabin": {
-      "length_north_south": 190,
+      "length_north_south": 260,
       "width_east_west": 90,
       "length_reference": "du mur nord commun jusqu’à l’ouverture vers la pièce de vie",
       "source": "mesures explicites de l’utilisateur du 24 octobre 2026",
-      "length_measurement_scope": "190 cm du mur nord jusqu’à l’accès existant ; inclusion des 70 cm du triangle dans cette cote à préciser",
-      "total_length_confirmed": false,
+      "length_measurement_scope": "190 cm jusqu’au début de l’accès triangulaire puis 70 cm supplémentaires ; longueur totale 260 cm",
+      "total_length_confirmed": true,
       "triangular_access_horizontal_span": 70,
-      "triangular_access_description": "espace triangulaire entre le sol, l’escalier et le prolongement du mur ouest du cellier, visible derrière la plante sur la photo 01 ; 70 cm ne sont pas une largeur d’ouverture sur les 90 cm de la cabane"
+      "triangular_access_description": "espace triangulaire entre le sol, l’escalier et le prolongement du mur ouest du cellier, visible derrière la plante sur la photo 01 ; 70 cm ne sont pas une largeur d’ouverture sur les 90 cm de la cabane",
+      "length_from_north_to_access_start": 190
     }
   },
   "historical_assumptions_not_current_dimensions": {
@@ -232,7 +241,7 @@
     "old_height_174_interpretation": "anciens documents : 174 cm décrit comme sous plafond uniforme aux deux extrémités de la travée ; remplacé par la sous-face de la pièce liée à l’escalier au niveau de T1–T2"
   },
   "current_geometric_hypotheses": {
-    "proposed_access_height_objective": "conserver la plus grande hauteur utile compatible avec les supports et les fixations vérifiés ; hauteur finie non arrêtée",
+    "proposed_access_height_objective": "168 cm finis du sol au dessous de l’habillage supérieur, objectif proposé par l’utilisateur ; faisabilité de l’assemblage à vérifier avant découpe",
     "stud_2_center_y_if_aligned_north_walls": 130,
     "condition": "mur nord commun confirmé : milieu de T2 à y=180-50=130 cm",
     "north_wall_alignment_confirmed": true,
@@ -250,18 +259,20 @@
       "fastener_specifications": null,
       "shopping_list": "site/content/habillage-bois/index.md#7-achats-prévisionnels-pour-la-disposition-retenue"
     },
-    "combined_plan_cabin_representation": "largeur de cabane 90 cm ; cote nord–accès 190 cm ; détail de l’accès triangulaire avec base de 70 cm, sans le dessiner comme une ouverture transversale au sud",
+    "combined_plan_cabin_representation": "enveloppes à la même échelle ; accès triangulaire sur le prolongement x=0 de y=-80 à -10",
     "cabin_plan_box": {
       "x": [
         -90,
         0
       ],
       "y": [
-        -10,
+        -80,
         180
       ],
-      "basis": "rectangle de référence de 190 × 90 cm pour représenter le relevé actuel ; emprise complète au droit du triangle non confirmée ; épaisseur de cloison non représentée"
-    }
+      "basis": "enveloppe de 260 × 90 cm ; 190 cm jusqu’à l’accès puis 70 cm supplémentaires ; épaisseur de cloison non représentée"
+    },
+    "target_finished_passage_height_cm": 168,
+    "target_finished_passage_height_status": "objectif de conception, non hauteur de coupe validée"
   },
   "calculated_clearances_cm": {
     "between_shelf_A_and_MTA_along_x_when_y_0_to_50": 70,
@@ -277,6 +288,6 @@
     "accessibilité effective à la face ouest du MTA et dégagements notice",
     "températures comparées de la cabane, du cellier et de la pièce de vie lors d’une prochaine canicule ; circulation réelle par les deux accès",
     "emplacement possible d’extraction si les observations la rendent nécessaire et cheminement du câble LED",
-    "préciser si les 70 cm de l’accès triangulaire prolongent la cote de 190 cm ou y sont compris ; hauteur du triangle non relevée"
+    "hauteur de l’accès triangulaire et détail de fixation permettant éventuellement 168 cm finis sous la limite de 174 cm, avec T1 à 169,5 cm"
   ]
 }

@@ -67,3 +67,7 @@ L’utilisateur mesure 190 cm du mur nord commun jusqu’à l’ouverture vers l
 ## Correction des 70 cm de l’accès triangulaire (24 octobre 2026)
 
 L’utilisateur précise que les 70 cm correspondent à la distance dans le prolongement du mur ouest du cellier, délimitant l’espace triangulaire entre le sol, l’escalier et ce mur, derrière la plante sur la photo 01. L’interprétation précédente d’une ouverture transversale de 70 cm, à centrer sur les 90 cm, est abandonnée. Il reste à préciser si les 70 cm prolongent la cote nord–accès de 190 cm ou y sont compris. La longueur totale n’est pas déduite sans cette précision.
+
+## Longueur totale confirmée et objectif de hauteur (24 octobre 2026)
+
+L’utilisateur confirme que les 70 cm s’ajoutent aux 190 cm : **260 cm de longueur totale**, sur 90 cm de largeur. L’accès triangulaire existant se situe le long du prolongement du mur ouest du cellier, de y=-10 à y=-80. Il propose un passage fini de **168 cm** entre T1 et T2. Cette hauteur devient un objectif à vérifier : réserve totale de 6 cm sous la pièce de l’escalier, panneau inclus ; avec 15 mm, le dessous de la traverse serait à 169,5 cm, au sommet du métal de T1. L’assemblage au-dessus reste à dimensionner et la hauteur de coupe n’est pas arrêtée.

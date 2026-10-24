@@ -35,4 +35,4 @@ Toutes ces images sont conservées pour référence historique. **Ne jamais extr
 
 Les deux SVG sont générés par `plans/generer_plan.py` depuis les cotes de `donnees/geometrie.json`, avec des aperçus PNG et des copies accessibles depuis le site Hugo. Les anciennes versions sont conservées dans `historique/`.
 
-La vue principale actuelle est `plans/03_ensemble_cellier_cabane.svg` : un seul schéma réunit les deux espaces. Cabane de 190 × 90 cm et cellier sont à la même échelle ; les 70 cm sont la base de l’accès triangulaire dans le prolongement du mur ouest du cellier, et non une ouverture sur la largeur de 90 cm.
+La vue principale actuelle est `plans/03_ensemble_cellier_cabane.svg` : un seul schéma réunit les deux espaces. Cabane de 260 × 90 cm (190 + 70 cm) et cellier sont à la même échelle ; les 70 cm sont la base de l’accès triangulaire dans le prolongement du mur ouest du cellier, et non une ouverture sur la largeur de 90 cm.

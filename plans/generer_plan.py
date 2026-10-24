@@ -163,8 +163,8 @@ etext(600,t1_y+39,f'Sommet de T1 : {t1_cm:g} cm',16,fill='#617986',font_weight='
 etext(600,t1_y+68,f'Écart vertical local : {limit_cm-t1_cm:g} cm',15,fill=gray)
 etext(600,345,'T2 se prolonge sous la marche (pointillé).',16)
 etext(600,375,f'Sous-face de cette marche : {t2_step_cm:g} cm.',16)
-etext(600,440,'Hauteur de la traverse : à définir.',17,font_weight='bold')
-etext(600,470,'Équerres au-dessus : place à vérifier côté T1.',15)
+etext(600,440,'Objectif fini : 168 cm, à vérifier.',17,font_weight='bold')
+etext(600,470,'6 cm pour habillage, traverse et liaison.',15)
 etext(600,500,'La pièce de l’escalier reste intacte.',15,fill='#a24747')
 # Cotes de largeur et hauteur, prises sur les faces internes et le sol.
 dim_y=942
@@ -180,10 +180,15 @@ etext(600,595,'après choix des bois et de leurs fixations.',15)
 etext(600,665,'Aucune coupe ni fixation dans la pièce liée',15,fill='#a24747')
 etext(600,690,'à l’escalier sans vérification de sa fonction.',15,fill='#a24747')
 etext(40,980,'Source : donnees/geometrie.json • relevé coté, non plan de découpe ou de structure',14,fill=gray)
+target_cm=data['current_geometric_hypotheses']['target_finished_passage_height_cm']
+target_y=floor_y-target_cm*px_per_cm
+eline(x_t1,target_y,x_t2,target_y,stroke='#d6834b',stroke_width=2,stroke_dasharray='6 5')
+etext(40,target_y+24,f'Objectif : {target_cm:g} cm finis',15,fill='#a65d2e')
 elev.save()
 print(elevation_file)
 
-# Vue commune métrique : cabane de 190 × 90 cm et cellier de 180 × 115 cm.
+
+# Vue commune : dimensions de la cabane et accès latéral confirmés.
 overview_file=root/'plans/03_ensemble_cellier_cabane.svg'
 overview=Drawing(str(overview_file),size=('1400px','1040px'),viewBox='0 0 1400 1040')
 overview.add(overview.rect(insert=(0,0),size=(1400,1040),fill=BG))
@@ -192,90 +197,94 @@ def ot(x,y,value,size=16,**style):
     overview.add(overview.text(value,insert=(x,y),font_family='DejaVu Sans',font_size=size,**style))
 def ol(x1,y1,x2,y2,**style):
     overview.add(overview.line(start=(x1,y1),end=(x2,y2),**style))
-oscale=3.1;oox=640;ooy=790
+def ofmt(value):return f'{value:g}'.replace('.',',')
+oscale=2.5;oox=640;ooy=682
 OX=lambda x:oox+x*oscale
 OY=lambda y:ooy-y*oscale
 cabin_box=data['current_geometric_hypotheses']['cabin_plan_box']
-cabin_facts=facts['cabin']
-north_y=room['y'][1]
+cabin_facts=facts['cabin'];north_y=room['y'][1]
 t2_y=facts['stud_2_measurement']['center_y']
+access=facts['existing_other_entrance']['plan_location']['y']
+target_cm=data['current_geometric_hypotheses']['target_finished_passage_height_cm']
 def ob(box,**style):
     overview.add(overview.rect(insert=(OX(box['x'][0]),OY(box['y'][1])),size=((box['x'][1]-box['x'][0])*oscale,(box['y'][1]-box['y'][0])*oscale),**style))
 ot(40,55,'Cellier + cabane — vue d’ensemble du projet',32,font_weight='bold')
-ot(40,92,'Mur nord commun confirmé • passage décidé entre T1 et T2',19,fill=green)
-ot(40,125,'Cabane : largeur 90 cm et relevé de 190 cm jusqu’à l’accès triangulaire ; prolongement à confirmer.',16,fill=gray)
-# Enveloppe rectangulaire de la cabane, selon longueur et largeur fournies.
+ot(40,92,'Mur nord commun • passage T1–T2 retenu • accès triangulaire existant vers la pièce de vie',18,fill=green)
+ot(40,125,f'Cabane : 190 + 70 = {ofmt(cabin_facts["length_north_south"])} cm de long, sur {ofmt(cabin_facts["width_east_west"])} cm de large.',16,fill=gray)
 ob(cabin_box,fill='#edf2eb',stroke='none')
-ol(OX(cabin_box['x'][0]),OY(north_y),OX(cabin_box['x'][0]),OY(cabin_box['y'][0]),stroke=green,stroke_width=3)
-ol(OX(0),OY(north_y),OX(0),OY(cabin_box['y'][0]),stroke=dark,stroke_width=3)
-# Fin du relevé de 190 cm ; la relation avec le triangle de 70 cm reste à préciser.
-
-ol(OX(cabin_box['x'][0]),OY(cabin_box['y'][0]),OX(0),OY(cabin_box['y'][0]),stroke=green,stroke_width=2,stroke_dasharray='8 6')
+ob({'x':cabin_box['x'],'y':access},fill='#f6ead8',stroke='none')
+# Limites de la cabane et accès latéral dans le prolongement de la cloison.
+ol(OX(-90),OY(north_y),OX(-90),OY(cabin_box['y'][0]),stroke=green,stroke_width=3)
+ol(OX(-90),OY(cabin_box['y'][0]),OX(0),OY(cabin_box['y'][0]),stroke=green,stroke_width=3)
+ol(OX(0),OY(north_y),OX(0),OY(access[1]),stroke=dark,stroke_width=3)
+ol(OX(0),OY(access[1]),OX(0),OY(access[0]),stroke=green,stroke_width=2,stroke_dasharray='7 6')
+ol(OX(-90),OY(access[1]),OX(0),OY(access[1]),stroke='#cda464',stroke_width=1,stroke_dasharray='7 6')
 ob(room,fill='#f8f8f5',stroke='none')
 ob(facts['stairs_over_cellier']['footprint'],fill='#e9edef',stroke='none')
 ob(facts['east_beam']['footprint'],fill='#d6e0e8',opacity='0.65')
 for name,color,stroke in [('shelf_A','#ead7aa','#937741'),('shelf_B','#bcdac6','#3a896f'),('heating_MTA','#e9a4a4','#a24747')]:
     ob(facts[name]['footprint'],fill=color,stroke=stroke,stroke_width=2)
 ob(room,fill='none',stroke=dark,stroke_width=4)
-ol(OX(cabin_box['x'][0]),OY(north_y),OX(room_width),OY(north_y),stroke=dark,stroke_width=4)
+ol(OX(-90),OY(north_y),OX(room_width),OY(north_y),stroke=dark,stroke_width=4)
 ot(470,164,'MUR NORD COMMUN',17,font_weight='bold')
-ot(390,435,'CABANE',28,font_weight='bold',fill=green)
-ot(390,465,'Sous l’escalier',18,fill=green)
-ot(390,500,f'Largeur : {cabin_facts["width_east_west"]:g} cm',18,font_weight='bold',fill=green)
-ot(390,530,'190 cm jusqu’à l’accès',15,fill=green)
-ot(760,720,'CELLIER',25,font_weight='bold')
-ot(OX(6),OY(43),'A',24,font_weight='bold')
-ot(OX(88),OY(132),'B',24,font_weight='bold')
-ot(OX(96),OY(22),'MTA',16,font_weight='bold')
-ot(OX(15),OY(99),'Escalier au-dessus',15,fill=gray)
-# Le passage est un symbole de liaison : il ne fixe pas le bord de coupe.
+ot(440,445,'CABANE',25,font_weight='bold',fill=green)
+ot(440,475,'Sous l’escalier',17,fill=green)
+ot(440,510,'260 × 90 cm',19,font_weight='bold',fill=green)
+ot(OX(32),OY(20),'CELLIER',24,font_weight='bold')
+for x,y,label in [(6,43,'A'),(88,132,'B'),(96,22,'MTA')]:ot(OX(x),OY(y),label,22 if label!='MTA' else 15,font_weight='bold')
+ot(OX(12),OY(95),'Escalier au-dessus',14,fill=gray)
+# Passage à créer, puis accès déjà existant : symboles distincts.
 passage_symbol_y=OY((north_y+t2_y)/2)
-ot(oox,passage_symbol_y+11,'↔',40,text_anchor='middle',fill=green,font_weight='bold')
-ot(370,passage_symbol_y+24,'Passage T1–T2',19,font_weight='bold',fill=green)
-ot(370,passage_symbol_y+50,f'{north_clear:g} cm libres avant habillage',16,fill=green)
-ot(380,OY(north_y)+30,'T1 contre le mur nord',15,fill=green)
-overview.add(ET.Element(f'{{{SVG_NS}}}circle',{'cx':str(oox),'cy':str(OY(t2_y)),'r':'6','fill':green}))
+ot(oox,passage_symbol_y+11,'↔',38,text_anchor='middle',fill=green,font_weight='bold')
+ot(430,passage_symbol_y+24,'Passage T1–T2',17,font_weight='bold',fill=green)
+ot(430,passage_symbol_y+49,f'{ofmt(north_clear)} cm libres',15,fill=green)
+ot(430,OY(north_y)+27,'T1 contre le mur nord',14,fill=green)
+overview.add(ET.Element(f'{{{SVG_NS}}}circle',{'cx':str(oox),'cy':str(OY(t2_y)),'r':'5','fill':green}))
 ol(oox,OY(t2_y),OX(12),OY(t2_y),stroke=green,stroke_width=2)
-ot(OX(14),OY(t2_y)-8,f'T2 · milieu à y = {t2_y:g} cm',15,font_weight='bold',fill=green)
-ot(OX(14),OY(t2_y)+15,'50 cm du mur nord commun',13,fill=green)
-# Distance nord → milieu T2, directement reprise des mesures de la cabane.
-ol(235,OY(north_y),235,OY(t2_y),stroke=green,stroke_width=2)
-for yy in [OY(north_y),OY(t2_y)]:ol(228,yy,242,yy,stroke=green,stroke_width=2)
-ot(217,(OY(north_y)+OY(t2_y))/2,'50 cm → milieu T2',15,text_anchor='middle',fill=green,transform=f'rotate(-90 217 {(OY(north_y)+OY(t2_y))/2})')
-# Dimensions du cellier.
-ol(OX(0),205,OX(room_width),205,stroke=dark,stroke_width=2)
-for xx in [OX(0),OX(room_width)]:ol(xx,198,xx,212,stroke=dark,stroke_width=2)
-ot(OX(room_width/2),194,f'{room_width:g} cm',16,text_anchor='middle',font_weight='bold')
-ol(1030,OY(0),1030,OY(north_y),stroke=dark,stroke_width=2)
-for yy in [OY(0),OY(north_y)]:ol(1023,yy,1037,yy,stroke=dark,stroke_width=2)
-ot(1053,(OY(0)+OY(north_y))/2,f'{room_depth:g} cm',16,text_anchor='middle',transform=f'rotate(-90 1053 {(OY(0)+OY(north_y))/2})')
-ot(OX(0),OY(0)+25,'(0,0) · origine du cellier',14)
-ot(OX(cabin_box['x'][0]),855,'Fin du relevé de 190 cm',14,fill=green)
-ot(OX(-90),878,'Triangle de 70 cm : voir détail à droite',13,fill=gray)
-# Longueur et largeur de la cabane : mêmes échelles que le cellier.
-ol(315,OY(cabin_box['y'][0]),315,OY(north_y),stroke=green,stroke_width=2)
-for yy in [OY(cabin_box['y'][0]),OY(north_y)]:ol(308,yy,322,yy,stroke=green,stroke_width=2)
-ot(297,(OY(cabin_box['y'][0])+OY(north_y))/2,f'{cabin_facts["length_north_south"]:g} cm',16,text_anchor='middle',fill=green,transform=f'rotate(-90 297 {(OY(cabin_box["y"][0])+OY(north_y))/2})')
-ol(OX(-90),205,OX(0),205,stroke=green,stroke_width=2)
-for xx in [OX(-90),OX(0)]:ol(xx,198,xx,212,stroke=green,stroke_width=2)
-ot(OX((cabin_box['x'][0]+cabin_box['x'][1])/2),194,f'{cabin_facts["width_east_west"]:g} cm',16,text_anchor='middle',font_weight='bold',fill=green)
-ot(690,847,'Porte sud du cellier supprimée dans le projet',14,fill=green)
-ot(1085,235,'Cotes de l’accès',20,font_weight='bold')
+ot(OX(14),OY(t2_y)-6,f'T2 · milieu à y = {ofmt(t2_y)} cm',13,font_weight='bold',fill=green)
+ot(OX(14),OY(t2_y)+15,'50 cm du mur nord commun',12,fill=green)
+access_mid=(access[0]+access[1])/2
+access_y=OY(access_mid)
+ot(oox,access_y+11,'↔',38,text_anchor='middle',fill=green,font_weight='bold')
+ot(435,access_y-6,'Zone basse',16,font_weight='bold',fill='#986627')
+ot(435,access_y+20,'sous l’escalier',14,fill='#986627')
+ot(690,access_y-6,'PIÈCE DE VIE',21,font_weight='bold')
+ot(690,access_y+26,'Accès triangulaire existant',15,fill=green)
+ot(690,access_y+51,'70 cm le long du prolongement de la cloison',13,fill=green)
+# Cotes nord–sud : 260 cm = 190 cm + 70 cm.
+def vdim(px,top,bottom,label,color=green):
+    ya,yb=OY(top),OY(bottom)
+    ol(px,ya,px,yb,stroke=color,stroke_width=2)
+    for yy in [ya,yb]:ol(px-6,yy,px+6,yy,stroke=color,stroke_width=2)
+    mid=(ya+yb)/2
+    ot(px-15,mid,label,16,text_anchor='middle',fill=color,transform=f'rotate(-90 {px-15} {mid})')
+vdim(355,north_y,cabin_box['y'][0],'260 cm au total')
+vdim(395,north_y,access[1],'190 cm')
+vdim(395,access[1],access[0],'70 cm')
+vdim(960,north_y,0,f'{ofmt(room_depth)} cm',dark)
+# Largeurs, à la même échelle.
+for xa,xb,label,color in [(-90,0,'90 cm',green),(0,room_width,'115 cm',dark)]:
+    ol(OX(xa),205,OX(xb),205,stroke=color,stroke_width=2)
+    for xx in [OX(xa),OX(xb)]:ol(xx,198,xx,212,stroke=color,stroke_width=2)
+    ot(OX((xa+xb)/2),194,label,16,text_anchor='middle',font_weight='bold',fill=color)
+ot(OX(0),OY(0)+22,'(0,0) · origine du cellier',13)
+ot(690,720,'Porte sud du cellier à supprimer',14,fill=green)
+# Données et objectif de conception, distinct de la cote de chantier.
+ot(1085,235,'Cotes de l’accès T1–T2',19,font_weight='bold')
 for yy,value in [(275,'T1–T2 : 45 cm libres'),(309,'T1 : sommet à 169,5 cm'),(343,'Pièce de l’escalier : 174 cm'),(377,'Marche au-dessus T2 : 187 cm'),(411,'T2–T3 : 37,5 cm, sans passage')]:ot(1085,yy,value,14)
-ot(1085,470,'Hauteur finie à définir',16,font_weight='bold')
-ot(1085,500,'Équerres au-dessus :',14)
-ot(1085,524,'place à vérifier côté T1.',14)
-ot(1085,585,'Pièce liée à l’escalier',15,font_weight='bold',fill=red)
-ot(1085,610,'conservée intacte.',15,fill=red)
-# Détail vertical de l’accès triangulaire : base connue, hauteur schématique.
+ot(1085,468,f'Objectif fini : {ofmt(target_cm)} cm',16,font_weight='bold',fill='#a65d2e')
+ot(1085,496,'6 cm pour l’habillage,',14)
+ot(1085,520,'la traverse et les équerres.',14)
+ot(1085,548,'Faisabilité à vérifier côté T1.',14,fill='#a65d2e')
+ot(1085,600,'Pièce de l’escalier intacte.',15,font_weight='bold',fill=red)
+# Triangle en vue de côté : hauteur et pente non relevées.
 ot(1085,687,'Accès existant · vue de côté',15,font_weight='bold')
 tri_width=cabin_facts['triangular_access_horizontal_span']*oscale
-triangle=ET.Element(f'{{{SVG_NS}}}path',{'d':f'M1085 825 H{1085+tri_width} V725 Z','fill':'#edf2eb','stroke':green,'stroke-width':'2'})
-overview.add(triangle)
-ot(1085+tri_width/2,849,f'Base horizontale : {cabin_facts["triangular_access_horizontal_span"]:g} cm',13,text_anchor='middle',fill=green)
+overview.add(ET.Element(f'{{{SVG_NS}}}path',{'d':f'M1085 825 H{1085+tri_width} V725 Z','fill':'#f6ead8','stroke':green,'stroke-width':'2'}))
+ot(1085+tri_width/2,850,'Base horizontale : 70 cm',13,text_anchor='middle',fill=green)
 ot(1085,878,'Hauteur non relevée ; pente illustrative.',12,fill=gray)
-ot(280,930,'La flèche indique la liaison choisie ; les bords de découpe seront définis avec l’encadrement.',15,fill=gray)
-ot(280,960,'Repère commun : x vers l’est, y vers le nord, z vers le haut ; cotes en cm.',14,fill=gray)
-ot(280,990,'Source : donnees/geometrie.json • largeur 90 cm ; lien entre les 190 cm et le triangle de 70 cm à confirmer.',14,fill=gray)
+ot(280,930,'Flèche haute : passage à créer T1–T2. Flèche basse : accès existant vers la pièce de vie.',15,fill=gray)
+ot(280,960,'Repère : x vers l’est, y vers le nord, z vers le haut ; cotes en cm.',14,fill=gray)
+ot(280,990,'Source : donnees/geometrie.json • cabane 190 + 70 = 260 cm ; épaisseur de cloison non représentée.',14,fill=gray)
 overview.save()
 print(overview_file)
