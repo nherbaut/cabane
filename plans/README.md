@@ -1,6 +1,6 @@
 # Plans actuels du projet
 
-La vue principale est **`03_ensemble_cellier_cabane.svg`** : cellier et cabane sur un même schéma, avec leur mur nord commun, le milieu de T2 à 50 cm du mur (`y=130 cm`) et la liaison T1–T2 de 45 cm libres. Les deux espaces sont à la même échelle : cabane de **190 × 90 cm**, cellier de **180 × 115 cm**. L’accès de la cabane à la pièce de vie fait **70 cm**, avec position latérale à préciser.
+La vue principale est **`03_ensemble_cellier_cabane.svg`** : cellier et cabane sur un même schéma, avec leur mur nord commun, le milieu de T2 à 50 cm du mur (`y=130 cm`) et la liaison T1–T2 de 45 cm libres. Les deux espaces sont à la même échelle : relevé de **190 cm jusqu’à l’accès de la cabane**, large de **90 cm**, et cellier de **180 × 115 cm**. La base de l’accès triangulaire vers la pièce de vie mesure **70 cm** dans le prolongement du mur ouest du cellier ; il reste à préciser si ces 70 cm s’ajoutent aux 190 cm ou y sont compris.
 
 Les détails restent disponibles :
 

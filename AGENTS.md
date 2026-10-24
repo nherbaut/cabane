@@ -31,5 +31,5 @@ Aider à concevoir, documenter et éventuellement produire des plans ou schémas
 ## Entrées dans le projet
 
 - `contexte/08_travaux_pour_codex.md` décrit des tâches possibles, non commandées d'avance.
-- `plans/03_ensemble_cellier_cabane.svg` est la vue d’ensemble commune ; le cellier et la cabane sont à la même échelle ; la cabane mesure 190 cm du mur nord à l’accès de la pièce de vie, sur 90 cm de large, avec une ouverture de 70 cm dont le décalage latéral reste à préciser. Le plan détaillé du cellier et l’élévation T1–T2 restent disponibles dans `plans/`.
+- `plans/03_ensemble_cellier_cabane.svg` est la vue d’ensemble commune ; le cellier et la cabane sont à la même échelle ; la cabane mesure 190 cm du mur nord à l’accès de la pièce de vie, sur 90 cm de large, avec un accès triangulaire dont la base horizontale mesure 70 cm ; cette cote ne désigne pas une ouverture transversale sur les 90 cm. Le plan détaillé du cellier et l’élévation T1–T2 restent disponibles dans `plans/`.
 - Le script de conversion PDF existant est `historique/guide_2026_09/Makefile`.

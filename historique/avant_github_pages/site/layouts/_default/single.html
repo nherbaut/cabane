@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Description }}">
+  <title>{{ .Title }} — Cabane × Cellier</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="{{ "/" | relURL }}">CABANE <span>×</span> CELLIER</a><nav aria-label="Navigation"><a href="{{ "/#travees" | relURL }}">← Plan et simulation</a><a href="#les-faits-et-les-limites-du-dessin">Données</a></nav></header>
+  <main class="wrap guide-content"><p class="kicker">Fiche de principe · 24 octobre 2026</p><h1>{{ .Title }}</h1>{{ .Content }}</main>
+  <footer><div class="wrap"><b>CABANE × CELLIER</b><a href="{{ "/" | relURL }}">Revenir à l’étude</a></div></footer>
+</body>
+</html>

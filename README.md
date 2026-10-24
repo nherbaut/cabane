@@ -10,7 +10,7 @@ Ce dossier rassemble le contexte d'un projet domestique : création d'un passage
 2. Lire [`contexte/01_etat_du_projet.md`](contexte/01_etat_du_projet.md) : état des décisions, faits observés et hypothèses.
 3. Consulter [`donnees/geometrie.json`](donnees/geometrie.json) pour les cotes **connues**, la différence entre *données* et *hypothèses*, et les incohérences à lever.
 4. Examiner les **six photographies originales** dans [`photos/originales/`](photos/originales/). Elles priment sur les visualisations générées pour la reconnaissance de l'existant.
-5. Utiliser la [vue commune cellier + cabane](plans/03_ensemble_cellier_cabane.svg). Le cellier et la cabane (190 × 90 cm) sont à la même échelle ; le mur nord commun permet d’exploiter les mesures des deux côtés de la cloison. L’[élévation cotée du passage](plans/02_passage_T1_T2_elevation_cotee.svg) reste disponible en complément.
+5. Utiliser la [vue commune cellier + cabane](plans/03_ensemble_cellier_cabane.svg). Le cellier et le relevé de la cabane (190 cm jusqu’à l’accès, 90 cm de large) sont à la même échelle ; le mur nord commun permet d’exploiter les mesures des deux côtés de la cloison. L’[élévation cotée du passage](plans/02_passage_T1_T2_elevation_cotee.svg) reste disponible en complément.
 6. Consulter le guide antérieur dans [`historique/guide_2026_09/chantier.md`](historique/guide_2026_09/chantier.md) ; son PDF est un état **historique**, potentiellement obsolète.
 
 ## Arborescence
@@ -46,7 +46,7 @@ Ce dossier rassemble le contexte d'un projet domestique : création d'un passage
 ## Points à ne pas confondre
 
 - **Cellier** : rectangle intérieur mesuré **115 cm (ouest-est) × 180 cm (sud-nord)**. L'escalier réduit la hauteur dans sa zone nord-ouest.
-- **Cabane** : espace de jeu de l'autre côté de la cloison ouest du cellier, sous l'escalier ; son enveloppe mesurée est de **190 × 90 cm**, depuis le mur nord jusqu’à l’accès de la pièce de vie, large de **70 cm**.
+- **Cabane** : espace de jeu de l'autre côté de la cloison ouest du cellier, sous l'escalier ; le relevé donne **190 cm jusqu’à l’accès** depuis le mur nord et **90 cm de largeur** ; l’emprise totale au droit du triangle reste à préciser. Les **70 cm** correspondent à la base de l’accès triangulaire, visible derrière la plante ; ils ne sont pas une largeur transversale d’ouverture.
 - **Repères actuels** : T1, T2 et T3 sont les montants M48 du nord vers le sud ; le passage décidé est entre T1 et T2, large de **45 cm libres** avant habillage. L’espace T2–T3 mesure **37,5 cm** et restera sans ouverture pour préserver les rangements. Les anciennes cotes 53 puis 47 cm pour le passage nord sont dépassées.
 - **Position** : mur nord commun à la cabane et au cellier, confirmé par l’utilisateur. Le milieu de T2, à 50 cm de ce mur, est à **y=130 cm**. Les mesures de la cabane sont directement exploitables dans le repère du cellier.
 - **Hauteurs distinctes** : T1 s’arrête à **169,5 cm** ; sous-face de la pièce liée à l’escalier à **174 cm** au niveau du passage T1–T2 ; sous-face d’une marche à **187 cm** au-dessus de T2. La pièce liée à l’escalier restera intacte ; la hauteur finie du passage reste à définir.

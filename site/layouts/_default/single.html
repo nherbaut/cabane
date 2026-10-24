@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="{{ "/" | relURL }}">CABANE <span>×</span> CELLIER</a><nav aria-label="Navigation"><a href="{{ "/#travees" | relURL }}">← Plan et simulation</a><a href="#les-faits-et-les-limites-du-dessin">Données</a></nav></header>
+  <header class="topbar"><a class="brand" href="{{ .Site.Home.RelPermalink }}">CABANE <span>×</span> CELLIER</a><nav aria-label="Navigation"><a href="{{ .Site.Home.RelPermalink }}#travees">← Plan et simulation</a><a href="#les-faits-les-hypothèses-et-les-limites-du-dessin">Données</a></nav></header>
   <main class="wrap guide-content"><p class="kicker">Fiche de principe · 24 octobre 2026</p><h1>{{ .Title }}</h1>{{ .Content }}</main>
-  <footer><div class="wrap"><b>CABANE × CELLIER</b><a href="{{ "/" | relURL }}">Revenir à l’étude</a></div></footer>
+  <footer><div class="wrap"><b>CABANE × CELLIER</b><a href="{{ .Site.Home.RelPermalink }}">Revenir à l’étude</a></div></footer>
 </body>
 </html>

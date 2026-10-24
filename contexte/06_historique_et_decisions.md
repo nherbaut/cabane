@@ -63,3 +63,7 @@ L’utilisateur confirme que le mur nord est commun aux deux espaces et que les 
 ## Dimensions de la cabane (24 octobre 2026)
 
 L’utilisateur mesure 190 cm du mur nord commun jusqu’à l’ouverture vers la pièce de vie, 90 cm de largeur et 70 cm pour cette ouverture. L’enveloppe rectangulaire est tracée à la même échelle que le cellier, soit x=-90..0 et y=-10..180 dans le repère partagé, épaisseur de cloison non représentée. Le placement latéral des 70 cm sur la largeur de 90 cm reste à préciser ; aucun centrage n’est supposé.
+
+## Correction des 70 cm de l’accès triangulaire (24 octobre 2026)
+
+L’utilisateur précise que les 70 cm correspondent à la distance dans le prolongement du mur ouest du cellier, délimitant l’espace triangulaire entre le sol, l’escalier et ce mur, derrière la plante sur la photo 01. L’interprétation précédente d’une ouverture transversale de 70 cm, à centrer sur les 90 cm, est abandonnée. Il reste à préciser si les 70 cm prolongent la cote nord–accès de 190 cm ou y sont compris. La longueur totale n’est pas déduite sans cette précision.

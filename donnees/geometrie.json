@@ -123,11 +123,13 @@
     },
     "existing_other_entrance": {
       "to": "pièce de vie",
-      "location": "au bout des 190 cm depuis le mur nord, vers la pièce de vie ; position latérale de l’ouverture sur les 90 cm à préciser",
+      "location": "accès triangulaire derrière la plante, photo 01, dans le prolongement du mur ouest du cellier",
       "measurements": {
-        "clear_width": 70,
-        "lateral_offset_from_cellar_partition": null
-      }
+        "horizontal_span_along_stair_and_wall": 70,
+        "transverse_clear_width": null,
+        "height": null
+      },
+      "relation_to_190_cm": "à préciser : 70 cm ajoutés aux 190 cm ou compris dans les 190 cm"
     },
     "partition": {
       "cellier_side_plasterboard_sheets": 1,
@@ -188,7 +190,10 @@
       "width_east_west": 90,
       "length_reference": "du mur nord commun jusqu’à l’ouverture vers la pièce de vie",
       "source": "mesures explicites de l’utilisateur du 24 octobre 2026",
-      "living_room_opening_width": 70
+      "length_measurement_scope": "190 cm du mur nord jusqu’à l’accès existant ; inclusion des 70 cm du triangle dans cette cote à préciser",
+      "total_length_confirmed": false,
+      "triangular_access_horizontal_span": 70,
+      "triangular_access_description": "espace triangulaire entre le sol, l’escalier et le prolongement du mur ouest du cellier, visible derrière la plante sur la photo 01 ; 70 cm ne sont pas une largeur d’ouverture sur les 90 cm de la cabane"
     }
   },
   "historical_assumptions_not_current_dimensions": {
@@ -245,7 +250,7 @@
       "fastener_specifications": null,
       "shopping_list": "site/content/habillage-bois/index.md#7-achats-prévisionnels-pour-la-disposition-retenue"
     },
-    "combined_plan_cabin_representation": "cabane et cellier à la même échelle ; accès de 70 cm au bout des 190 cm, décalage latéral non choisi tant qu’il n’est pas précisé",
+    "combined_plan_cabin_representation": "largeur de cabane 90 cm ; cote nord–accès 190 cm ; détail de l’accès triangulaire avec base de 70 cm, sans le dessiner comme une ouverture transversale au sud",
     "cabin_plan_box": {
       "x": [
         -90,
@@ -255,7 +260,7 @@
         -10,
         180
       ],
-      "basis": "enveloppe rectangulaire de 190 × 90 cm, alignée sur la cloison commune x=0 et le mur nord y=180 ; épaisseur de cloison non représentée"
+      "basis": "rectangle de référence de 190 × 90 cm pour représenter le relevé actuel ; emprise complète au droit du triangle non confirmée ; épaisseur de cloison non représentée"
     }
   },
   "calculated_clearances_cm": {
@@ -272,6 +277,6 @@
     "accessibilité effective à la face ouest du MTA et dégagements notice",
     "températures comparées de la cabane, du cellier et de la pièce de vie lors d’une prochaine canicule ; circulation réelle par les deux accès",
     "emplacement possible d’extraction si les observations la rendent nécessaire et cheminement du câble LED",
-    "position latérale de l’ouverture de 70 cm vers la pièce de vie sur la largeur de 90 cm ; enveloppe rectangulaire utilisée pour le plan"
+    "préciser si les 70 cm de l’accès triangulaire prolongent la cote de 190 cm ou y sont compris ; hauteur du triangle non relevée"
   ]
 }

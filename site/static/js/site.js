@@ -30,14 +30,15 @@
       rect(room,{fill:'none',stroke:'#213b32','stroke-width':3});
       const north=room.y[1], t2Y=f.stud_2_measurement.center_y;
       const cabinBox=data.current_geometric_hypotheses.cabin_plan_box, cabinInfo=f.cabin;
-      const cabin=add('g',{'aria-label':'Cabane : 190 cm de longueur et 90 cm de largeur'});
+      const cabin=add('g',{'aria-label':'Cabane : largeur de 90 cm, relevé de 190 cm jusqu’à l’accès triangulaire'});
       rect(cabinBox,{fill:'#edf2eb',stroke:'none'},cabin);
       line(cabinBox.x[0],cabinBox.y[0],cabinBox.x[0],cabinBox.y[1],{stroke:'#236f58','stroke-width':2});
       line(0,cabinBox.y[0],0,cabinBox.y[1],{stroke:'#236f58','stroke-width':2});
       line(cabinBox.x[0],cabinBox.y[0],0,cabinBox.y[0],{stroke:'#236f58','stroke-width':2,'stroke-dasharray':'8 6'});
       const textAt=(x,y,value,attrs={})=>{const n=add('text',{x,y,fill:'#236f58','font-size':14,...attrs},cabin);n.textContent=value};
       textAt(X(-80),Y(80),'CABANE',{'font-size':21,'font-weight':800});
-      textAt(X(-80),Y(80)+28,`${cabinInfo.length_north_south} × ${cabinInfo.width_east_west} cm`,{'font-size':16,'font-weight':700});
+      textAt(X(-80),Y(80)+28,`Largeur : ${cabinInfo.width_east_west} cm`,{'font-size':16,'font-weight':700});
+      textAt(X(-80),Y(80)+51,'190 cm jusqu’à l’accès',{'font-size':12});
       line(-90,190,0,190,{stroke:'#236f58','stroke-width':1.5});
       for(const x of [-90,0])line(x,186,x,194,{stroke:'#236f58','stroke-width':1.5});
       label(-45,194,`${cabinInfo.width_east_west} cm`,{'font-size':16,'text-anchor':'middle','font-weight':700,fill:'#236f58'});
@@ -53,8 +54,8 @@
       textAt(ox,symbolY+9,'↔',{'font-size':32,'text-anchor':'middle'});
       textAt(X(-85),symbolY+12,'Passage T1–T2',{'font-size':14,'font-weight':700});
       textAt(X(-85),symbolY+34,`${f.new_west_passage.actual_clear_width} cm libres`,{'font-size':13});
-      textAt(X(-90),Y(-10)+28,`Vers la pièce de vie : ${cabinInfo.living_room_opening_width} cm`,{'font-size':12,'font-weight':700});
-      textAt(X(-90),Y(-10)+46,'position latérale à préciser',{'font-size':11});
+      textAt(X(-90),Y(-10)+28,'Fin du relevé de 190 cm',{'font-size':12,'font-weight':700});
+      textAt(X(-90),Y(-10)+46,`Accès triangulaire : ${cabinInfo.triangular_access_horizontal_span} cm`,{'font-size':11});
       label(5,43,'A',{'font-size':22,'font-weight':800,fill:'#253d30'});
       label(90,132,'B',{'font-size':22,'font-weight':800,fill:'#253d30'});
       label(96,22,'MTA',{'font-size':13,'font-weight':800,fill:'#562e2c'});
