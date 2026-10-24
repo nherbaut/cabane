@@ -2,6 +2,8 @@
 title: "Habiller les montants M48 avec du bois"
 description: "Comprendre les trois planches de finition, les supports cachés et le sens des vis pour le passage entre T1 et T2."
 date: 2026-10-24T00:00:00+02:00
+nav_anchor: "les-faits-les-hypothèses-et-les-limites-du-dessin"
+nav_label: "Données"
 ---
 
 Le montage proposé forme **un petit tunnel en bois à travers la cloison** : une planche à gauche, une à droite et une au-dessus. Ces trois planches cachent les bords du métal et du plâtre autour du passage. Les montants M48[^montant] restent en place.
@@ -169,21 +171,11 @@ Poncez les surfaces et les **chants**[^chant], adoucissez les coins, puis vérif
 
 ## 7. Achats prévisionnels pour la disposition retenue
 
-Cette liste concerne l’habillage actuel du passage T1–T2 et remplace, pour ce montage, les indications d’achat du guide historique. **Les achats définitifs restent conditionnés à la vérification des supports et fixations.** Pour l’essai à blanc, préparer une chute de contreplaqué de 12 mm, une chute de bois de section 20 × 40 mm et le gabarit. Une équerre Hettich 9240442 peut être achetée comme échantillon de contrôle ; deux pièces sont envisagées pour l’assemblage, sans nombre de vis ou capacité validés. Les 45 cm libres ne constituent pas à eux seuls une longueur de coupe définitive.
+La **[liste d’achats prévisionnelle](../achats/)** rassemble les quantités, les formats bruts, les consommables et les repères pour Leroy Merlin. Une **[version PDF imprimable](../achats/achats.pdf)** est disponible pour le magasin.
 
-| Fourniture | Quantité envisagée | À déterminer avant achat |
-|---|---:|---|
-| Supports bois verticaux (tasseaux) | 2 pièces | Section vérifiée par essai dans T1 et T2, tous deux ouverts vers le passage ; longueur permettant la fixation au-dessus de la traverse et un maintien suffisant dans les montants. |
-| Traverse en bois | 1 pièce après vérification | Candidat d’essai : **20 mm verticalement × 40 mm en profondeur** ; longueur à relever entre supports installés. Tenue et fixations à vérifier. |
-| Équerres pour le dessus de la traverse | 1 échantillon d’essai ; 2 envisagées au total | **Hettich 9240442** : candidat dimensionnel 20 × 20 mm, largeur 16 mm, tôle 2 mm ; capacité pour cet usage et fixations non validées. |
-| Vis de liaison des équerres aux bois | Quantité à définir | Type, diamètre, longueur et nombre selon le modèle d’équerre et les bois ; ne pas les remplacer par des vis de finition choisies au hasard. |
-| Fixations des supports bois aux M48 | Quantité à définir | Compatibilité métal mince–bois et tenue requise ; dimensions selon le montage réel. |
-| Planches d’habillage | 3 bandes : 2 côtés et 1 dessus | **12 mm proposés pour l’essai compact**, profondeur réelle de cloison et longueurs finales à relever. Les 15 mm restent une variante à recalculer. |
-| Vis de finition | Quantité à définir | Longueur selon panneau et bois disponible, sans pointe sortante ni collision avec les autres vis. |
-| Fixations du plâtre conservé au support supérieur | Selon la disposition vérifiée | Type et quantité à définir avec le maintien de la plaque avant découpe. |
-| Couvre-joints ou bandes de retour | En option, quantité à mesurer | Seulement selon les raccords et les parties métalliques encore accessibles. |
+Pour l’essai : une chute de contreplaqué de 12 mm, du bois de 20 × 40 mm (20 mm verticalement) et une petite équerre à branches de 20 mm. La section des supports verticaux et les fixations restent à vérifier avant achat définitif. Les 45 cm libres ne constituent pas une longueur de coupe.
 
-**Exclusion du montage retenu :** pas de cales à acheter pour compenser des équerres sous la traverse. Aucun extracteur n’est retenu à l’achat à ce stade : la chaleur a été signalée pendant les canicules, puis le confort s’est amélioré.
+Pas de cales prévues sous la traverse dans cette variante ; aucun extracteur n’est retenu à l’achat actuellement.
 
 ## Références techniques et portée de la proposition
 

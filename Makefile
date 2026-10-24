@@ -1,8 +1,8 @@
 PYTHON ?= python3
 
-.PHONY: help plan guide-historique site-assets site-build site-serve site-hugo-install guide-bois-pdf
+.PHONY: help plan guide-historique site-assets site-build site-serve site-hugo-install guide-bois-pdf achats-pdf
 help:
-	@printf '%s\n' 'make plan              : régénérer les plans SVG et PNG à partir des données' 'make guide-historique  : régénérer l ancien PDF, pandoc et xelatex nécessaires' 'make site-build        : générer le site Hugo dans site/public' 'make site-serve        : servir le site localement sur http://localhost:1313' 'make site-hugo-install : installer un binaire Hugo local si nécessaire'
+	@printf '%s\n' 'make plan              : régénérer les plans SVG et PNG à partir des données' 'make guide-historique  : régénérer l ancien PDF, pandoc et xelatex nécessaires' 'make achats-pdf        : régénérer la liste imprimable, Pandoc et XeLaTeX nécessaires' 'make site-build        : générer le site Hugo dans site/public' 'make site-serve        : servir le site localement sur http://localhost:1313' 'make site-hugo-install : installer un binaire Hugo local si nécessaire'
 
 plan:
 	$(PYTHON) plans/generer_plan.py
@@ -17,6 +17,10 @@ guide-historique:
 # Pandoc utilise rsvg-convert pour l'illustration SVG ; XeLaTeX produit le PDF.
 guide-bois-pdf:
 	cd site/content/habillage-bois && pandoc index.md --standalone --pdf-engine=xelatex -V lang=fr-FR -V geometry:margin=2cm -o habillage-bois.pdf
+
+# PDF conservé dans le dépôt pour publication sans dépendance TeX en CI.
+achats-pdf:
+	cd site/content/achats && pandoc index.md --standalone --pdf-engine=xelatex -M date="24 octobre 2026" -V lang=fr-FR -V geometry:margin=1.5cm -V fontsize=10pt -V papersize=a4 -o achats.pdf
 
 HUGO ?= $(if $(wildcard site/.bin/hugo),site/.bin/hugo,hugo)
 

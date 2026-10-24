@@ -75,3 +75,7 @@ L’utilisateur confirme que les 70 cm s’ajoutent aux 190 cm : **260 cm de lon
 ## Recherche de liaison compacte et gabarit (24 octobre 2026)
 
 À la demande de l’utilisateur, recherche de références et préparation d’un essai concret. La fiche fabricant Hettich 9240442 décrit une équerre de chaise 16 × 20 × 20 × 2 mm, sans fixations fournies ni charge admissible pour notre cloison. Avec un panneau de 12 mm et une traverse de 20 mm de hauteur × 40 mm de profondeur, l’encombrement nominal est de 52 mm pour 60 mm disponibles. Un gabarit A4 à taille réelle et une liste de pièces d’essai sont ajoutés. Le dimensionnement mécanique, les vis et l’accessibilité de l’outil ne sont pas validés ; les 168 cm restent une cible avant essai sur place et vérification du support.
+
+## Liste d’achats prévisionnelle et magasin (24 octobre 2026)
+
+L’utilisateur demande une liste globale même s’il n’achète pas tout demain, puis précise qu’il va chez Leroy Merlin. Une page et un PDF regroupent les formats bruts : deux supports de 2 m, une traverse brute de 60 cm, trois bandes de panneau de 12 mm, deux équerres envisagées, finitions et consommables. La section des supports et les fixations restent à déterminer ; un échantillon d’équerre suffit pour commencer. Le tasseau Leroy Merlin 70841883 correspond au format 20 × 40 mm de l’essai, sans validation mécanique ni confirmation de stock local. Les originaux modifiés sont archivés dans `historique/avant_liste_achats_20261024_185014/`.
