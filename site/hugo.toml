@@ -1,0 +1,8 @@
+baseURL = "http://localhost:1313/"
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
+title = "Cabane & cellier — étude visuelle"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+description = "Étude visuelle du passage sous escalier et de l'aménagement du cellier, à partir des cotes fournies."

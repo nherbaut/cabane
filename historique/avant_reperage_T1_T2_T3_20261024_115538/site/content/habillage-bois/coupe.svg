@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">Coupe de principe de l’habillage d’un montant M48</title>
+  <desc id="desc">Vue de dessus : la planche visible longe le passage et couvre la face pleine du M48. Un bois caché dans le C reçoit les vis. La vis A fixe le bois au métal depuis une face accessible ; la vis B traverse la finition et le métal prépercé pour prendre dans le bois. Une plaque de plâtre est côté cellier.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#236f58"/></marker></defs>
+  <rect width="1100" height="760" rx="16" fill="#fffdf7"/>
+  <g font-family="DejaVu Sans,sans-serif" fill="#172923">
+    <text x="42" y="49" font-size="26" font-weight="bold">Où va le bois ? Dans quoi visser ?</text>
+    <text x="42" y="81" font-size="16" fill="#5f6c65">Coupe horizontale d’un seul côté • schéma de principe agrandi, sans échelle</text>
+    <text x="265" y="145" font-size="20" font-weight="bold" fill="#236f58">INTÉRIEUR DU PASSAGE</text>
+    <text x="45" y="202" font-size="18" font-weight="bold">CABANE</text>
+    <text x="655" y="202" font-size="18" font-weight="bold">CELLIER</text>
+    <!-- Face pleine du C orientée vers le passage ; la gauche est le côté sans plaque. -->
+    <rect x="500" y="290" width="75" height="255" fill="#dddcd6" stroke="#969b94" stroke-width="2"/>
+    <rect x="279" y="309" width="204" height="160" fill="#e6bf80" stroke="#9b7844" stroke-width="2"/>
+    <path d="M286 485H260V290H500V485H474" fill="none" stroke="#637a86" stroke-width="9"/>
+    <rect x="230" y="248" width="345" height="38" fill="#b68b53" stroke="#805b2e" stroke-width="2"/>
+    <rect x="575" y="248" width="22" height="113" fill="#b68b53" stroke="#805b2e" stroke-width="2"/>
+    <rect x="230" y="288" width="22" height="207" fill="none" stroke="#b68b53" stroke-width="2" stroke-dasharray="7 5"/>
+    <!-- A : vis métal vers bois, par la face cabane accessible. -->
+    <line x1="258" y1="408" x2="355" y2="408" stroke="#172923" stroke-width="5"/>
+    <line x1="254" y1="398" x2="254" y2="418" stroke="#172923" stroke-width="5"/>
+    <path d="M335 403L345 413M324 403L334 413M313 403L323 413" stroke="#172923" stroke-width="2"/>
+    <line x1="130" y1="408" x2="228" y2="408" stroke="#236f58" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="105" cy="408" r="20" fill="#236f58"/>
+    <text x="105" y="415" font-size="20" text-anchor="middle" fill="white" font-weight="bold">A</text>
+    <!-- B : vis depuis le passage, dans le bois après traversée du métal. -->
+    <line x1="381" y1="251" x2="381" y2="376" stroke="#172923" stroke-width="5"/>
+    <line x1="370" y1="251" x2="392" y2="251" stroke="#172923" stroke-width="5"/>
+    <path d="M376 345L386 355M376 356L386 366" stroke="#172923" stroke-width="2"/>
+    <line x1="381" y1="202" x2="381" y2="237" stroke="#236f58" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="381" cy="178" r="20" fill="#236f58"/>
+    <text x="381" y="185" font-size="20" text-anchor="middle" fill="white" font-weight="bold">B</text>
+    <!-- Repères. -->
+    <path d="M605 264H685" fill="none" stroke="#805b2e" stroke-width="2"/>
+    <text x="700" y="260" font-size="17" font-weight="bold">Planche visible</text>
+    <text x="700" y="283" font-size="15">Elle couvre la profondeur de la cloison.</text>
+    <path d="M597 337H685" fill="none" stroke="#805b2e" stroke-width="2"/>
+    <text x="700" y="340" font-size="17">Couvre-joint sur le raccord bois/plâtre</text>
+    <path d="M545 443H685" fill="none" stroke="#969b94" stroke-width="2"/>
+    <text x="700" y="449" font-size="17">Plaque de plâtre côté cellier</text>
+    <path d="M380 466V550H685" fill="none" stroke="#9b7844" stroke-width="2"/>
+    <text x="700" y="546" font-size="17" font-weight="bold">Tasseau caché</text>
+    <text x="700" y="569" font-size="15">À ajuster à l’intérieur réel du M48.</text>
+    <text x="55" y="520" font-size="15" fill="#805b2e">Pointillés : retour bois</text>
+    <text x="55" y="542" font-size="15" fill="#805b2e">si le métal reste accessible.</text>
+    <text x="264" y="587" font-size="16" fill="#637a86">Bleu-gris : le M48 reste en place.</text>
+    <line x1="42" y1="616" x2="1058" y2="616" stroke="#d9ddd4"/>
+    <text x="42" y="649" font-size="17" font-weight="bold">A : métal → bois caché. B : planche → bois caché, avec passage préparé dans le métal.</text>
+    <text x="42" y="681" font-size="16">Le dessin suppose que l’intérieur du C est accessible pour mettre le bois en place.</text>
+    <text x="42" y="710" font-size="16">L’orientation réelle du montant peut imposer un montage différent. Les vis sont schématiques.</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="700" viewBox="0 0 1050 700" role="img" aria-labelledby="title desc">
+  <title id="title">Équerre au-dessus de la traverse entre T1 et T2</title>
+  <desc id="desc">Élévation d’un angle, sans échelle. Un tasseau fixé dans le M48 ouvert vers le passage monte au-dessus de la traverse. Une équerre sur le dessus lie les deux pièces ; sa branche verticale est vissée horizontalement dans le bois, sa branche horizontale est vissée vers le bas dans la traverse. Une planche de finition se pose directement dessous. Le niveau maximal réalisable côté T1 reste inconnu.</desc>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#236f58"/></marker></defs>
+  <rect width="1050" height="700" rx="16" fill="#fffdf7"/>
+  <g font-family="DejaVu Sans,sans-serif" fill="#172923">
+    <text x="35" y="44" font-size="25" font-weight="bold">Équerre sur la traverse, habillage dessous</text>
+    <text x="35" y="76" font-size="16" fill="#5f6c65">Détail de principe d’un angle • les C sont ouverts vers le passage</text>
+    <rect x="140" y="160" width="92" height="365" fill="#e5bc7b" stroke="#98713f" stroke-width="2"/>
+    <path d="M138 400H127V525H138" fill="none" stroke="#617986" stroke-width="8"/>
+    <rect x="232" y="298" width="345" height="110" fill="#e5bc7b" stroke="#98713f" stroke-width="2"/>
+    <path d="M241 183V293H365" fill="none" stroke="#d6834b" stroke-width="10"/>
+    <path d="M246 235H168M312 291V350" stroke="#172923" stroke-width="5"/>
+    <path d="M355 235H260M312 150V269" stroke="#236f58" stroke-width="3" marker-end="url(#arr)"/>
+    <rect x="253" y="408" width="324" height="22" fill="#a9d2ae" stroke="#236f58" stroke-width="2"/>
+    <rect x="232" y="408" width="21" height="117" fill="#a9d2ae" stroke="#236f58" stroke-width="2"/>
+    <text x="290" y="368" font-size="20" font-weight="bold">TRAVERSE</text>
+    <text x="185" y="475" text-anchor="middle" font-size="16" transform="rotate(-90 185 475)">Tasseau vertical</text>
+    <text x="612" y="180" font-size="17" font-weight="bold">A · vis horizontale dans le tasseau</text>
+    <text x="612" y="215" font-size="17" font-weight="bold">B · vis descendante dans la traverse</text>
+    <text x="612" y="267" font-size="16">Orange : équerre au-dessus.</text>
+    <text x="612" y="294" font-size="16">Vert : habillage directement dessous.</text>
+    <text x="612" y="346" font-size="16">Le tasseau doit déjà être maintenu</text>
+    <text x="612" y="371" font-size="16">dans le M48 par des fixations adaptées.</text>
+    <text x="612" y="425" font-size="16" font-weight="bold">Côté T1 : vérifier la place disponible</text>
+    <text x="612" y="452" font-size="16">sous la pièce de l’escalier à 174 cm.</text>
+    <line x1="35" y1="570" x2="1015" y2="570" stroke="#d9ddd4"/>
+    <text x="35" y="603" font-size="16">T1 s’arrête à 169,5 cm ; ce schéma ne fixe ni le niveau de la traverse ni la taille de l’équerre.</text>
+    <text x="35" y="634" font-size="16">Vérifier les bords repliés des C, la place des vis, la tenue du bois et le plâtre conservé.</text>
+    <text x="35" y="666" font-size="16" font-weight="bold">Aucune fixation à la pièce de l’escalier.</text>
+  </g>
+</svg>

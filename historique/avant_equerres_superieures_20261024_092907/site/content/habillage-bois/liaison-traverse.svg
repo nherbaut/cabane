@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="700" viewBox="0 0 1050 700" role="img" aria-labelledby="title desc">
+  <title id="title">Fixation d’une extrémité de la traverse au tasseau vertical</title>
+  <desc id="desc">Équerre en L sous la traverse. Une branche verticale reçoit des vis horizontales vers le tasseau caché dans le M48. La branche horizontale reçoit des vis verticales vers le haut dans la traverse. Les panneaux de finition ne sont pas dessinés.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#236f58"/></marker></defs>
+  <rect width="1050" height="700" rx="16" fill="#fffdf7"/>
+  <g font-family="DejaVu Sans,sans-serif" fill="#172923">
+    <text x="40" y="45" font-size="25" font-weight="bold">Une équerre relie les deux pièces de bois</text>
+    <text x="40" y="77" font-size="16" fill="#5f6c65">Détail d’un angle avant habillage • schéma de principe, sans échelle</text>
+    <rect x="145" y="125" width="75" height="405" fill="#e6bf80" stroke="#9b7844" stroke-width="2"/>
+    <rect x="225" y="125" width="10" height="405" fill="#637a86"/>
+    <rect x="235" y="170" width="445" height="100" fill="#e6bf80" stroke="#9b7844" stroke-width="2"/>
+    <text x="425" y="225" font-size="22" font-weight="bold">TRAVERSE</text>
+    <text x="181" y="437" text-anchor="middle" font-size="16" transform="rotate(-90 181 437)">Bois vertical</text>
+    <path d="M240 355V275H360" fill="none" stroke="#d6834b" stroke-width="10"/>
+    <!-- Direction A : branche verticale vers bois caché. -->
+    <line x1="245" y1="320" x2="175" y2="320" stroke="#172923" stroke-width="5"/>
+    <line x1="245" y1="310" x2="245" y2="330" stroke="#172923" stroke-width="5"/>
+    <path d="M185 315L195 325M196 315L206 325" stroke="#172923" stroke-width="2"/>
+    <line x1="370" y1="320" x2="270" y2="320" stroke="#236f58" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="398" cy="320" r="19" fill="#236f58"/>
+    <text x="398" y="327" text-anchor="middle" font-size="20" font-weight="bold" fill="white">A</text>
+    <text x="440" y="314" font-size="17" font-weight="bold">Vis horizontales</text>
+    <text x="440" y="340" font-size="16">Elles traversent le métal interposé</text>
+    <text x="440" y="363" font-size="16">et prennent dans le bois vertical.</text>
+    <!-- Direction B : branche horizontale vers traverse. -->
+    <line x1="315" y1="280" x2="315" y2="208" stroke="#172923" stroke-width="5"/>
+    <line x1="305" y1="280" x2="325" y2="280" stroke="#172923" stroke-width="5"/>
+    <path d="M310 217L320 227M310 228L320 238" stroke="#172923" stroke-width="2"/>
+    <line x1="315" y1="416" x2="315" y2="345" stroke="#236f58" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="315" cy="449" r="19" fill="#236f58"/>
+    <text x="315" y="456" text-anchor="middle" font-size="20" font-weight="bold" fill="white">B</text>
+    <text x="360" y="440" font-size="17" font-weight="bold">Vis vers le haut</text>
+    <text x="360" y="466" font-size="16">Elles prennent dans la traverse.</text>
+    <text x="360" y="496" font-size="16" fill="#a65d2e">Orange : l’équerre, placée sous la traverse.</text>
+    <text x="360" y="524" font-size="15" fill="#637a86">Bleu-gris : face du M48, si elle est interposée.</text>
+    <line x1="40" y1="568" x2="1010" y2="568" stroke="#d9ddd4"/>
+    <text x="40" y="600" font-size="17" font-weight="bold">Même principe à l’autre extrémité. Le bois vertical doit déjà être fixé au M48.</text>
+    <text x="40" y="632" font-size="16">Dimensions et nombre de vis à choisir selon l’équerre et le bois réellement disponibles.</text>
+    <text x="40" y="661" font-size="16">Prévoir la place de l’équerre et des têtes de vis derrière les planches de finition.</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+  <title id="title">Calage de la planche sous la traverse</title>
+  <desc id="desc">La branche horizontale d’une équerre et sa tête de vis dépassent sous la traverse. Une cale de bois placée dans une zone libre descend au-dessous de ce dépassement. La planche d’habillage repose sur cette cale et se visse à travers elle dans le bois de la traverse. Les fixations aux montants sont hors du dessin.</desc>
+  <rect width="1100" height="650" rx="16" fill="#fffdf7"/>
+  <g font-family="DejaVu Sans,sans-serif" fill="#172923">
+    <text x="40" y="45" font-size="25" font-weight="bold">Une planche à plat sous les équerres</text>
+    <text x="40" y="78" font-size="16" fill="#5f6c65">Coupe verticale de principe • sans échelle • fixations aux montants hors du dessin</text>
+    <rect x="170" y="175" width="530" height="95" fill="#e6bf80" stroke="#9b7844" stroke-width="2"/>
+    <text x="350" y="220" font-size="22" font-weight="bold">TRAVERSE</text>
+    <!-- Branche horizontale seulement ; le reste de l'équerre est hors du détail. -->
+    <rect x="200" y="270" width="120" height="12" fill="#d6834b"/>
+    <line x1="260" y1="282" x2="260" y2="230" stroke="#172923" stroke-width="4"/>
+    <ellipse cx="260" cy="286" rx="9" ry="4" fill="#172923"/>
+    <!-- Cale : épaisseur schématique à déterminer sur le montage réel. -->
+    <rect x="450" y="270" width="100" height="26" fill="#c2d5bf" stroke="#64815c" stroke-width="2"/>
+    <rect x="170" y="296" width="530" height="34" fill="#b68b53" stroke="#805b2e" stroke-width="2"/>
+    <line x1="500" y1="328" x2="500" y2="235" stroke="#172923" stroke-width="4"/>
+    <line x1="490" y1="328" x2="510" y2="328" stroke="#172923" stroke-width="4"/>
+    <path d="M495 245L505 255M495 256L505 266" stroke="#172923" stroke-width="2"/>
+    <!-- Repères séparés pour montrer le rôle de chaque élément. -->
+    <path d="M550 281H730V233H750" fill="none" stroke="#64815c" stroke-width="2"/>
+    <text x="765" y="228" font-size="18" font-weight="bold" fill="#486d41">Cale de bois</text>
+    <text x="765" y="252" font-size="15">Épaisseur à ajuster au relief</text>
+    <text x="765" y="274" font-size="15">des équerres et des vis.</text>
+    <path d="M700 313H750" fill="none" stroke="#805b2e" stroke-width="2"/>
+    <text x="765" y="318" font-size="18" font-weight="bold">Planche de finition</text>
+    <text x="765" y="343" font-size="15">Elle repose à plat sur les cales.</text>
+    <path d="M220 277H135V395H170" fill="none" stroke="#a65d2e" stroke-width="2"/>
+    <text x="185" y="399" font-size="17" fill="#a65d2e">Équerre et tête de vis : un relief à dégager.</text>
+    <path d="M500 330V435H690" fill="none" stroke="#236f58" stroke-width="2"/>
+    <text x="705" y="433" font-size="16" fill="#236f58">Vis de finition : panneau → cale</text>
+    <text x="705" y="456" font-size="16" fill="#236f58">→ bois de la traverse.</text>
+    <text x="170" y="476" font-size="15" fill="#5f6c65">Une cale est représentée ; répartir les appuis selon la place disponible.</text>
+    <line x1="40" y1="510" x2="1060" y2="510" stroke="#d9ddd4"/>
+    <text x="40" y="544" font-size="17" font-weight="bold">La planche ne doit ni basculer sur les vis, ni être forcée contre l’équerre.</text>
+    <text x="40" y="576" font-size="16">Exemple seulement : cale 0,5 cm + panneau 1,5 cm = face finie 2 cm sous la traverse.</text>
+    <text x="40" y="608" font-size="16">Vérifier aussi le dépassement des branches verticales derrière l’habillage des côtés.</text>
+  </g>
+</svg>

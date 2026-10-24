@@ -1,0 +1,128 @@
+{
+  "title": "Cabane sous escalier et cellier — données pour plans",
+  "date_snapshot": "2026-10-23",
+  "units": "cm",
+  "coordinate_system": {
+    "origin": "angle intérieur sud-ouest du cellier au sol",
+    "x": "vers est",
+    "y": "vers nord",
+    "z": "vers haut"
+  },
+  "facts_from_user": {
+    "cellier": {
+      "inside_box": { "x": [0, 115], "y": [0, 180], "z": [0, 250] },
+      "partitions_thickness": null
+    },
+    "east_beam": {
+      "footprint": { "x": [90, 115], "y": [0, 180] },
+      "clearance_below_z": 230
+    },
+    "stairs_over_cellier": {
+      "footprint": { "x": [0, 80], "y": [80, 180] },
+      "simplified_clearance_z": 188,
+      "height_varies_in_reality": true,
+      "central_post_integrated_in_partition": true
+    },
+    "heating_MTA": {
+      "footprint": { "x": [95, 115], "y": [0, 50] },
+      "height": 230,
+      "access_side": "west",
+      "mandatory_service_clearance": null
+    },
+    "shelf_A": {
+      "footprint": { "x": [0, 25], "y": [0, 80] },
+      "height": 240,
+      "function": "réserves alimentaires"
+    },
+    "shelf_B": {
+      "footprint": { "x": [85, 115], "y": [90, 180] },
+      "height": 220,
+      "function": "petit matériel domestique"
+    },
+    "old_south_door": {
+      "removed": true,
+      "leaf_width": 80,
+      "hinge_x": 6,
+      "historical_swing_area_m2": 0.50
+    },
+    "new_west_passage": {
+      "wall": "x=0",
+      "nominal_bay_width": 53,
+      "nominal_bay_width_status": "ancienne valeur annoncée, non confirmée comme largeur libre ; ne pas confondre avec les 50 cm du mur nord au milieu du deuxième montant",
+      "actual_clear_width": null,
+      "actual_location_y": null,
+      "finish_thickness_each_side": null,
+      "height": null,
+      "current_orientation": "étudier en priorité la travée côté mur nord, jusqu'au deuxième M48 ; choix définitif non confirmé",
+      "bay_2_status": "mise de côté à ce stade : l'utilisateur estime qu'un passage entre les deuxième et troisième M48 laisserait trop peu d'espace pour les rangements du cellier",
+      "storage_conflict_measured": false,
+      "final_bay_selected": false
+    },
+    "existing_other_entrance": {
+      "to": "pièce de vie",
+      "location": "sous la partie basse de l'escalier, visible sur photo 01",
+      "measurements": null
+    },
+    "partition": {
+      "cellier_side_plasterboard_sheets": 1,
+      "insulation_observed": false,
+      "studs_visible_from_cabin": true,
+      "stud_type_hypothesis": "M48",
+      "loadbearing_status": "non vérifié"
+    },
+    "stud_2_measurement": {
+      "reference": "mur nord de la cabane, sous l'escalier",
+      "endpoint": "milieu du deuxième montant M48",
+      "distance_from_north_wall": 50,
+      "source": "précision explicite de l'utilisateur du 23 octobre 2026",
+      "photo": "photos/originales/04_mesure_largeur_rail.png",
+      "clear_bay_width": null
+    },
+    "height_at_T1_T2_boundary": {
+      "location": "séparation entre T1 et T2, au niveau du deuxième montant M48",
+      "floor_to_ceiling_height": 174,
+      "source": "mesure explicitement précisée par l'utilisateur",
+      "photo": "photos/originales/05_mesure_hauteur.png",
+      "scope": "hauteur locale sous plafond, pas hauteur finie du passage ni hauteur uniforme sous l'escalier"
+    },
+    "thermal_observation": "très chaud sous l'escalier, selon l'utilisateur"
+  },
+  "historical_assumptions_not_current_dimensions": {
+    "south_opening": { "x": [6, 86], "y": 0, "closure": "rideaux", "source": "ancienne implantation, à reconfirmer" },
+    "west_opening_old_80cm": { "x": 0, "y": [90, 170], "length_along_y": 80, "status": "ancien scénario 80 cm, incompatible avec la baie 53 cm" },
+    "previously_selected_stud_bay": "entre montant proche du mur nord et montant central",
+    "last_assistant_recommendation": "préférence pour travée 2 si position au nord de y=80 et hauteur plus importante",
+    "requested_comparison": {
+      "bay_1": "entre mur et deuxième M48, mur de référence ambigu",
+      "bay_2": "entre deuxième et troisième M48",
+      "labels_physically_verified": false
+    },
+    "height_photo": {
+      "observed_tape_near_cm": 175,
+      "position_unspecified": true,
+      "interpretation": "ancienne lecture approximative, remplacée par la mesure utilisateur de 174 cm à la séparation T1/T2 ; voir facts_from_user.height_at_T1_T2_boundary"
+    }
+  },
+  "current_geometric_hypotheses": {
+    "stud_2_center_y_if_aligned_north_walls": 130,
+    "condition": "le mur nord servant au relevé côté cabane coïncide avec y=180 dans le repère du cellier ; alors y=180-50=130",
+    "north_wall_alignment_confirmed": false
+  },
+  "calculated_clearances_cm": {
+    "between_shelf_A_and_MTA_along_x_when_y_0_to_50": 70,
+    "in_front_of_shelf_B_from_west_wall": 85,
+    "shelf_A_to_old_south_opening_alignment": 61,
+    "beam_to_shelf_B_top": 10
+  },
+  "requires_field_measurement": [
+    "coïncidence du mur nord de référence côté cabane avec y=180 côté cellier ; position du montant côté mur et faces utiles de la travée nord (deuxième montant : milieu à 50 cm du mur nord)",
+    "largeur libre de la travée nord en bas, au milieu et en haut ; la cote du troisième montant devient facultative tant que la travée 2 est mise de côté",
+    "hauteur libre côté mur nord de T1 et éventuels points plus bas dans la largeur du futur passage ; hauteur à la séparation T1/T2 déjà fournie : 174 cm",
+    "statut mécanique de la cloison et des éventuels supports d'escalier",
+    "épaisseur exacte de la cloison et du BA13",
+    "cotes réelles de la cabane derrière la cloison",
+    "accessibilité effective à la face ouest du MTA et dégagements notice",
+    "température et circulation d'air des trois volumes",
+    "emplacement possible d'extraction et cheminement du câble LED"
+  ]
+}

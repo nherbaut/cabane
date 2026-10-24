@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">Coupe du passage entre les montants T1 et T2</title>
+  <desc id="desc">Vue de dessus, sans échelle de fabrication. T1 est à gauche, au nord, et son C s’ouvre vers le sud. T2 est à droite et son C s’ouvre vers le nord. Leurs ouvertures se font face dans l’espace libre de 45 cm. Un tasseau se trouve dans chaque montant, à ajuster selon les bords repliés. Les planches latérales sont vissées depuis le passage vers ces bois. Une plaque de plâtre est côté cellier.</desc>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#236f58"/></marker></defs>
+  <rect width="1100" height="760" rx="16" fill="#fffdf7"/>
+  <g font-family="DejaVu Sans,sans-serif" fill="#172923">
+    <text x="35" y="45" font-size="25" font-weight="bold">Les deux C s’ouvrent vers le passage</text>
+    <text x="35" y="76" font-size="16" fill="#5f6c65">Coupe horizontale de principe • vue de dessus • sans échelle de fabrication</text>
+    <text x="160" y="140" text-anchor="middle" font-size="21" font-weight="bold">T1 · côté nord</text>
+    <text x="820" y="140" text-anchor="middle" font-size="21" font-weight="bold">T2 · côté sud</text>
+    <text x="480" y="165" text-anchor="middle" font-size="18" fill="#236f58">Passage libre mesuré : 45 cm avant habillage</text>
+    <text x="34" y="225" font-size="16">CABANE</text>
+    <text x="34" y="510" font-size="16">CELLIER</text>
+    <!-- Chaque profil C possède son âme du côté extérieur de l'ouverture. -->
+    <path d="M185 270H85V455H185" fill="none" stroke="#617986" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M735 270H835V455H735" fill="none" stroke="#617986" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M185 270v14M185 455v-14M735 270v14M735 455v-14" stroke="#617986" stroke-width="8"/>
+    <rect x="107" y="291" width="68" height="143" fill="#e5bc7b" stroke="#98713f" stroke-width="2"/>
+    <rect x="745" y="291" width="68" height="143" fill="#e5bc7b" stroke="#98713f" stroke-width="2"/>
+    <!-- L'écart planche/bois n'est pas un calage coté ; l'appui exact dépend des lèvres. -->
+    <rect x="187" y="256" width="22" height="216" fill="#a9d2ae" stroke="#236f58" stroke-width="2"/>
+    <rect x="711" y="256" width="22" height="216" fill="#a9d2ae" stroke="#236f58" stroke-width="2"/>
+    <rect x="85" y="475" width="100" height="17" fill="#dddcd6" stroke="#999d96"/>
+    <rect x="735" y="475" width="100" height="17" fill="#dddcd6" stroke="#999d96"/>
+    <path d="M255 355H145M665 355H775" stroke="#236f58" stroke-width="4" marker-end="url(#arr)"/>
+    <text x="285" y="352" font-size="17" font-weight="bold">B · vis vers le bois</text>
+    <text x="347" y="384" font-size="15">Aucune face pleine au centre des C.</text>
+    <text x="98" y="540" font-size="16">Plaque de plâtre côté cellier</text>
+    <text x="692" y="540" font-size="16">Plaque de plâtre</text>
+    <path d="M140 423v150h138M780 423v150H642" stroke="#98713f" stroke-width="2" fill="none"/>
+    <text x="304" y="579" font-size="16" font-weight="bold">Tasseaux à ajuster dans les deux profils</text>
+    <line x1="35" y1="615" x2="1065" y2="615" stroke="#d9ddd4"/>
+    <text x="35" y="646" font-size="16">A · fixer séparément chaque tasseau au métal par une face accessible.</text>
+    <text x="35" y="675" font-size="16">B · fixer les planches depuis le passage dans le bois ; vérifier l’appui sur les bords repliés.</text>
+    <text x="35" y="705" font-size="16" font-weight="bold">Les dimensions du bois, les vis et les appuis restent à vérifier sur place.</text>
+  </g>
+</svg>

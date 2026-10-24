@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="740" viewBox="0 0 1100 740" role="img" aria-labelledby="title desc">
+  <title id="title">Équerre au-dessus de la traverse et habillage direct dessous</title>
+  <desc id="desc">Détail de principe d’un angle, sans échelle. Le bois vertical dépasse au-dessus de la traverse. La branche verticale de l’équerre reçoit une vis horizontale vers ce bois ; sa branche horizontale repose sur la traverse et reçoit une vis descendante. La planche de finition est en contact direct avec le dessous de la traverse. La hauteur réelle du M48 et le maintien du bois restent à vérifier.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#236f58"/></marker></defs>
+  <rect width="1100" height="740" rx="16" fill="#fffdf7"/>
+  <g font-family="DejaVu Sans,sans-serif" fill="#172923">
+    <text x="35" y="43" font-size="25" font-weight="bold">Équerre au-dessus, habillage directement dessous</text>
+    <text x="35" y="76" font-size="16" fill="#5f6c65">Disposition privilégiée • détail d’un angle, sans échelle de fabrication</text>
+    <!-- Bois et métal : sommet du M48 volontairement non positionné. -->
+    <rect x="130" y="140" width="95" height="395" fill="#e6bf80" stroke="#9b7844" stroke-width="2"/>
+    <rect x="225" y="365" width="10" height="170" fill="#637a86"/>
+    <path d="M225 365V155M235 365V155" stroke="#637a86" stroke-width="2" stroke-dasharray="6 6"/>
+    <rect x="235" y="300" width="340" height="105" fill="#e6bf80" stroke="#9b7844" stroke-width="2"/>
+    <text x="395" y="365" text-anchor="middle" font-size="20" font-weight="bold">TRAVERSE</text>
+    <text x="178" y="450" text-anchor="middle" font-size="17" transform="rotate(-90 178 450)">Tasseau vertical</text>
+    <!-- Équerre au-dessus ; les vis représentées donnent uniquement les directions. -->
+    <path d="M240 185V295H365" fill="none" stroke="#d6834b" stroke-width="10"/>
+    <path d="M248 235H170M248 225V245" fill="none" stroke="#172923" stroke-width="5"/>
+    <path d="M320 285V352M310 285H330" fill="none" stroke="#172923" stroke-width="5"/>
+    <path d="M360 235H275M320 140V265" stroke="#236f58" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="380" y="225" font-size="17" font-weight="bold">A — vers le tasseau</text>
+    <text x="345" y="153" font-size="17" font-weight="bold">B — vers le bas</text>
+    <!-- Planche plaquée au bois, et exemple de direction de vissage de finition. -->
+    <rect x="255" y="405" width="320" height="22" fill="#b4d5b9" stroke="#236f58" stroke-width="2"/>
+    <rect x="235" y="405" width="20" height="130" fill="#b4d5b9" stroke="#236f58" stroke-width="2"/>
+    <path d="M480 425V382M472 425H488" stroke="#172923" stroke-width="3"/>
+    <path d="M480 510V447" stroke="#236f58" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="295" y="549" font-size="16">Passage libre sous la planche</text>
+    <path d="M580 415H625" stroke="#236f58" stroke-width="2"/>
+    <text x="645" y="410" font-size="18" font-weight="bold">Habillage en contact direct</text>
+    <text x="645" y="438" font-size="16">Sans cale pour les équerres.</text>
+    <text x="645" y="466" font-size="16">Vis de finition vers le haut,</text>
+    <text x="645" y="490" font-size="16">hors des autres fixations.</text>
+    <text x="645" y="180" font-size="18" font-weight="bold">À vérifier avant achat</text>
+    <text x="645" y="211" font-size="16">Bois disponible au-dessus ;</text>
+    <text x="645" y="237" font-size="16">maintien des tasseaux dans les M48 ;</text>
+    <text x="645" y="263" font-size="16">place des équerres et de la visseuse ;</text>
+    <text x="645" y="289" font-size="16">charges et distances aux bords.</text>
+    <line x1="35" y1="585" x2="1065" y2="585" stroke="#d9ddd4"/>
+    <text x="35" y="615" font-size="16">Orange : équerre. Vert clair : planches. Bleu-gris : M48, sommet réel à relever.</text>
+    <text x="35" y="644" font-size="16">Pointillés : présence du métal à vérifier ; s’il est interposé, préparer le passage des vis.</text>
+    <text x="35" y="673" font-size="16">Même principe à l’autre extrémité. Modèle d’équerre, dimensions et nombre de vis non définis.</text>
+    <text x="35" y="705" font-size="16" font-weight="bold">Aucune fixation à l’escalier. Ce dessin ne valide pas la tenue des supports.</text>
+  </g>
+</svg>
