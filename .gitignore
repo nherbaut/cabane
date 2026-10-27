@@ -9,3 +9,7 @@ site/static/data/
 site/static/img/
 site/static/plans/
 site/.bin/
+
+# Documents d’achat privés : ne jamais versionner ni publier les justificatifs.
+/achat/
+/achats/

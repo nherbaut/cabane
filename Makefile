@@ -46,7 +46,9 @@ site-assets: plan
 	cp plans/03_ensemble_cellier_cabane.svg site/static/plans/03_ensemble_cellier_cabane.svg
 
 site-build: site-assets
+	$(PYTHON) scripts/verifier_confidentialite.py
 	$(HUGO) --source site --minify
+	$(PYTHON) scripts/verifier_confidentialite.py --public-dir site/public
 
 site-serve: site-assets
 	$(HUGO) server --source site --bind 127.0.0.1 --port 1313 --disableFastRender

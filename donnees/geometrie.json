@@ -365,7 +365,7 @@
     "proposed_crosspiece_cm": {
       "height": 4.4,
       "east_west_depth": 3.4,
-      "status": "achat proposé, non confirmé ; liaisons à vérifier"
+      "status": "bois 34 × 44 mm acheté ; coupe et pose non confirmées ; liaisons à vérifier"
     },
     "proposed_lining_thickness_cm": 1.5,
     "floor_rail": {
@@ -373,6 +373,7 @@
       "decision": "retirer uniquement dans le passage, après vérification des attaches et du maintien des pieds",
       "anchors_identified": false
     },
-    "shopping_list": "site/content/achats/index.md"
+    "shopping_list": "site/content/achats/index.md",
+    "stock_data": "donnees/stock.json"
   }
 }
