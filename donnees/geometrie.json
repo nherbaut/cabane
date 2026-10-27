@@ -246,18 +246,18 @@
     "condition": "mur nord commun confirmé : milieu de T2 à y=180-50=130 cm",
     "north_wall_alignment_confirmed": true,
     "upper_crosspiece_connection": {
-      "status": "option privilégiée au-dessus ; candidat Hettich 9240442 avec traverse 20 mm et panneau 12 mm pour essai dimensionnel, non validation mécanique",
-      "bracket_position": "au-dessus de la traverse",
-      "provisional_bracket_count": 2,
-      "vertical_timber": "tasseaux à vérifier dans T1 et T2 ; T1 s’arrête à 169,5 cm, et la pièce de l’escalier à 174 cm reste intacte ; position réelle des équerres à valider",
-      "horizontal_branch_screw_direction": "de haut en bas dans la traverse",
-      "top_lining": "planche directement contre le dessous de la traverse si les équerres au-dessus sont réalisables",
-      "shims_for_bracket_clearance_required": false,
+      "status": "mise à jour chantier : quatre Hettich 9209109 discutées, au-dessus et au-dessous ; liaison non validée",
+      "bracket_position": "au-dessus et au-dessous, disposition à vérifier",
+      "provisional_bracket_count": 4,
+      "vertical_timber": "TA1 et TA2 en pin de 32 × 19 mm insérés et vissés ; tenue globale à vérifier",
+      "horizontal_branch_screw_direction": "du dessus vers le bas pour les équerres supérieures ; du dessous vers le haut pour les inférieures, vis et collisions à vérifier",
+      "top_lining": "contreplaqué 15 mm proposé ; traiter les branches et têtes des équerres inférieures",
+      "shims_for_bracket_clearance_required": null,
       "finished_height_formula": "hauteur sous traverse depuis le sol fini moins épaisseur de la planche supérieure, si contact direct",
-      "hardware_model": null,
+      "hardware_model": "Hettich 9209109 achetées",
       "timber_sections_cm": null,
       "fastener_specifications": null,
-      "shopping_list": "site/content/habillage-bois/index.md#7-achats-prévisionnels-pour-la-disposition-retenue"
+      "shopping_list": "site/content/achats/index.md"
     },
     "combined_plan_cabin_representation": "enveloppes à la même échelle ; accès triangulaire sur le prolongement x=0 de y=-80 à -10",
     "cabin_plan_box": {
@@ -272,9 +272,9 @@
       "basis": "enveloppe de 260 × 90 cm ; 190 cm jusqu’à l’accès puis 70 cm supplémentaires ; épaisseur de cloison non représentée"
     },
     "target_finished_passage_height_cm": 168,
-    "target_finished_passage_height_status": "objectif de conception, non hauteur de coupe validée",
+    "target_finished_passage_height_status": "ancien objectif de 168 cm assoupli par utilisateur ; hauteur inférieure acceptée, cote de découpe non arrêtée",
     "compact_joint_trial_168": {
-      "status": "candidat pour essai dimensionnel à blanc ; résistance, vis et montage sur place non validés",
+      "status": "premier essai à 12 mm et traverse 20 mm conservé pour historique ; remplacé pour les achats par la proposition du 27 octobre, non validation mécanique",
       "finish_panel_thickness_cm": 1.2,
       "crosspiece_section_cm": {
         "height": 2,
@@ -321,7 +321,7 @@
     "beam_to_shelf_B_top": 10
   },
   "requires_field_measurement": [
-    "section utile et orientation réelle des lèvres des M48 T1 et T2 ; essai physique d’une chute de tasseau dans chaque profil avant achat",
+    "TA1 et TA2 de 32 × 19 mm entrent dans T1 et T2 et sont vissés ; positions des vis, tenue et distances aux bords à vérifier",
     "place et tenue des équerres au-dessus de la traverse côté T1, sous la pièce liée à l’escalier à 174 cm ; hauteur finie du passage à déterminer",
     "statut mécanique de la cloison et des éléments de l’escalier ; pièce liée à l’escalier à 174 cm laissée intacte",
     "épaisseur exacte de la cloison et du BA13",
@@ -329,5 +329,50 @@
     "températures comparées de la cabane, du cellier et de la pièce de vie lors d’une prochaine canicule ; circulation réelle par les deux accès",
     "emplacement possible d’extraction si les observations la rendent nécessaire et cheminement du câble LED",
     "hauteur de l’accès triangulaire et détail de fixation permettant éventuellement 168 cm finis sous la limite de 174 cm, avec T1 à 169,5 cm"
-  ]
+  ],
+  "site_progress_2026_10_27": {
+    "source": "confirmations utilisateur des 25–27 octobre 2026",
+    "vertical_timbers": {
+      "names": [
+        "TA1",
+        "TA2"
+      ],
+      "wood": "pin",
+      "section_cm": {
+        "east_west": 3.2,
+        "north_south": 1.9
+      },
+      "status": "insérés et vissés dans T1 et T2 ; longueurs de présentation conservées"
+    },
+    "purchased_brackets": {
+      "manufacturer": "Hettich",
+      "reference": "9209109",
+      "leg_lengths_cm": [
+        2,
+        2
+      ],
+      "strip_width_cm": 1.5,
+      "discussed_total_count": 4,
+      "position": "au-dessus et au-dessous à chaque extrémité ; branches horizontales dépassant des M48",
+      "mechanical_validation": false
+    },
+    "wood_screws_cm": {
+      "diameter": 0.3,
+      "length": 2.4
+    },
+    "purchased_hacksaw_lm_reference": "95595161",
+    "lower_finished_height_accepted": true,
+    "proposed_crosspiece_cm": {
+      "height": 4.4,
+      "east_west_depth": 3.4,
+      "status": "achat proposé, non confirmé ; liaisons à vérifier"
+    },
+    "proposed_lining_thickness_cm": 1.5,
+    "floor_rail": {
+      "support": "carrelage sur dalle béton, selon utilisateur",
+      "decision": "retirer uniquement dans le passage, après vérification des attaches et du maintien des pieds",
+      "anchors_identified": false
+    },
+    "shopping_list": "site/content/achats/index.md"
+  }
 }

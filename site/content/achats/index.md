@@ -1,83 +1,84 @@
 ---
-title: "Liste d’achats prévisionnelle — passage T1–T2"
-description: "Quantités et dimensions brutes à prévoir pour l’encadrement et l’habillage du passage, avec les essais encore nécessaires."
-date: 2026-10-24T00:00:00+02:00
-nav_anchor: "liste-prévisionnelle"
-nav_label: "La liste"
+title: "Liste d’achats — passage T1–T2"
+description: "Matériel déjà acheté, références Leroy Merlin à prévoir et achats conditionnels pour terminer le passage."
+date: 2026-10-27T00:00:00+01:00
+nav_anchor: "à-prévoir-chez-leroy-merlin"
+nav_label: "À acheter"
 ---
 
-**[Télécharger la liste imprimable en PDF](achats.pdf)** · [Revenir au guide d’habillage](../habillage-bois/)
+**[Télécharger la liste imprimable en PDF](https://nextnet.top/cabane/achats/achats.pdf)** · [Guide d’habillage](../habillage-bois/)
 
-**Faits :** passage de 45 cm libres entre les montants M48[^montant] T1 et T2. **Proposition étudiée :** 168 cm finis, panneau de 1,2 cm, traverse[^traverse] de 2 cm de haut et équerres[^equerre] de 2 cm au-dessus. La hauteur et les fixations restent à vérifier avec les pièces réelles.
+Mise à jour du **27 octobre 2026**. Les achats ci-dessous ne sont pas encore déclarés effectués, sauf dans la rubrique « Déjà disponible ». Vérifiez vos achats récents avant de reprendre un article.
 
-Les dimensions ci-dessous sont des **formats bruts à recouper**, avec de la marge. Elles ne sont pas des cotes de découpe définitives. La liste concerne le passage et son habillage bois ; les consommables déjà disponibles n’ont pas besoin d’être rachetés.
+## Faits : déjà disponible
 
-## Liste prévisionnelle
+- **TA1 et TA2 en pin**, section **3,2 × 1,9 cm (32 × 19 mm)** : les 3,2 cm suivent l’axe est–ouest. Les tasseaux[^tasseau] sont insérés et vissés dans les montants M48[^montant] T1 et T2 ; leurs longueurs d’approche sont conservées.
+- **Équerres Hettich 9209109**, branches de 2 cm et largeur de 1,5 cm. La disposition discutée prévoit **quatre équerres[^equerre] au total**, une au-dessus et une au-dessous à chaque extrémité de la traverse. Vérifiez que vous en avez quatre ; ne rachetez pas un lot par défaut. Les branches inférieures dépassent du M48 : l’habillage devra en tenir compte. La tenue de cet assemblage n’est pas validée par cette liste.
+- **Vis à bois Ø 3 × 24 mm**, utilisées pour la fixation des tasseaux. Ne pas en déduire qu’elles conviennent également à l’habillage ou aux équerres.
+- **Scie à métaux DEXTER 300 mm**, référence Leroy Merlin **95595161**. Elle n’est pas retenue pour les longues coupes du contreplaqué.
+- Une **table**, sans établi. Sa stabilité et la possibilité de serrer au bord sont à vérifier.
 
-| Fourniture | Quantité totale à prévoir | Dimensions envisagées et décision d’achat |
-|---|---:|---|
-| Tasseaux[^tasseau] verticaux | **2 longueurs de 200 cm** | **Section à choisir après essai dans T1 et T2.** Bois droit et sec. Les 3,5 cm nominaux du M48 ne garantissent pas la place intérieure. |
-| Bois pour la traverse | **1 morceau de 60 cm** | Section candidate **2 × 4 cm (20 × 40 mm)** : 2 cm verticalement, 4 cm à travers la cloison. Peut servir à l’essai ; tenue et longueur finale à vérifier. Si seul un tasseau plus long est vendu, garder les chutes. |
-| Contreplaqué[^contreplaque] pour les côtés | **2 bandes de 200 × 10 cm** | Épaisseur candidate **1,2 cm (12 mm)**. Les 200 cm sont une longueur brute ; la largeur de 10 cm sera réduite à l’épaisseur réelle à couvrir. |
-| Contreplaqué pour le dessus | **1 bande de 60 × 10 cm** | Même épaisseur de **1,2 cm**. À découper dans le même panneau que les côtés. |
-| Équerres compactes au-dessus | **2 envisagées au total** | Candidat d’essai : **Hettich 9240442**, branches de 2 × 2 cm, largeur 1,6 cm, métal 0,2 cm. **Commencer par un échantillon** ; capacité pour cet usage et fixations non validées. |
-| Vis des équerres | **1 petit sachet, quantité selon les trous retenus** | **Diamètre, tête, longueur et nombre à choisir après essai.** La traverse candidate ne fait que 2 cm de haut : aucune pointe ne doit la traverser. |
-| Fixations des tasseaux aux M48 | **1 petit conditionnement** | Type métal mince–bois, longueur et nombre selon les supports réels. **À confirmer avant achat.** |
-| Vis de finition bois | **1 petite boîte, environ 25 à 50 pièces selon conditionnement** | Pour les trois planches. Diamètre et longueur après choix du support ; cette quantité est une réserve d’achat, pas un nombre de fixations prescrit. |
-| Vis de plaque de plâtre sur bois | **1 petit conditionnement** | Pour maintenir le plâtre conservé si ce détail est retenu. Modèle, longueur et quantité après vérification du support. |
-| Baguettes couvre-joints[^couvrejoint] | **2 longueurs de 240 cm pour la face cellier** | Section selon le raccord à masquer. Permet deux côtés et un dessus avec marge. **Option : 4 longueurs au total si les deux faces doivent être encadrées.** |
-| Papier abrasif[^abrasif] | **1 petit assortiment grains 120 et 180** | Pour adoucir le bois, les chants[^chant] et les angles. |
-| Pâte à bois | **1 petit pot, facultatif** | Pour les défauts et les têtes de vis de finition, après essai. |
-| Peinture ou vernis intérieur | **1 petit pot, facultatif** | Produit compatible avec le panneau et l’usage prévu ; quantité selon le rendement et le nombre de couches indiqués par son fabricant. |
-| Ruban de masquage et protection du sol | **1 rouleau + protection si nécessaire** | Pour repérer les cotes sans marquer les pièces de l’escalier et protéger pendant le travail. |
+## À prévoir chez Leroy Merlin
 
-**Pour commander le panneau :** demander la coupe des trois bandes brutes dans un seul panneau de 12 mm. Un morceau d’environ **200 × 35 cm** peut fournir deux bandes de 200 × 10 cm et une bande de 60 × 10 cm, avec une marge pour les traits de scie. Cette proposition suppose que **10 cm suffisent pour couvrir la cloison** : mesurer cette profondeur avant de faire couper les bandes à leur largeur finale.
+Les liens renvoient aux fiches produits consultées le **27 octobre 2026**. Les prix affichés sont indicatifs, hors livraison et frais de coupe éventuels ; aucun stock local n’est confirmé.
 
-Avec deux panneaux latéraux de 1,2 cm, la largeur théorique finie serait de **42,6 cm** : `45 − 1,2 − 1,2`. Ce calcul suppose qu’aucun autre élément ne dépasse dans le passage.
+| Article proposé | Quantité | Référence Leroy Merlin et prix affiché |
+|:---|:---|:---|
+| **Sapin raboté[^rabote] 34 × 44 mm**, longueur vendue 2,40 m | **1 longueur**, ou une chute suffisante disponible au comptoir | **[66125710](https://www.leroymerlin.fr/produits/tasseau-sapin-petits-noeuds-rabote-34-x-44-mm-l-2-4-m-66125710.html)** — **10,90 €** |
+| **Contreplaqué[^contreplaque] ordinaire de 15 mm**, à la découpe | **1 morceau brut de 200 × 35 cm**, sous réserve que 10 cm suffisent en profondeur pour chaque bande | **[67392850](https://www.leroymerlin.fr/produits/panneau-contreplaque-ordinaire-ep-15-mm-decoupe-sur-mesure-67392850.html)** — **39,90 €/m²** ; devis à demander |
+| **Scie japonaise DEXTER double lame, 240 mm**, pour le bois | **1**, si aucune scie à bois n’a été achetée depuis | **[95595174](https://www.leroymerlin.fr/produits/scie-japonaise-double-lame-240-mm-dexter-95595174.html)** — **14,90 €** |
+| **Scie à guichet[^guichet] EDMA, 250 mm**, pour le plâtre | **1**, si pas encore achetée | **[68141311](https://www.leroymerlin.fr/produits/scie-a-guichet-edma-68141311.html)** — **12,90 €** |
+| **Serre-joints[^serrejoint] à une main DEXTER, ouverture 150 mm** | **2**, si absents | **[82303536](https://www.leroymerlin.fr/produits/serre-joint-a-1-main-dexter-150-mm-82303536.html)** — **12,90 € pièce**, soit **25,80 € les deux** |
 
-## Ce qui peut servir dès demain
+**Traverse[^traverse] proposée :** placer les **44 mm verticalement** et les **34 mm est–ouest**. Choisir du bois droit, sans fissure ni gros nœud aux futures fixations. La longueur finale sera mesurée entre TA1 et TA2 à la hauteur retenue ; un morceau brut de 60 cm laisse de la marge, mais les 45 cm entre montants ne donnent pas directement la coupe du bois. La section facilite la fixation du bord de plâtre ; les liaisons aux extrémités restent à vérifier avec les équerres achetées.
 
-Pour limiter les achats non vérifiés, prendre d’abord une **chute de panneau de 12 mm**, le **morceau de bois de 20 × 40 mm** et **une équerre d’essai**. Le papier abrasif, le ruban et les protections peuvent aussi être achetés si vous n’en avez pas. Les formats bruts plus grands du tableau servent à prévoir l’ensemble du chantier ; un essai sur petites chutes évite d’engager tout le panneau.
+**Contreplaqué :** le format brut peut fournir deux côtés de **200 × 10 cm** et un dessus de **60 × 10 cm**, avec une marge pour les traits de scie. **Mesurer d’abord la profondeur de cloison à couvrir** : si elle dépasse 10 cm, ce format doit être revu. Pour faciliter le travail sur une table, faire couper les longues bandes en magasin après ce relevé, et garder seulement les ajustements de longueur pour chez soi. Faire confirmer la largeur minimale acceptée par le service de découpe.
 
-Les deux tasseaux définitifs dépendent de leur entrée réelle dans les profils. Les vis dépendent à la fois de l’équerre, des bois et de la tenue nécessaire : ne pas prendre un lot générique au seul motif qu’il entre dans les trous.
+Les **15 mm remplacent les 12 mm de l’ancien essai** : deux côtés de 15 mm laisseraient **42 cm de passage théorique**, si aucun autre élément ne dépasse (`45 − 1,5 − 1,5`). La hauteur finie sera recalculée avec l’épaisseur réelle et l’encombrement des équerres inférieures. L’utilisateur accepte désormais de réduire la hauteur ; **168 cm n’est plus une cible impérative** et aucune hauteur de coupe n’est encore arrêtée.
 
-## À demander chez Leroy Merlin
+**Serre-joints :** leur ouverture doit dépasser l’épaisseur cumulée de la table, du bois et des protections ; vérifier également que leurs mâchoires passent sous le bord de votre table. Les 150 mm sont une capacité maximale, pas une obligation de prendre ce modèle si votre table ne le permet pas. Utiliser des chutes sous les appuis pour protéger le plateau. [Tutoriel illustré : bois à plat, coupe hors du bord et serrage, étapes 6 à 9](https://projects.skillsready.ca/project/tool-tutorial-hand-saw/).
 
-**Bois pour l’essai :** un tasseau droit de **20 × 40 mm**, avec les **20 mm placés verticalement**. Le catalogue propose notamment un [tasseau en chêne de 2 m, référence 70841883](https://www.leroymerlin.fr/produits/tasseau-chene-petits-noeuds-rabote-20-x-40-mm-l-2-m-70841883.html). C’est une option de format pour la traverse, dont la tenue reste à vérifier ; ce n’est pas la section arrêtée pour les deux supports verticaux. Éviter les nœuds à l’endroit des assemblages.
+## Achats conditionnels : rail au sol et vis
 
-**Au comptoir de découpe :** demander du contreplaqué ordinaire de **12 mm**, idéalement une chute pour l’essai, puis le format brut décrit ci-dessus. Faire confirmer les découpes étroites possibles avant de commander. Les panneaux courts de 80 ou 120 cm ne permettent pas des côtés d’un seul tenant d’environ 170 cm. Si seuls du 10 ou du 15 mm sont proposés, faire recalculer l’assemblage avant substitution ; ne pas acheter un panneau acoustique coûteux simplement pour retrouver 12 mm.
+| Article à examiner | Quantité prévisionnelle | Condition avant achat ou utilisation |
+|:---|:---|:---|
+| **Cisaille à tôle[^cisaille] DEXTER, coupe devant, 250 mm** | **1 si retenue** | **[80125135](https://www.leroymerlin.fr/produits/pince-coupe-tole-devant-dexter-l-250-mm-80125135.html)** — **12,90 €**. Pour les ailes accessibles du rail ; elle ne garantit pas l’accès à son fond posé sur le carrelage. |
+| Vis pour fixer le plâtre dans le bois | **1 petit conditionnement** | Modèle et longueur selon la plaque, le vide éventuel et la pénétration nécessaire dans le bois ; ne pas réutiliser automatiquement les anciennes vis de 24–25 mm. |
+| Vis des quatre équerres | **Selon les trous utilisés et le montage retenu** | Têtes compatibles avec les trous, longueurs adaptées à chaque direction, distances aux extrémités et absence de collision entre vis du dessus et du dessous. Ne pas acheter un lot générique sur le seul diamètre. |
+| Vis pour l’habillage en contreplaqué | **1 petite boîte** | À choisir selon les 15 mm de panneau et la profondeur de bois disponible ; une vis de 24 mm ne laisse que 9 mm dans le bois, avant métal ou vide éventuel. |
+| Fixations complémentaires du rail au sol | **Seulement si nécessaires** | Après repérage des attaches existantes, du support et des éventuelles canalisations. Pas de référence ni de profondeur prescrite sans ce contrôle. |
 
-**Au rayon quincaillerie :** demander une équerre dont **chacune des deux branches mesure 20 mm**, avec la référence Hettich ci-dessous comme comparaison. Mesurer les pièces réelles : une équerre annoncée « 20 × 20 » dans son titre peut avoir une hauteur différente. Une branche verticale de 50 mm ne convient pas à cet essai compact. Les trous et les vis doivent être examinés avec les bois.
+**Décision utilisateur :** retirer le rail[^rail] seulement dans le passage, sur un sol carrelé posé sur dalle béton. **Mesures manquantes :** attaches du rail au sol, maintien des pieds T1/T2 après coupe, limites exactes et accès à la tôle inférieure. L’absence de tête de vis visible ne prouve pas l’absence de fixation. Ne pas faire levier sur le carrelage et ne pas couper avant résolution de ces points. Une pince coupante classique ne remplace pas la cisaille. Aucun outil électrique supplémentaire n’est retenu à l’achat pour cette opération à ce stade.
 
-**Disponibilité :** le catalogue en ligne n’établit pas le stock de votre magasin. Sélectionner votre magasin avant de vous déplacer ; une offre de vendeur partenaire peut être disponible uniquement à la livraison. La référence de tasseau a été vérifiée au catalogue le 24 octobre 2026 ; aucune disponibilité locale n’est confirmée.
+## Consommables et finitions à compléter selon votre stock
 
-## Vérifications à emporter au magasin
+- **2 longueurs de couvre-joint[^couvrejoint] de 240 cm** pour la face cellier ; **4 au total** si les deux faces doivent être encadrées. Profil et largeur après mesure du raccord à masquer.
+- **1 assortiment de papier abrasif[^abrasif] 120 et 180**, avec une cale à poncer si nécessaire ; adoucir les chants[^chant] et angles.
+- **1 cutter et des lames neuves**, un mètre, un crayon, une règle droite et un niveau, si absents.
+- Forets[^foret] à bois et à métal, embouts de vissage : dimensions après choix des vis ; ne pas racheter ceux déjà disponibles.
+- **1 protection rigide pour la table**, récupérable dans une chute, et des petites cales de protection pour les mâchoires. Une bâche seule ne protège pas d’un coup de scie.
+- Lunettes, gants pour manipuler les tôles, masque FFP2 et protection du sol : compléter seulement ce qui manque.
+- **1 petit pot de pâte à bois**, peinture ou vernis intérieur : facultatifs, après choix de la finition et vérification du rendement.
 
-- Le [gabarit A4 de l’essai](../habillage-bois/gabarit-168.pdf), imprimé à 100 % ; sa barre de contrôle doit mesurer 5 cm.
-- Une photo rapprochée des profils T1 et T2, et les dimensions intérieures réellement disponibles, ou une chute qui entre sans forcer.
-- La profondeur réelle à couvrir avec les planches, du bord cabane à la finition cellier.
-- Si possible, une équerre réelle et les bois candidats pour choisir les vis et vérifier l’accès du tournevis.
+## Hypothèses et points de sécurité
 
-**Référence fabricant :** Hettich 9240442, **EAN 4008057927147**. La fiche annonce une équerre de chaise de 16 × 20 × 20 × 2 mm, sans fixations fournies. Il s’agit ici d’un candidat de contrôle dimensionnel. [Fiche Hettich](https://shop-diy.hettich.com/de_FR/Hettich/Assemblage-de-meuble/Equerres-et-profils-d%27assemblage/%C3%89querre-de-chaise%2C-16-x-20-x-20-x-2-mm%2C-Acier%2C-zingu%C3%A9/p/9240442).
+Le **gabarit antérieur pour 168 cm, panneau de 12 mm et traverse de 20 mm, ne correspond plus aux achats proposés**. Le guide conserve ce premier essai à titre explicatif ; la présente liste est la référence pour les achats actuels.
 
-## Outils à vérifier chez vous avant de racheter
+La traverse définitive, ses fixations, la ligne de vis du plâtre conservé et l’habillage au droit des équerres inférieures sont à arrêter avant la découpe. Les quatre petites équerres ne constituent pas à elles seules une validation de résistance. La pièce liée à l’escalier à 174 cm reste intacte. La liste ne prescrit aucune coupe dans un élément de l’escalier.
 
-Mètre, crayon, niveau, perceuse-visseuse et embouts, forets[^foret] adaptés aux fixations finalement choisies, deux serre-joints[^serrejoint], scie à bois ou service de découpe du magasin, scie à guichet[^guichet] pour la plaque de plâtre, cale à poncer, lunettes et protection adaptée aux poussières. L’accès de l’outil au-dessus de la traverse doit être essayé ; sa présence dans la boîte à outils ne garantit pas qu’il passe dans les 2,8 cm disponibles.
+**Pas de nouvel achat de TA1/TA2 ni d’équerres prévu par défaut.** Pas d’achat d’établi, de scie sauteuse ou d’extracteur retenu pour l’instant. L’éclairage LED sera traité séparément.
 
-## Points à vérifier avant la découpe
-
-La place sur le papier ne valide pas la résistance de la liaison. Le maintien des tasseaux, le bois prolongé au-dessus de T1, les fixations et le plâtre conservé restent à vérifier. La pièce liée à l’escalier à 174 cm restera intacte. Les 168 cm restent une hauteur cible ; aucune cote de coupe définitive n’est fournie par cette liste.
-
-**Pas de cales sous traverse prévues pour cette variante.** Aucun extracteur n’est retenu à l’achat actuellement. L’éclairage LED 24 V sera traité séparément après choix de sa longueur et de son implantation.
-
-[^montant]: **Montant M48** : élément métallique vertical en C de la cloison.
-[^traverse]: **Traverse** : pièce de bois horizontale entre les deux côtés du passage.
-[^equerre]: **Équerre** : pièce métallique en L reliant deux bois.
-[^tasseau]: **Tasseau** : pièce de bois allongée utilisée ici comme support de fixation.
-[^contreplaque]: **Contreplaqué** : panneau formé de fines couches de bois collées.
-[^couvrejoint]: **Couvre-joint** : baguette qui masque le raccord entre bois et plâtre.
-[^abrasif]: **Abrasif** : papier à poncer ; le numéro de grain indique sa finesse.
-[^chant]: **Chant** : bord étroit d’une planche, correspondant à son épaisseur.
+[^tasseau]: **Tasseau** : pièce de bois allongée servant de support aux fixations.
+[^montant]: **Montant M48** : profil métallique vertical en C de la cloison.
+[^equerre]: **Équerre** : pièce métallique en L qui relie ici la traverse au tasseau vertical.
+[^rabote]: **Raboté** : bois aux faces usinées pour les rendre régulières.
+[^contreplaque]: **Contreplaqué** : panneau composé de fines couches de bois collées.
+[^guichet]: **Scie à guichet** : scie manuelle à lame étroite et pointue pour ouvrir la plaque de plâtre.
+[^serrejoint]: **Serre-joint** : outil qui serre le bois et son support pour empêcher leur déplacement.
+[^traverse]: **Traverse** : pièce horizontale reliant TA1 et TA2 au-dessus du passage.
+[^cisaille]: **Cisaille à tôle** : forts ciseaux destinés à couper une tôle mince.
+[^rail]: **Rail** : profil métallique en U fixé au sol et recevant les montants.
+[^couvrejoint]: **Couvre-joint** : baguette masquant le raccord entre l’habillage et le mur.
+[^abrasif]: **Abrasif** : papier à poncer ; les grains 120 puis 180 permettent une finition progressive.
+[^chant]: **Chant** : bord étroit d’une planche.
 [^foret]: **Foret** : outil monté dans la perceuse pour réaliser un trou.
-[^serrejoint]: **Serre-joint** : outil qui maintient provisoirement les pièces serrées.
-[^guichet]: **Scie à guichet** : petite scie à lame étroite permettant de découper une ouverture dans la plaque.

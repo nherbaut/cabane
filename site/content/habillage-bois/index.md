@@ -6,6 +6,9 @@ nav_anchor: "les-faits-les-hypothèses-et-les-limites-du-dessin"
 nav_label: "Données"
 ---
 
+> **Actualisation du 27 octobre 2026 :** TA1 et TA2 en pin de 32 × 19 mm sont en place et vissés. Les équerres achetées sont des **Hettich 9209109** ; la disposition discutée en prévoit quatre, au-dessus et au-dessous. Les achats proposés passent à une traverse de **34 × 44 mm** et un habillage de **15 mm** ; l’utilisateur accepte une hauteur réduite. **[Consulter la liste actuelle et ses références Leroy Merlin](../achats/).** Le détail compact et le gabarit à 168 cm ci-dessous décrivent le premier essai ; ils ne fixent plus les achats ni les cotes de découpe actuelles.
+
+
 Le montage proposé forme **un petit tunnel en bois à travers la cloison** : une planche à gauche, une à droite et une au-dessus. Ces trois planches cachent les bords du métal et du plâtre autour du passage. Les montants M48[^montant] restent en place.
 
 ## Les faits, les hypothèses et les limites du dessin

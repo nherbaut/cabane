@@ -20,7 +20,7 @@ guide-bois-pdf:
 
 # PDF conservé dans le dépôt pour publication sans dépendance TeX en CI.
 achats-pdf:
-	cd site/content/achats && pandoc index.md --standalone --pdf-engine=xelatex -M date="24 octobre 2026" -V lang=fr-FR -V geometry:margin=1.5cm -V fontsize=10pt -V papersize=a4 -o achats.pdf
+	cd site/content/achats && pandoc index.md --standalone --pdf-engine=xelatex -M date="27 octobre 2026" -V lang=fr-FR -V geometry:margin=1.5cm -V fontsize=10pt -V papersize=a4 -o achats.pdf
 
 HUGO ?= $(if $(wildcard site/.bin/hugo),site/.bin/hugo,hugo)
 

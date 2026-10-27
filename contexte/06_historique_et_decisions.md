@@ -79,3 +79,11 @@ L’utilisateur confirme que les 70 cm s’ajoutent aux 190 cm : **260 cm de lon
 ## Liste d’achats prévisionnelle et magasin (24 octobre 2026)
 
 L’utilisateur demande une liste globale même s’il n’achète pas tout demain, puis précise qu’il va chez Leroy Merlin. Une page et un PDF regroupent les formats bruts : deux supports de 2 m, une traverse brute de 60 cm, trois bandes de panneau de 12 mm, deux équerres envisagées, finitions et consommables. La section des supports et les fixations restent à déterminer ; un échantillon d’équerre suffit pour commencer. Le tasseau Leroy Merlin 70841883 correspond au format 20 × 40 mm de l’essai, sans validation mécanique ni confirmation de stock local. Les originaux modifiés sont archivés dans `historique/avant_liste_achats_20261024_185014/`.
+
+## Avancement et achats actualisés (27 octobre 2026)
+
+TA1 et TA2, en pin de 32 mm est–ouest × 19 mm nord–sud, sont insérés et vissés dans T1 et T2. Les vis du plâtre côté T1 ont été légèrement dévissées puis resserrées pour permettre l’insertion. Les longueurs de présentation sont conservées. Les équerres achetées sont les Hettich 9209109, et non 9240442 ; quatre sont discutées, une au-dessus et une au-dessous à chaque extrémité, sans validation de résistance. L’utilisateur confirme que leurs branches horizontales dépassent des M48.
+
+L’utilisateur accepte une hauteur réduite. Une traverse en sapin de 34 × 44 mm (44 verticalement) est proposée, non encore déclarée achetée. L’habillage proposé devient un contreplaqué ordinaire de 15 mm à la découpe. Les cotes de coupe, les vis, le maintien du plâtre et l’habillage sous les équerres restent à arrêter. Le gabarit compact 168 cm décrit le premier essai et ne doit pas dicter les achats actuels.
+
+La scie à métaux DEXTER 95595161 est disponible ; la scie japonaise 95595174 et la scie à guichet EDMA 68141311 sont proposées, sans confirmation d’achat. Deux serre-joints et une protection de table sont ajoutés à la liste. Le retrait du rail seulement dans le passage est choisi ; il repose sur du carrelage sur dalle béton. Ses attaches et le maintien des pieds ne sont pas identifiés : la cisaille est conditionnelle et aucune coupe n’est prescrite.
