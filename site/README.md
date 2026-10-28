@@ -37,3 +37,16 @@ Le guide d’habillage inclut un gabarit SVG/PDF A4 généré par `make plan`, p
 La page `achats/` regroupe la liste prévisionnelle, les formats et les repères Leroy Merlin. Son PDF se régénère avec `make achats-pdf` (Pandoc et XeLaTeX), puis doit être versionné avec le Markdown. La publication Hugo copie ce PDF sans dépendre de TeX. Les achats de supports et de fixations restent conditionnels.
 
 Le stock confirmé du chantier est conservé dans `donnees/stock.json` et présenté sur `achats/`. Les quantités désignent les achats, sans suivi de consommation. Les justificatifs privés dans les répertoires racine `achat/` et `achats/` sont exclus de Git et ne doivent jamais être copiés dans le site ou les archives publiques. `make site-build` contrôle les exclusions, les fichiers suivis et l’absence de copies des documents privés avant et après génération grâce à `scripts/verifier_confidentialite.py`. Ce contrôle bloque aussi une copie identique renommée lorsque le justificatif local est disponible ; il ne remplace pas la vérification éditoriale des données publiées.
+
+## Bardage et découpes du 28 octobre 2026
+
+La page `bardage/` est la référence actuelle pour l’OSB, les coupes brutes et
+les vues isométriques. Les sources sont dans `fabrication/bardage/` et les
+mesures dans `donnees/geometrie.json`. La profondeur mesurée est de 6 cm
+± 2 mm. Les premiers gabarits à 168 cm restent historiques.
+
+`make -C fabrication/bardage all` régénère localement les figures et PDF
+(Matplotlib, NumPy, Pandoc et XeLaTeX). Les fichiers produits sont versionnés.
+`make site-build` copie uniquement huit PDF/PNG explicitement désignés par
+`scripts/copier_documents_bardage.py` ; la CI n’a pas à installer les outils
+de dessin ou TeX. Aucun répertoire d’achat privé n’est parcouru par ce script.

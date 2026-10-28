@@ -6,7 +6,7 @@ nav_anchor: "les-faits-les-hypothèses-et-les-limites-du-dessin"
 nav_label: "Données"
 ---
 
-> **Actualisation du 27 octobre 2026 :** TA1 et TA2 en pin de 32 × 19 mm sont en place et vissés. Les équerres achetées sont des **Hettich 9209109** ; la disposition discutée en prévoit quatre, au-dessus et au-dessous. Les achats proposés passent à une traverse de **34 × 44 mm** et un habillage de **15 mm** ; l’utilisateur accepte une hauteur réduite. **[Consulter la liste actuelle et ses références Leroy Merlin](../achats/).** Le détail compact et le gabarit à 168 cm ci-dessous décrivent le premier essai ; ils ne fixent plus les achats ni les cotes de découpe actuelles.
+> **Actualisation du 28 octobre 2026 :** traverse posée, dessous à **166,8 cm**, avec **quatre équerres toutes au-dessus** ; ouverture dans le plâtre réalisée. Le bardage est désormais envisagé en **OSB de 15 mm**, avec une profondeur intérieure mesurée de **6 cm ± 2 mm**, une partie haute à 188 cm au-dessus du passage et un arrêt à 170 cm entre T2 et T3. **[Voir les découpes et vues 3D actuelles](../bardage/)** et **[la liste d’achat](../achats/)**. Les dessins et gabarits ci-dessous documentent les premiers essais ; ils ne définissent plus les achats ni les coupes actuels.
 
 
 Le montage proposé forme **un petit tunnel en bois à travers la cloison** : une planche à gauche, une à droite et une au-dessus. Ces trois planches cachent les bords du métal et du plâtre autour du passage. Les montants M48[^montant] restent en place.

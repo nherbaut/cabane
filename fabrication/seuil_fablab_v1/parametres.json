@@ -1,0 +1,44 @@
+{
+  "version": "v1",
+  "units": "cm",
+  "purpose": "Échantillon de présentation uniquement, ne pas utiliser comme seuil de circulation.",
+  "fabrication_frame": {
+    "origin": "angle sud-ouest de l’échantillon au niveau du carrelage, repère local translaté par rapport au repère du projet",
+    "x": "est, de la cabane vers le cellier",
+    "y": "nord, vers T1",
+    "z": "haut",
+    "global_translation": null,
+    "stl_export_units": "mm"
+  },
+  "facts": {
+    "rail_outer_width": 7.0,
+    "screw_from_cabin_rail_edge": 3.3,
+    "screw_from_cellar_rail_edge": 3.7,
+    "screw_max_diameter": 1.5,
+    "screw_top_above_tile": 0.3,
+    "screw_distance_from_T1": 5.3
+  },
+  "proposal": {
+    "sample_width_east_west": 12.0,
+    "sample_length_north_south": 4.0,
+    "top_height": 0.8,
+    "edge_height": 0.08,
+    "rail_channel_width": 7.2,
+    "rail_channel_ceiling_above_tile": 0.1,
+    "screw_pocket_diameter": 1.8,
+    "screw_pocket_ceiling_above_tile": 0.4,
+    "circle_segments": 96
+  },
+  "assumptions": [
+    "Dégagement de 0,1 cm pour fond de rail : hypothèse, épaisseur réelle non mesurée.",
+    "Les ailes du rail et la plinthe ne dépassent plus dans l’enveloppe de l’échantillon lors de la présentation ; leur retrait n’est pas confirmé.",
+    "Les 3,7 et 3,3 annoncés en mm sont interprétés en cm ; vérifier le sens à l’essai.",
+    "Les deux surfaces de carrelage sont planes localement ; colle non incluse dans les cotes."
+  ],
+  "missing": [
+    "Épaisseur réelle du fond du rail et hauteur des résidus de coupe.",
+    "Imprimante, matériau, réglages et comportement sous charge.",
+    "Dimensions finales du seuil, assemblage entre morceaux et fixation collée."
+  ],
+  "source_geometry": "../../donnees/geometrie.json#site_progress_2026_10_28"
+}

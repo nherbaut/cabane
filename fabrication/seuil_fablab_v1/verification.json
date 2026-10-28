@@ -1,0 +1,27 @@
+{
+  "statut": "Échantillon de présentation ; aucune validation de charge ou de conformité.",
+  "unites_stl": "mm",
+  "dimensions_piece_en_position_pose_mm": [
+    120.0,
+    40.0,
+    8.0
+  ],
+  "dimensions_stl_oriente_impression_mm": [
+    120.0,
+    8.0,
+    40.0
+  ],
+  "maillage_ferme": true,
+  "aretes_partagees_par_exactement_deux_triangles": true,
+  "orientations_coherentes": true,
+  "triangles": 612,
+  "volume_matiere_geometrique_cm3": 27.845,
+  "logement_vis_diametre_mm": 18.0,
+  "plafond_logement_depuis_carrelage_mm": 4.0,
+  "epaisseur_mini_au_dessus_vis_mm": 4.0,
+  "centre_logement_depuis_bord_cabane_mm": 58.0,
+  "centre_logement_depuis_bord_cellier_mm": 62.0,
+  "degagement_rail_largeur_mm": 72.0,
+  "degagement_rail_hauteur_hypothese_mm": 1.0,
+  "note": "Le contrôle du maillage ne démontre pas la résistance de la pièce imprimée."
+}

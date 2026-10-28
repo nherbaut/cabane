@@ -1,0 +1,379 @@
+{
+  "title": "Cabane sous escalier et cellier — données pour plans",
+  "date_snapshot": "2026-10-24",
+  "units": "cm",
+  "coordinate_system": {
+    "origin": "angle intérieur sud-ouest du cellier au sol",
+    "x": "vers est",
+    "y": "vers nord",
+    "z": "vers haut"
+  },
+  "facts_from_user": {
+    "cellier": {
+      "inside_box": {
+        "x": [
+          0,
+          115
+        ],
+        "y": [
+          0,
+          180
+        ],
+        "z": [
+          0,
+          250
+        ]
+      },
+      "partitions_thickness": null
+    },
+    "east_beam": {
+      "footprint": {
+        "x": [
+          90,
+          115
+        ],
+        "y": [
+          0,
+          180
+        ]
+      },
+      "clearance_below_z": 230
+    },
+    "stairs_over_cellier": {
+      "footprint": {
+        "x": [
+          0,
+          80
+        ],
+        "y": [
+          80,
+          180
+        ]
+      },
+      "simplified_clearance_z": 188,
+      "height_varies_in_reality": true,
+      "central_post_integrated_in_partition": true
+    },
+    "heating_MTA": {
+      "footprint": {
+        "x": [
+          95,
+          115
+        ],
+        "y": [
+          0,
+          50
+        ]
+      },
+      "height": 230,
+      "access_side": "west",
+      "mandatory_service_clearance": null
+    },
+    "shelf_A": {
+      "footprint": {
+        "x": [
+          0,
+          25
+        ],
+        "y": [
+          0,
+          80
+        ]
+      },
+      "height": 240,
+      "function": "réserves alimentaires"
+    },
+    "shelf_B": {
+      "footprint": {
+        "x": [
+          85,
+          115
+        ],
+        "y": [
+          90,
+          180
+        ]
+      },
+      "height": 220,
+      "function": "petit matériel domestique"
+    },
+    "old_south_door": {
+      "removed": true,
+      "leaf_width": 80,
+      "hinge_x": 6,
+      "historical_swing_area_m2": 0.5
+    },
+    "new_west_passage": {
+      "wall": "x=0",
+      "nominal_bay_width": 53,
+      "nominal_bay_width_status": "ancienne estimation de 53 cm ; mesure de 47 cm ensuite corrigée à 45 cm pour T1–T2",
+      "actual_clear_width": 45,
+      "actual_clear_width_scope": "entre les faces des montants T1 et T2 avant habillage ; correction explicite de la précédente mesure de 47 cm",
+      "actual_location_y": null,
+      "finish_thickness_each_side": null,
+      "height": null,
+      "current_orientation": "passage décidé entre les montants T1 et T2, côté mur nord ; largeur libre 45 cm avant habillage",
+      "bay_2_status": "espace T2–T3 non retenu pour le passage, afin de préserver les rangements du cellier ; largeur libre 37,5 cm",
+      "storage_conflict_measured": false,
+      "final_bay_selected": true,
+      "second_gap_clear_width": 37.5,
+      "stud_labels": "T1, T2 et T3 désignent les montants M48, du nord vers le sud ; les espaces sont T1–T2 et T2–T3",
+      "selection_source": "décision explicite de l’utilisateur du 24 octobre 2026",
+      "location_reference": "repéré par T2 dont le milieu est à y=130 cm ; les 45 cm sont la largeur libre mesurée entre T1 et T2, directement exploitable des deux côtés de la cloison"
+    },
+    "existing_other_entrance": {
+      "to": "pièce de vie",
+      "location": "accès triangulaire derrière la plante, photo 01, dans le prolongement du mur ouest du cellier",
+      "measurements": {
+        "horizontal_span_along_stair_and_wall": 70,
+        "transverse_clear_width": null,
+        "height": null
+      },
+      "relation_to_190_cm": "les 70 cm s’ajoutent aux 190 cm, confirmé par l’utilisateur",
+      "plan_location": {
+        "boundary": "x=0 dans le prolongement de la cloison ouest du cellier",
+        "y": [
+          -80,
+          -10
+        ],
+        "scope": "accès triangulaire en vue de côté, base horizontale de 70 cm le long de y ; pas une ouverture sur la largeur de 90 cm"
+      }
+    },
+    "partition": {
+      "cellier_side_plasterboard_sheets": 1,
+      "insulation_observed": false,
+      "studs_visible_from_cabin": true,
+      "stud_type_hypothesis": "M48/35 : largeur nominale 48 mm et aile nominale 35 mm ; identification physique à confirmer",
+      "T1_stud_top_heights": {
+        "T1_north_stud": 169.5,
+        "T2_shared_stud": null
+      },
+      "studs_top_attachment_status": "T1 vissé aux cloisons côté nord et cellier, sans rail supérieur selon l’utilisateur ; T2 rejoint un rail fixé sous l’escalier ; ne pas déduire la tenue mécanique de ces seuls constats",
+      "loadbearing_status": "non vérifié",
+      "T1_stud_top_heights_note": "T1 est le montant côté mur nord ; T2 atteint la sous-face de l’escalier, sa cote de sommet n’est pas isolée",
+      "stud_openings": {
+        "T1": "vers le sud, dans le passage T1–T2",
+        "T2": "vers le nord, dans le passage T1–T2",
+        "T3": null
+      },
+      "stair_support_at_first_gap": {
+        "height_from_floor_to_lower_face": 174,
+        "scope": "au niveau du passage T1–T2, sous la pièce liée à l’escalier ; limite haute locale, pas hauteur finie du passage",
+        "structural_role": "vraisemblablement structurel selon l’utilisateur, à vérifier ; conserver intact"
+      },
+      "stair_tread_underside_over_T2": {
+        "height_from_floor": 187,
+        "scope": "sous-face d’une marche au-dessus de T2 ; ne définit pas la hauteur du passage T1–T2"
+      },
+      "upper_end_information_source": "précisions de l’utilisateur du 24 octobre 2026 ; T1 à 169,5 cm, T2 rejoint la sous-face de l’escalier ; photo 06"
+    },
+    "stud_2_measurement": {
+      "reference": "mur nord de la cabane, sous l'escalier",
+      "endpoint": "milieu du deuxième montant M48",
+      "distance_from_north_wall": 50,
+      "source": "précision explicite de l'utilisateur du 23 octobre 2026",
+      "photo": "photos/originales/04_mesure_largeur_rail.png",
+      "clear_bay_width": 45,
+      "clear_bay_width_status": "47 cm précédemment annoncés puis corrigés à 45 cm entre T1 et T2",
+      "center_y": 130
+    },
+    "thermal_observation": "cabane très chaude seulement pendant les canicules ; confort redevenu acceptable hors canicule, selon l’utilisateur",
+    "cellar_south_access": {
+      "door_removal_confirmed": true,
+      "air_path": "cellier ouvert sur le reste du logement après retrait de la porte, ouverture exacte à confirmer sur place"
+    },
+    "height_at_T1_T2_passage": {
+      "location": "au niveau du passage entre les montants T1 et T2",
+      "floor_to_stair_support_underside_height": 174,
+      "source": "précision explicite de l’utilisateur du 24 octobre 2026 ; photo 06",
+      "scope": "sous-face de la pièce liée à l’escalier qui limite T1–T2 ; ni hauteur finie du passage ni hauteur d’une marche au-dessus de T2"
+    },
+    "shared_north_wall": {
+      "confirmed": true,
+      "cellier_y": 180,
+      "source": "confirmation explicite de l’utilisateur : le mur nord est commun à la cabane et au cellier"
+    },
+    "cabin": {
+      "length_north_south": 260,
+      "width_east_west": 90,
+      "length_reference": "du mur nord commun jusqu’à l’ouverture vers la pièce de vie",
+      "source": "mesures explicites de l’utilisateur du 24 octobre 2026",
+      "length_measurement_scope": "190 cm jusqu’au début de l’accès triangulaire puis 70 cm supplémentaires ; longueur totale 260 cm",
+      "total_length_confirmed": true,
+      "triangular_access_horizontal_span": 70,
+      "triangular_access_description": "espace triangulaire entre le sol, l’escalier et le prolongement du mur ouest du cellier, visible derrière la plante sur la photo 01 ; 70 cm ne sont pas une largeur d’ouverture sur les 90 cm de la cabane",
+      "length_from_north_to_access_start": 190
+    }
+  },
+  "historical_assumptions_not_current_dimensions": {
+    "south_opening": {
+      "x": [
+        6,
+        86
+      ],
+      "y": 0,
+      "closure": "rideaux",
+      "source": "ancienne implantation, à reconfirmer"
+    },
+    "west_opening_old_80cm": {
+      "x": 0,
+      "y": [
+        90,
+        170
+      ],
+      "length_along_y": 80,
+      "status": "ancien scénario 80 cm, incompatible avec la baie 53 cm"
+    },
+    "previously_selected_stud_bay": "entre montant proche du mur nord et montant central",
+    "last_assistant_recommendation": "préférence pour travée 2 si position au nord de y=80 et hauteur plus importante",
+    "requested_comparison": {
+      "bay_1": "entre mur et deuxième M48, mur de référence ambigu",
+      "bay_2": "entre deuxième et troisième M48",
+      "labels_physically_verified": false
+    },
+    "height_photo": {
+      "observed_tape_near_cm": 175,
+      "position_unspecified": true,
+      "interpretation": "ancienne lecture approximative de 175 cm, remplacée par la mesure utilisateur de 174 cm jusqu’à la pièce liée à l’escalier au niveau de T1–T2"
+    },
+    "old_T1_T2_labels": "anciens textes : T1 et T2 parfois employés pour les espaces ; désormais T1, T2 et T3 désignent les montants",
+    "previously_measured_north_clear_width_cm": 47,
+    "old_height_174_interpretation": "anciens documents : 174 cm décrit comme sous plafond uniforme aux deux extrémités de la travée ; remplacé par la sous-face de la pièce liée à l’escalier au niveau de T1–T2"
+  },
+  "current_geometric_hypotheses": {
+    "proposed_access_height_objective": "168 cm finis du sol au dessous de l’habillage supérieur, objectif proposé par l’utilisateur ; faisabilité de l’assemblage à vérifier avant découpe",
+    "stud_2_center_y_if_aligned_north_walls": 130,
+    "condition": "mur nord commun confirmé : milieu de T2 à y=180-50=130 cm",
+    "north_wall_alignment_confirmed": true,
+    "upper_crosspiece_connection": {
+      "status": "mise à jour chantier : quatre Hettich 9209109 discutées, au-dessus et au-dessous ; liaison non validée",
+      "bracket_position": "au-dessus et au-dessous, disposition à vérifier",
+      "provisional_bracket_count": 4,
+      "vertical_timber": "TA1 et TA2 en pin de 32 × 19 mm insérés et vissés ; tenue globale à vérifier",
+      "horizontal_branch_screw_direction": "du dessus vers le bas pour les équerres supérieures ; du dessous vers le haut pour les inférieures, vis et collisions à vérifier",
+      "top_lining": "contreplaqué 15 mm proposé ; traiter les branches et têtes des équerres inférieures",
+      "shims_for_bracket_clearance_required": null,
+      "finished_height_formula": "hauteur sous traverse depuis le sol fini moins épaisseur de la planche supérieure, si contact direct",
+      "hardware_model": "Hettich 9209109 achetées",
+      "timber_sections_cm": null,
+      "fastener_specifications": null,
+      "shopping_list": "site/content/achats/index.md"
+    },
+    "combined_plan_cabin_representation": "enveloppes à la même échelle ; accès triangulaire sur le prolongement x=0 de y=-80 à -10",
+    "cabin_plan_box": {
+      "x": [
+        -90,
+        0
+      ],
+      "y": [
+        -80,
+        180
+      ],
+      "basis": "enveloppe de 260 × 90 cm ; 190 cm jusqu’à l’accès puis 70 cm supplémentaires ; épaisseur de cloison non représentée"
+    },
+    "target_finished_passage_height_cm": 168,
+    "target_finished_passage_height_status": "ancien objectif de 168 cm assoupli par utilisateur ; hauteur inférieure acceptée, cote de découpe non arrêtée",
+    "compact_joint_trial_168": {
+      "status": "premier essai à 12 mm et traverse 20 mm conservé pour historique ; remplacé pour les achats par la proposition du 27 octobre, non validation mécanique",
+      "finish_panel_thickness_cm": 1.2,
+      "crosspiece_section_cm": {
+        "height": 2,
+        "depth_through_partition": 4
+      },
+      "crosspiece_length_cm": null,
+      "bracket": {
+        "manufacturer": "Hettich",
+        "reference": "9240442",
+        "ean": "4008057927147",
+        "leg_height_cm": 2,
+        "leg_length_cm": 2,
+        "strip_width_cm": 1.6,
+        "steel_thickness_cm": 0.2,
+        "provisional_count": 2,
+        "scope": "petite équerre de chaise pour assemblages de meubles ; pas de charge admissible ni de vis spécifiées sur la fiche consultée",
+        "source_url": "https://shop-diy.hettich.com/de/fr/Hettich/Assemblage-de-meuble/Equerres-et-profils-d'assemblage/Équerre-de-chaise,-16-x-20-x-20-x-2-mm,-Acier,-zingué/p/9240442"
+      },
+      "calculated_levels_cm": {
+        "finished_underside": 168,
+        "crosspiece_underside": 169.2,
+        "crosspiece_top": 171.2,
+        "nominal_bracket_top": 173.2,
+        "ceiling_limit": 174,
+        "nominal_remaining_gap": 0.8,
+        "clearance_above_crosspiece": 2.8
+      },
+      "fasteners": null,
+      "unresolved": [
+        "essai du tasseau dans T1 et T2",
+        "diamètre, longueur et nombre des vis selon perçages et bois",
+        "distance des trous aux extrémités du bois",
+        "maintien du bois prolongé au-dessus de T1",
+        "accès de vissage dans les 2,8 cm au-dessus de la traverse",
+        "charge du plâtre conservé et tenue globale de la cloison"
+      ],
+      "print_template": "site/content/habillage-bois/gabarit-168.svg"
+    }
+  },
+  "calculated_clearances_cm": {
+    "between_shelf_A_and_MTA_along_x_when_y_0_to_50": 70,
+    "in_front_of_shelf_B_from_west_wall": 85,
+    "shelf_A_to_old_south_opening_alignment": 61,
+    "beam_to_shelf_B_top": 10
+  },
+  "requires_field_measurement": [
+    "TA1 et TA2 de 32 × 19 mm entrent dans T1 et T2 et sont vissés ; positions des vis, tenue et distances aux bords à vérifier",
+    "place et tenue des équerres au-dessus de la traverse côté T1, sous la pièce liée à l’escalier à 174 cm ; hauteur finie du passage à déterminer",
+    "statut mécanique de la cloison et des éléments de l’escalier ; pièce liée à l’escalier à 174 cm laissée intacte",
+    "épaisseur exacte de la cloison et du BA13",
+    "accessibilité effective à la face ouest du MTA et dégagements notice",
+    "températures comparées de la cabane, du cellier et de la pièce de vie lors d’une prochaine canicule ; circulation réelle par les deux accès",
+    "emplacement possible d’extraction si les observations la rendent nécessaire et cheminement du câble LED",
+    "hauteur de l’accès triangulaire et détail de fixation permettant éventuellement 168 cm finis sous la limite de 174 cm, avec T1 à 169,5 cm"
+  ],
+  "site_progress_2026_10_27": {
+    "source": "confirmations utilisateur des 25–27 octobre 2026",
+    "vertical_timbers": {
+      "names": [
+        "TA1",
+        "TA2"
+      ],
+      "wood": "pin",
+      "section_cm": {
+        "east_west": 3.2,
+        "north_south": 1.9
+      },
+      "status": "insérés et vissés dans T1 et T2 ; longueurs de présentation conservées"
+    },
+    "purchased_brackets": {
+      "manufacturer": "Hettich",
+      "reference": "9209109",
+      "leg_lengths_cm": [
+        2,
+        2
+      ],
+      "strip_width_cm": 1.5,
+      "discussed_total_count": 4,
+      "position": "au-dessus et au-dessous à chaque extrémité ; branches horizontales dépassant des M48",
+      "mechanical_validation": false
+    },
+    "wood_screws_cm": {
+      "diameter": 0.3,
+      "length": 2.4
+    },
+    "purchased_hacksaw_lm_reference": "95595161",
+    "lower_finished_height_accepted": true,
+    "proposed_crosspiece_cm": {
+      "height": 4.4,
+      "east_west_depth": 3.4,
+      "status": "bois 34 × 44 mm acheté ; coupe et pose non confirmées ; liaisons à vérifier"
+    },
+    "proposed_lining_thickness_cm": 1.5,
+    "floor_rail": {
+      "support": "carrelage sur dalle béton, selon utilisateur",
+      "decision": "retirer uniquement dans le passage, après vérification des attaches et du maintien des pieds",
+      "anchors_identified": false
+    },
+    "shopping_list": "site/content/achats/index.md",
+    "stock_data": "donnees/stock.json"
+  }
+}
