@@ -414,7 +414,15 @@
         "source": "mesure explicite utilisateur : 6 cm partout, +/- 2 mm"
       },
       "plasterboard_thickness_cm": 1.25,
-      "plasterboard_thickness_source": "Utilisateur : BA13, épaisseur 12,5 mm confirmée."
+      "plasterboard_thickness_source": "Utilisateur : BA13, épaisseur 12,5 mm confirmée.",
+      "lining_depth_from_inner_rail_flange": {
+        "nominal": 8.5,
+        "unit": "cm",
+        "reference": "face est (intérieure) du rebord ouest du rail côté cabane → face peinte du BA13 côté cellier",
+        "source": "mesure directe explicitement donnée par utilisateur : 8,5 cm",
+        "locations_confirmed": [],
+        "status": "valeur mesurée acquise ; confirmation de sa présence près de T1 et T2 attendue avant commande de coupe"
+      }
     },
     "floor_rail": {
       "support": "carrelage continu, même niveau dans la cabane et le cellier ; plancher béton dessous selon utilisateur",
@@ -561,7 +569,8 @@
         "status": "cotes arrondies non fermées ; 6,25 sert uniquement à dessiner les pièces sans chevauchement, pas une mesure validée",
         "lining_depth_before_sheet_allowance_cm": 8.25,
         "lining_depth_approx_cm": 8.2,
-        "missing": "distance réelle entre face intérieure du rebord côté cabane et face finie du BA13, à relever avant commande des retours"
+        "missing": "Confirmer si les 8,5 cm mesurés entre rebord intérieur et face peinte sont identiques près de T1 et de T2 ; les 8,2 cm restent le calcul illustratif antérieur.",
+        "latest_direct_lining_measurement_cm": 8.5
       },
       "frame_render_assumptions": {
         "stud_depth_cm": 4.8,
