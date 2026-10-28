@@ -436,6 +436,11 @@
         "direction": "horizontalement le long de la cloison, vers le sud depuis le bord de T1 donnant dans le passage",
         "source": "Utilisateur : « je confirme 92 cm », en réponse à la demande du relevé près du sol puis sous la traverse",
         "status": "92 cm retenus comme référence nominale pour le rectangle de A ; pas de précision au millimètre déduite des anciens relevés"
+      },
+      "north_wall_to_T1_passage_edge_cm": {
+        "nominal": 3.5,
+        "source": "Utilisateur : confirmation explicite de 35 mm entre mur nord et bord de T1 donnant dans le passage",
+        "status": "dimension mesurée confirmée"
       }
     },
     "floor_rail": {
@@ -488,9 +493,9 @@
         },
         {
           "id": "B",
-          "label": "bande verticale côté T1",
+          "label": "bande côté T1 ; largeur de préparation fixée, hauteur à ajuster",
           "height": 170,
-          "width": 6
+          "width": 3.2
         },
         {
           "id": "C",
@@ -552,7 +557,7 @@
         "status": "proposition illustrée, dimensions et fixation à choisir ; aucune nouvelle coupe du mur cellier prescrite"
       },
       "lining_cutting_note": "Profondeur nominale retenue 8,25 cm après photos près de T1 et T2 et correction utilisateur ; les 8,5 cm provisoires sont remplacés. Longueurs préparatoires 170 cm pour R1/R2, 50 cm pour R3, à raccourcir. Précision des photos et tolérance de coupe à distinguer du nominal.",
-      "rough_blanks_note": "Enveloppes de matière seulement : relever les largeurs finales de A/B et le raccord de C avant commande de découpe, pour éviter les longues recoupes manuelles.",
+      "rough_blanks_note": "A : 170 × 46,7 cm et B : 170 × 3,2 cm, largeurs de préparation retenues avec jeux proposés de 3 mm contre bois/mur et R2 vertical au repère de 45 cm. Longueurs à ajuster. C : réserve 24 × 55 cm, largeur haute et raccord à préciser.",
       "joint_option": {
         "status": "hypothèse demandée par utilisateur pour la vue 3D, pas gabarit de coupe validé",
         "type": "retours jusqu’à la face visible du bardage ; bardage au contact du rebord intérieur du rail, cales derrière ; plâtre après le rail",
@@ -632,6 +637,14 @@
         "preparation_cut_width_cm": 46.7,
         "cut_formula": "92 − 45 − 0,3 = 46,7 cm",
         "gap_status": "jeu de 3 mm proposé, à vérifier selon le panneau acheté ; les instructions fabricant priment"
+      },
+      "panel_B_width": {
+        "coverage_cm": 3.5,
+        "proposed_gap_to_north_wall_cm": 0.3,
+        "preparation_cut_width_cm": 3.2,
+        "preparation_length_cm": 170,
+        "formula": "3,5 − 0,3 = 3,2 cm",
+        "status": "largeur de préparation proposée avec jeu de 3 mm au mur ; longueur à raccourcir après présentation ; instructions du fabricant de panneau à respecter"
       }
     }
   }

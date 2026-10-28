@@ -33,7 +33,7 @@ converties en cm avant inscription dans les données du projet.
 |:--|:--|:--|:--|
 | 1 | Distance est–ouest entre l'intérieur du rebord côté cabane et la face peinte côté cellier, près de T1 puis de T2 | **8,25 nominaux retenus après photos près de T1 et T2** | Profondeur de R1/R2/R3 ; remplace les 8,5 provisoires |
 | 2 | Référence stable : bord de T1 côté passage → début du bois voisin de T3 | **92 confirmés** ; R2 vertical au repère de 45 ; espace à couvrir **47** | **A : largeur de préparation 46,7**, avec jeu proposé de 0,3 contre le bois |
-| 3 | Largeur entre le mur nord et le raccord avec R1 dans le plan de la façade, en bas et en haut de B | À relever | Largeur finale de B |
+| 3 | Largeur entre le mur nord et le bord de T1 donnant dans le passage | **3,5 confirmés** | **B : largeur de préparation 3,2**, avec jeu proposé de 0,3 au mur |
 | 4 | Largeur disponible en haut de C, à 188, et limite commune avec A au niveau de T2 | À relever | Largeur et décrochement de C |
 | 5 | Vérifier la hauteur disponible sous les marches sur toute la largeur de A | À vérifier | Haut souhaité de A à 170 |
 
@@ -58,9 +58,17 @@ avec R2 maintenu vertical au repère de 45 depuis T1 et d’un jeu proposé de
 0,3 contre le bois. La hauteur sera raccourcie après présentation, en
 vérifiant le passage sous les marches et l’espace au sol.
 
-B **6** et C **55** restent des réserves de largeur. La prochaine mesure
-est la distance mur nord → bord de T1 côté passage, pour arrêter B.
-Pour éviter une longue recoupe de B, fixer sa largeur avant la commande.
+**B : bande préparatoire 170 × 3,2.** Les 3,5 mesurés entre le mur nord et
+le bord de T1 côté passage reçoivent le panneau, avec un jeu proposé de 0,3
+contre le mur. La longueur sera raccourcie après présentation.
+
+**C : réserve actuelle 24 × 55.** La largeur haute entre le mur nord et le
+bord extérieur de T2 côté T3, au plus près de l’escalier, est demandée pour
+préciser le rectangle et son raccord avec A. La largeur connue de 53 concerne
+le niveau juste sous la traverse et n’est pas une mesure à 188 de hauteur.
+
+Les bandes étroites (B : 3,2 ; R1/R2/R3 : 8,25) demandent de vérifier les
+capacités du service de coupe ; aucune longue recoupe manuelle n’est prévue.
 
 ## Points à conserver lors de la préparation du rail
 
