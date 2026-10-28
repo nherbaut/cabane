@@ -12,6 +12,7 @@ FILES = (
     'debit_preparatoire.pdf',
     'isometrie_bardage_v1.pdf', 'isometrie_bardage_v1.png',
     'isometrie_cellier_v1.pdf', 'isometrie_cellier_v1.png',
+    'detail_rail_raccord_v2.pdf', 'detail_rail_raccord_v2.png',
 )
 for name in FILES:
     if not (SOURCE / name).is_file():

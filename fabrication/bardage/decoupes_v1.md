@@ -84,13 +84,16 @@ acheté, ses instructions de pose et les raccords réellement retenus.
 | Pièce | Calcul | Résultat proposé, sous conditions |
 |:--|:--|:--|
 | **A : hauteur** | 170 − 1 | **169 cm**, pour avoir le haut à 170 cm et le bas à 1 cm |
-| **C : hauteur si sa façade recouvre le bord du retour supérieur** | 188 − 0,3 − (166,8 − 1,5) | **22,4 cm** |
-| **C : hauteur si son bas reste au niveau du dessous de la traverse** | 188 − 0,3 − 166,8 | **20,9 cm** ; le bord du retour supérieur reste alors à traiter séparément |
-| **B : hauteur si elle s’arrête sous C à 165,3 cm** | 165,3 − 1 − jeu au raccord | **164,3 cm moins le jeu du raccord** |
+| **C : hauteur, avec les retours jusqu’à la face visible du bardage** | 188 − 0,3 − 166,8 | **20,9 cm**, avant jeux éventuels du raccord |
+| **B : hauteur, jusqu’au dessous de la traverse** | 166,8 − 1 | **165,8 cm**, avant jeux éventuels |
 
-**Je propose le premier assemblage pour C : 22,4 cm de hauteur**, avec une
-réserve brute de 24 cm. Il couvre le bord du retour supérieur. Il faut toutefois
-confirmer les supports et le raccord avec A avant sa coupe finale.
+**Hypothèse actuelle demandée pour le dessin : R1/R2/R3 font 7,5 cm de
+profondeur nominale**, soit la cloison mesurée de 6 cm plus les 1,5 cm du
+bardage. Ils couvrent les bords étroits des panneaux de façade, jusqu’à leur
+face visible côté cabane. R1 et R2 montent sous la traverse et R3 se place
+entre eux. La variante précédente où C recouvrait le bord de R3 et mesurait
+22,4 cm de haut n’est plus celle dessinée. Les jeux restent à arrêter avant
+coupe définitive.
 
 Les **largeurs finales de A, B et C ne sont pas encore des cotes validées** :
 elles dépendent du calage[^cale] des retours, du bord droit à couvrir à T3,
@@ -107,27 +110,33 @@ si le jeu de 3 mm sous la limite à 188 cm est retenu.
 
 ## Bandes pour l’intérieur du passage
 
-Les anciennes réserves de 12 cm sont remplacées par des **bandes nominales de
-6 cm découpées en magasin**, pour éviter toute longue recoupe manuelle.
+**L’hypothèse de raccord à la face visible du bardage remplace les bandes de
+6 cm par des bandes de 7,5 cm nominaux.** La mesure de cloison reste 6 cm ± 2 mm.
 
 | Pièce | Longueur brute × profondeur nominale | Ajustement restant |
 |:--|:--|:--|
-| R1, côté T1 | **170 × 6 cm** | Raccourcir ; vérifier position et calage |
-| R2, côté T2 | **170 × 6 cm** | Raccourcir ; vérifier position et calage |
-| R3, sous la traverse | **50 × 6 cm** | Raccourcir entre les côtés réellement présentés |
+| R1, côté T1 | **170 × 7,5 cm** | Raccourcir ; vérifier les jeux et le calage |
+| R2, côté T2 | **170 × 7,5 cm** | Raccourcir ; vérifier les jeux et le calage |
+| R3, sous la traverse | **50 × 7,5 cm** | Raccourcir entre les côtés réellement présentés |
 
-La profondeur mesurée est **6 cm ± 2 mm** entre la face du M48 côté cabane et
-la surface finie du plâtre côté cellier. Présenter avant vissage pour vérifier
-l’affleurement côté cellier et le raccord côté cabane. Les faibles écarts
-locaux restent à examiner : si le positionnement et le calage ne suffisent
-pas, une reprise de largeur devra être faite avec un équipement adapté.
-Le choix de bandes de 6 cm ne valide donc pas à lui seul leur ajustement.
-Ne pas ajouter l’épaisseur du bardage à ces 6 cm sans modifier le raccord.
+Les 7,5 cm relient la face visible du bardage côté cabane et la face finie du
+plâtre côté cellier. Ce calcul dépend de la position de la façade et des jeux ;
+il reste à vérifier sur place avant commande de découpe. Les bandes sont à
+faire couper avec un équipement adapté ; aucune longue recoupe manuelle de
+170 cm n’est prévue. Les longueurs finales seront raccourcies après présentation.
 
-Si le service de découpe ne réalise pas ces bandes, demander une autre
-solution de coupe ; ne pas revenir par défaut à 12 cm à refendre à la main.
-Les 170 et 50 cm sont des longueurs brutes ; les coupes finales en longueur
-se font après présentation.
+## Rail au sol dans la vue 3D
+
+Le rail fait 7 cm de large ; son rebord côté cabane dépasse la face des M48
+de 2 cm ± 2 mm. Le bardage de 1,5 cm peut donc être représenté dans son emprise,
+devant les M48, avec une marge théorique de 3 à 7 mm. Le rebord reste devant
+le pied du panneau ; une finition basse est à définir.
+
+La vue conserve le fond du rail et sa vis et représente les ailes retirées
+dans le passage uniquement. Ce retrait reste une proposition. La hauteur
+des ailes et l’épaisseur de la tôle ne sont pas mesurées : **3 cm et 0,6 mm
+sont des hypothèses graphiques, pas des cotes de découpe**. Voir le document
+`detail_rail_raccord_v2.pdf` pour le détail du pied de T1 et le plan B/R1.
 
 Avec deux retours de 1,5 cm et aucun calage empiétant au point le plus étroit,
 la largeur utile théorique serait **45 − 1,5 − 1,5 = 42 cm**. Ce n’est pas une

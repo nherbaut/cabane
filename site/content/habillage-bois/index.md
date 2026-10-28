@@ -6,7 +6,7 @@ nav_anchor: "les-faits-les-hypothèses-et-les-limites-du-dessin"
 nav_label: "Données"
 ---
 
-> **Actualisation du 28 octobre 2026 :** traverse posée, dessous à **166,8 cm**, avec **quatre équerres toutes au-dessus** ; ouverture dans le plâtre réalisée. Le bardage est désormais envisagé en **OSB de 15 mm**, avec une profondeur intérieure mesurée de **6 cm ± 2 mm**, une partie haute à 188 cm au-dessus du passage et un arrêt à 170 cm entre T2 et T3. **[Voir les découpes et vues 3D actuelles](../bardage/)** et **[la liste d’achat](../achats/)**. Les dessins et gabarits ci-dessous documentent les premiers essais ; ils ne définissent plus les achats ni les coupes actuels.
+> **Actualisation du 28 octobre 2026 :** traverse posée, dessous à **166,8 cm**, avec **quatre équerres toutes au-dessus** ; ouverture dans le plâtre réalisée. Le bardage est désormais envisagé en **OSB de 15 mm**, avec une cloison mesurée à **6 cm ± 2 mm** et des retours de **7,5 cm nominaux** dans l’hypothèse où ils rejoignent la face visible du bardage, une partie haute à 188 cm au-dessus du passage et un arrêt à 170 cm entre T2 et T3. **[Voir les découpes et vues 3D actuelles](../bardage/)** et **[la liste d’achat](../achats/)**. Les dessins et gabarits ci-dessous documentent les premiers essais ; ils ne définissent plus les achats ni les coupes actuels.
 
 
 Le montage proposé forme **un petit tunnel en bois à travers la cloison** : une planche à gauche, une à droite et une au-dessus. Ces trois planches cachent les bords du métal et du plâtre autour du passage. Les montants M48[^montant] restent en place.

@@ -54,22 +54,21 @@ encore de longues recoupes avec la scie manuelle.
 
 | Repère | Emplacement | Quantité | Longueur brute × profondeur nominale à faire couper en magasin |
 |:---|:---|:---|:---|
-| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 6 cm** |
-| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 6 cm** |
-| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 6 cm** |
+| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 7,5 cm** |
+| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 7,5 cm** |
+| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 7,5 cm** |
 
-**Les bandes sont comprises dans le panneau de 250 × 125 cm : aucun panneau
-supplémentaire à acheter.** Les 6 cm correspondent à la profondeur mesurée.
-Les longueurs de 170 et 50 cm laissent de la marge pour des coupes courtes à
-la maison ; **aucune recoupe manuelle de 170 cm dans la largeur n’est prévue**.
+**Hypothèse de raccord désormais dessinée : R1/R2/R3 vont jusqu’à la face
+visible du bardage.** Leur profondeur nominale devient **6 + 1,5 = 7,5 cm** :
+6 cm mesurés entre M48 et plâtre, plus 1,5 cm de bardage. **L’ancienne consigne
+de bandes de 6 cm est remplacée pour cet assemblage.** Les longueurs brutes
+restent 170 cm pour R1/R2 et 50 cm pour R3, à raccourcir après présentation.
 
-Les variations de **± 2 mm** seront vérifiées à la présentation et au calage :
-rechercher l’affleurement côté cellier et ajuster le raccord avec la façade
-côté cabane avant vissage. Si cet ajustement ne suffit pas, faire reprendre
-la coupe avec un équipement adapté plutôt que d’imposer une longue recoupe
-manuelle étroite. Vérifier que le service du magasin accepte les bandes de
-6 cm ; s’il les refuse, prévoir un autre service de découpe, pas une bande
-de 12 cm à refendre soi-même.
+Ces bandes restent comprises dans le même panneau de 250 × 125 cm. Les
+variations de ±2 mm et les raccords sont à vérifier avant commande de coupe.
+Les longues coupes sont à confier au magasin ; vérifier qu’il accepte les
+bandes étroites. L’hypothèse ne transforme pas les enveloppes A/B/C en cotes
+finales et ne prévoit pas de recoupe longitudinale de 170 cm à la main.
 
 **[Schéma des découpes — PDF](https://nextnet.top/cabane/bardage/schema_decoupes.pdf)** ·
 [Placement dans le panneau de 250 × 125 cm — PDF](https://nextnet.top/cabane/bardage/debit_preparatoire.pdf) ·
@@ -88,6 +87,8 @@ en magasin ; prévoir un autre service de coupe si nécessaire.
 La scie japonaise et les serre-joints déjà disponibles sont réservés aux
 coupes courtes et petits ajustements. Les longues coupes dans la largeur
 sont à confier au service de découpe, après relevé des dimensions finales.
+
+**[Rail au sol et raccord à 7,5 cm — PDF](https://nextnet.top/cabane/bardage/detail_rail_raccord_v2.pdf)**
 
 ## Voir l’assemblage
 
@@ -172,7 +173,7 @@ n’est retenu dans les achats.
   l’escalier pour C, et raccord A/C à ajuster. La profondeur de 6 cm est, elle,
   une mesure utilisateur avec variation de 2 mm.
 - **Mesures manquantes :** largeur de la partie haute à 188 cm, contours des
-  raccords, longueur finale des retours et supports de fixation réellement disponibles.
+  raccords, longueur finale des retours, hauteur minimale sous les marches sur A et supports disponibles.
 - **Calculs indicatifs :** deux côtés de 15 mm laisseraient **42 cm** avant
   calage et baguettes. Le dessous du retour haut serait à **165,3 cm du
   carrelage**, avant déduction de la hauteur du futur seuil.

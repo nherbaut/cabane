@@ -47,6 +47,6 @@ mesures dans `donnees/geometrie.json`. La profondeur mesurée est de 6 cm
 
 `make -C fabrication/bardage all` régénère localement les figures et PDF
 (Matplotlib, NumPy, Pandoc et XeLaTeX). Les fichiers produits sont versionnés.
-`make site-build` copie uniquement huit PDF/PNG explicitement désignés par
+`make site-build` copie uniquement dix PDF/PNG explicitement désignés par
 `scripts/copier_documents_bardage.py` ; la CI n’a pas à installer les outils
 de dessin ou TeX. Aucun répertoire d’achat privé n’est parcouru par ce script.

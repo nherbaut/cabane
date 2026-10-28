@@ -434,7 +434,12 @@
       "T2_T3_screw": "conserver",
       "T1_north_partition_screws": "5 à 6 ; support derrière le plâtre inconnu",
       "decision": "conserver le fond continu et la vis ; proposition de retirer uniquement les ailes dans le passage puis de couvrir par un seuil collé ; coupe non confirmée",
-      "MDF_skirting": "reste à retirer dans le passage"
+      "MDF_skirting": "reste à retirer dans le passage",
+      "cabin_flange_offset_from_stud_face": {
+        "nominal": 2,
+        "tolerance_reported": 0.2,
+        "reference": "entre face M48 côté cabane et rebord du rail côté cabane, selon mesure utilisateur et photo"
+      }
     },
     "threshold_3d": {
       "status": "échantillon géométrique v1 demandé ; pas de seuil final validé",
@@ -474,16 +479,16 @@
         {
           "id": "R1",
           "height": 170,
-          "width": 6
+          "width": 7.5
         },
         {
           "id": "R2",
           "height": 170,
-          "width": 6
+          "width": 7.5
         },
         {
           "id": "R3",
-          "height": 6,
+          "height": 7.5,
           "width": 50
         }
       ],
@@ -498,7 +503,7 @@
       "isometric_view": {
         "source": "fabrication/bardage/generer_isometrie.py",
         "thickness_cm": 1.5,
-        "lining_depth_cm": 6,
+        "lining_depth_cm": 7.5,
         "joint_A_C": "exemple de raccord à décrochement dans C ; contour final non acté",
         "frame": "local translaté : origine à la face de T1 bordant le passage, au sol ; axes parallèles au repère du projet ; translation globale non fixée",
         "top_width": "non mesurée à 188 cm ; représentation fondée sur le passage minimal de 45 cm et les faces annoncées de 3,5 cm"
@@ -512,8 +517,24 @@
         },
         "status": "proposition illustrée, dimensions et fixation à choisir ; aucune nouvelle coupe du mur cellier prescrite"
       },
-      "lining_cutting_note": "Bandes nominales de 6 cm à couper au magasin ; remplacer les anciennes réserves de 12 cm. Vérifier les écarts locaux de 2 mm à la présentation et au calage ; raccourcissement en longueur uniquement prévu à la maison.",
-      "rough_blanks_note": "Enveloppes de matière seulement : relever les largeurs finales de A/B et le raccord de C avant commande de découpe, pour éviter les longues recoupes manuelles."
+      "lining_cutting_note": "Hypothèse de raccord jusqu’à la face visible de l’OSB : 6 + 1,5 = 7,5 cm nominaux. Anciennes bandes 6 cm remplacées ; ajustement et coupes finales à confirmer avant commande.",
+      "rough_blanks_note": "Enveloppes de matière seulement : relever les largeurs finales de A/B et le raccord de C avant commande de découpe, pour éviter les longues recoupes manuelles.",
+      "joint_option": {
+        "status": "hypothèse demandée par utilisateur pour la vue 3D, pas gabarit de coupe validé",
+        "type": "retours jusqu’à la face visible du bardage ; les retours couvrent les bords étroits de la façade",
+        "measured_wall_depth": 6,
+        "facade_thickness": 1.5,
+        "lining_nominal_depth": 7.5,
+        "vertical_lining_top": "sous la traverse à 166,8 cm",
+        "upper_lining": "entre les deux retours verticaux, sous la traverse",
+        "front_top_panel_bottom": 166.8
+      },
+      "rail_render_assumptions": {
+        "sheet_thickness": 0.06,
+        "flange_height": 3,
+        "note": "dimensions non mesurées, représentation illustrative uniquement",
+        "passage": "fond continu et vis conservés ; ailes retirées seulement dans l’ouverture brute, proposition non exécutée confirmée"
+      }
     }
   }
 }
