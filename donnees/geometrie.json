@@ -412,7 +412,9 @@
         ],
         "reference": "de la face du M48 côté cabane à la surface finie du plâtre côté cellier, avant ajout du bardage",
         "source": "mesure explicite utilisateur : 6 cm partout, +/- 2 mm"
-      }
+      },
+      "plasterboard_thickness_cm": 1.25,
+      "plasterboard_thickness_source": "Utilisateur : BA13, épaisseur 12,5 mm confirmée."
     },
     "floor_rail": {
       "support": "carrelage continu, même niveau dans la cabane et le cellier ; plancher béton dessous selon utilisateur",
@@ -479,16 +481,16 @@
         {
           "id": "R1",
           "height": 170,
-          "width": 7.5
+          "width": 8.2
         },
         {
           "id": "R2",
           "height": 170,
-          "width": 7.5
+          "width": 8.2
         },
         {
           "id": "R3",
-          "height": 7.5,
+          "height": 8.2,
           "width": 50
         }
       ],
@@ -503,18 +505,19 @@
       "isometric_view": {
         "source": "fabrication/bardage/generer_isometrie.py",
         "thickness_cm": 1.5,
-        "lining_depth_cm": 7.5,
+        "lining_depth_cm": 8.2,
         "joint_A_C": "exemple de raccord à décrochement dans C ; contour final non acté",
         "frame": "local translaté : origine à la face de T1 bordant le passage, au sol ; axes parallèles au repère du projet ; translation globale non fixée",
         "top_width": "non mesurée à 188 cm ; représentation fondée sur le passage minimal de 45 cm et les faces annoncées de 3,5 cm",
         "plaster_display": {
           "opacity": 0.28,
-          "surface_position_from_stud_face": 6,
+          "surface_position_from_stud_face": 6.25,
           "thickness_drawn": true,
-          "note": "plâtre conservé, y compris au-dessus de A ; surface finie côté cellier à 6 cm ; épaisseur de 1,25 cm supposée pour le dessin, à confirmer ; représentation tronquée à 188 cm, sans représenter le contour réel sous les marches ni prescrire de coupe",
-          "thickness_assumption_cm": 1.25,
+          "note": "BA13 confirmé de 1,25 cm ; posé hors du rail côté cellier. Face finie dessinée à 6,25 cm pour éviter le chevauchement. Écart de 0,25 cm avec les 6 cm mesurés à signaler, pas nouvelle mesure. Contour supérieur tronqué schématiquement à 188 cm.",
           "display_crop_height_cm": 188,
-          "actual_upper_outline_measured": false
+          "actual_upper_outline_measured": false,
+          "thickness_status": "confirmée BA13 par utilisateur",
+          "thickness_cm": 1.25
         }
       },
       "cellier_finish_proposal": {
@@ -526,14 +529,14 @@
         },
         "status": "proposition illustrée, dimensions et fixation à choisir ; aucune nouvelle coupe du mur cellier prescrite"
       },
-      "lining_cutting_note": "Hypothèse de raccord jusqu’à la face visible de l’OSB : 6 + 1,5 = 7,5 cm nominaux. Anciennes bandes 6 cm remplacées ; ajustement et coupes finales à confirmer avant commande.",
+      "lining_cutting_note": "Pose contre le rebord intérieur : environ 8,2 cm sur le dessin sans chevauchement (8,25 cm moins la tôle supposée). Profondeur finale à relever entre rebord intérieur et face finie du BA13 ; anciennes bandes 7,5 cm remplacées dans cette hypothèse, ne pas commander sur la seule cote arrondie.",
       "rough_blanks_note": "Enveloppes de matière seulement : relever les largeurs finales de A/B et le raccord de C avant commande de découpe, pour éviter les longues recoupes manuelles.",
       "joint_option": {
         "status": "hypothèse demandée par utilisateur pour la vue 3D, pas gabarit de coupe validé",
-        "type": "retours jusqu’à la face visible du bardage ; les retours couvrent les bords étroits de la façade",
+        "type": "retours jusqu’à la face visible du bardage ; bardage au contact du rebord intérieur du rail, cales derrière ; plâtre après le rail",
         "measured_wall_depth": 6,
         "facade_thickness": 1.5,
-        "lining_nominal_depth": 7.5,
+        "lining_nominal_depth": 8.2,
         "vertical_lining_top": "sous la traverse à 166,8 cm",
         "upper_lining": "entre les deux retours verticaux, sous la traverse",
         "front_top_panel_bottom": 166.8
@@ -543,6 +546,47 @@
         "flange_height": 3,
         "note": "dimensions non mesurées, représentation illustrative uniquement",
         "passage": "fond continu et vis conservés ; ailes retirées seulement dans l’ouverture brute, proposition non exécutée confirmée"
+      },
+      "facade_rail_contact_proposal": {
+        "status": "hypothèse de pose demandée par utilisateur, à présenter avant coupe finale",
+        "contact": "face visible de l’OSB contre la face intérieure du rebord côté cabane, sans forcer ni utiliser le rail comme fixation",
+        "shimming_nominal_cm": 0.5,
+        "note": "environ 5 mm, variable avec les ±2 mm mesurés et la tôle ; cales rigides aux fixations sur les tasseaux, plan contrôlé au niveau"
+      },
+      "dimensional_closure": {
+        "measured_wall_depth_cm": 6,
+        "derived_plaster_face_cm": 6.25,
+        "difference_cm": 0.25,
+        "derivation": "rail 7 − décalage 2 + BA13 1,25 = 6,25 cm",
+        "status": "cotes arrondies non fermées ; 6,25 sert uniquement à dessiner les pièces sans chevauchement, pas une mesure validée",
+        "lining_depth_before_sheet_allowance_cm": 8.25,
+        "lining_depth_approx_cm": 8.2,
+        "missing": "distance réelle entre face intérieure du rebord côté cabane et face finie du BA13, à relever avant commande des retours"
+      },
+      "frame_render_assumptions": {
+        "stud_depth_cm": 4.8,
+        "stud_sheet_cm": 0.06,
+        "timber_section_cm": {
+          "east_west": 3.2,
+          "north_south": 1.9
+        },
+        "T1_opening": "sud",
+        "T2_opening": "nord",
+        "T3_opening": "non relevée, enveloppe seulement",
+        "timber_x_start_cm": 0.06,
+        "wood_display_heights_cm": {
+          "TA1": 173,
+          "TA2": 180,
+          "TA3": 169
+        },
+        "wood_heights_status": "hauteurs graphiques pour identifier les inserts ; longueurs réelles TA1/TA2 non relevées, TA3 à poser",
+        "T1_top_cm": 169.5,
+        "T2_top_cm": 187,
+        "T3_display_top_cm": 188,
+        "T3_top_status": "tronqué schématiquement, hauteur réelle non relevée",
+        "beam_depth_cm": 3.4,
+        "TA3_status": "proposé, non posé confirmé",
+        "note": "position exacte des tasseaux dans les profils, longueur de la traverse et contacts à vérifier ; aucune nouvelle fixation prescrite"
       }
     }
   }

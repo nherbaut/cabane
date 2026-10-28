@@ -78,7 +78,7 @@ right.set_xlim(-23,width+5);right.set_ylim(-25,height+5)
 right.set_aspect('equal');right.axis('off')
 
 fig.text(.06,.158,'A — 170 × 48 cm : façade T2–T3     B — 170 × 6 cm : bande côté T1     C — 24 × 55 cm : partie haute',fontsize=12,fontweight='bold')
-fig.text(.06,.121,'R1/R2 : 170 × 7,5 cm ; R3 : 7,5 × 50 cm. Hypothèse : retours jusqu’à la face visible du bardage.',fontsize=11)
+fig.text(.06,.121,'R1/R2 : 170 × 8,2 cm ; R3 : 8,2 × 50 cm. Profondeur indicative à relever avant coupe, façade contre le rebord.',fontsize=11)
 fig.text(.06,.080,'A/B/C : enveloppes de matière ; relever les largeurs finales avant commande pour éviter les longues recoupes.',fontsize=11)
 fig.text(.06,.050,'Vue éclatée, pas un plan de pose. Ajustement des écarts de 2 mm à vérifier. Trait de scie supposé : 4 mm.',fontsize=11)
 for ext in ('png','svg','pdf'):

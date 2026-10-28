@@ -87,9 +87,10 @@ acheté, ses instructions de pose et les raccords réellement retenus.
 | **C : hauteur, avec les retours jusqu’à la face visible du bardage** | 188 − 0,3 − 166,8 | **20,9 cm**, avant jeux éventuels du raccord |
 | **B : hauteur, jusqu’au dessous de la traverse** | 166,8 − 1 | **165,8 cm**, avant jeux éventuels |
 
-**Hypothèse actuelle demandée pour le dessin : R1/R2/R3 font 7,5 cm de
-profondeur nominale**, soit la cloison mesurée de 6 cm plus les 1,5 cm du
-bardage. Ils couvrent les bords étroits des panneaux de façade, jusqu’à leur
+**Hypothèse actuelle demandée pour le dessin :** R1/R2/R3 font **environ 8,2 cm de
+profondeur sur le dessin** avec le bardage contre le rebord intérieur du rail
+et environ 5 mm de calage derrière l’OSB. Cette profondeur doit être relevée
+avant découpe. Ils couvrent les bords étroits des panneaux de façade, jusqu’à leur
 face visible côté cabane. R1 et R2 montent sous la traverse et R3 se place
 entre eux. La variante précédente où C recouvrait le bord de R3 et mesurait
 22,4 cm de haut n’est plus celle dessinée. Les jeux restent à arrêter avant
@@ -110,16 +111,18 @@ si le jeu de 3 mm sous la limite à 188 cm est retenu.
 
 ## Bandes pour l’intérieur du passage
 
-**L’hypothèse de raccord à la face visible du bardage remplace les bandes de
-6 cm par des bandes de 7,5 cm nominaux.** La mesure de cloison reste 6 cm ± 2 mm.
+**L’hypothèse du bardage contre le rebord intérieur du rail remplace les
+bandes de 7,5 cm par une profondeur indicative d’environ 8,2 cm.** Mesurer
+la distance réelle du rebord intérieur à la face finie du BA13 avant commande.
+La mesure de cloison de 6 cm ± 2 mm reste inchangée comme fait rapporté.
 
-| Pièce | Longueur brute × profondeur nominale | Ajustement restant |
+| Pièce | Longueur brute × profondeur indicative à relever | Ajustement restant |
 |:--|:--|:--|
-| R1, côté T1 | **170 × 7,5 cm** | Raccourcir ; vérifier les jeux et le calage |
-| R2, côté T2 | **170 × 7,5 cm** | Raccourcir ; vérifier les jeux et le calage |
-| R3, sous la traverse | **50 × 7,5 cm** | Raccourcir entre les côtés réellement présentés |
+| R1, côté T1 | **170 × environ 8,2 cm** | Raccourcir ; vérifier les jeux et le calage |
+| R2, côté T2 | **170 × environ 8,2 cm** | Raccourcir ; vérifier les jeux et le calage |
+| R3, sous la traverse | **50 × environ 8,2 cm** | Raccourcir entre les côtés réellement présentés |
 
-Les 7,5 cm relient la face visible du bardage côté cabane et la face finie du
+Les quelque 8,2 cm du dessin relient la face visible du bardage côté cabane et la face finie du
 plâtre côté cellier. Ce calcul dépend de la position de la façade et des jeux ;
 il reste à vérifier sur place avant commande de découpe. Les bandes sont à
 faire couper avec un équipement adapté ; aucune longue recoupe manuelle de
@@ -128,9 +131,23 @@ faire couper avec un équipement adapté ; aucune longue recoupe manuelle de
 ## Rail au sol dans la vue 3D
 
 Le rail fait 7 cm de large ; son rebord côté cabane dépasse la face des M48
-de 2 cm ± 2 mm. Le bardage de 1,5 cm peut donc être représenté dans son emprise,
-devant les M48, avec une marge théorique de 3 à 7 mm. Le rebord reste devant
-le pied du panneau ; une finition basse est à définir.
+de 2 cm ± 2 mm. Le bardage de 1,5 cm est désormais représenté **contre la
+face intérieure du rebord**, avec **environ 5 mm de cales rigides** derrière
+l’OSB aux fixations sur les tasseaux. Ce contact latéral au pied n’annule pas
+le jeu vertical au sol proposé. Contrôler le plan et ne pas forcer le panneau
+contre un rail irrégulier ; le rebord ne remplace pas la fixation aux tasseaux.
+Une finition basse reste à définir.
+
+Le **BA13[^ba13] de 12,5 mm est confirmé** et est représenté après le rail,
+sans chevauchement. Les cotes arrondies donnent 7 − 2 + 1,25 = **6,25 cm**
+jusqu’à sa face finie, contre 6 cm mesurés : cet écart de **2,5 mm** reste à
+contrôler et n’est pas une nouvelle mesure. Le dessin donne environ 8,2 cm
+pour les retours après prise en compte de la tôle supposée.
+
+Une troisième vue masque l’OSB pour montrer TA1 et TA2 dans les M48, la
+traverse et TA3 restant à poser. Les sections de bois sont 32 × 19 mm ; les
+hauteurs et positions fines sont illustratives. L’orientation du profil de T3
+n’est pas relevée, seule son enveloppe est montrée.
 
 La vue conserve le fond du rail et sa vis et représente les ailes retirées
 dans le passage uniquement. Ce retrait reste une proposition. La hauteur
@@ -175,3 +192,5 @@ consolidées dans `donnees/geometrie.json`, relevé du 28 octobre 2026.
 [^tasseau]: **Tasseau** : petite pièce de bois servant notamment de support de fixation.
 
 [^couvrejoint]: **Couvre-joint** : baguette qui recouvre la jonction entre le bord du panneau et le plâtre.
+
+[^ba13]: **BA13** : plaque de plâtre à bords amincis, d’épaisseur 12,5 mm ici confirmée.

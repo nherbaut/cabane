@@ -52,17 +52,27 @@ coupe finale.** Faire couper leurs largeurs finales après relevé des supports
 (notamment TA3) et du raccord A/C. Les faire couper plus larges imposerait
 encore de longues recoupes avec la scie manuelle.
 
-| Repère | Emplacement | Quantité | Longueur brute × profondeur nominale à faire couper en magasin |
+| Repère | Emplacement | Quantité | Longueur brute × profondeur indicative, à relever avant commande |
 |:---|:---|:---|:---|
-| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 7,5 cm** |
-| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 7,5 cm** |
-| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 7,5 cm** |
+| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × environ 8,2 cm** |
+| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × environ 8,2 cm** |
+| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × environ 8,2 cm** |
 
-**Hypothèse de raccord désormais dessinée : R1/R2/R3 vont jusqu’à la face
-visible du bardage.** Leur profondeur nominale devient **6 + 1,5 = 7,5 cm** :
-6 cm mesurés entre M48 et plâtre, plus 1,5 cm de bardage. **L’ancienne consigne
-de bandes de 6 cm est remplacée pour cet assemblage.** Les longueurs brutes
-restent 170 cm pour R1/R2 et 50 cm pour R3, à raccourcir après présentation.
+**Nouvelle hypothèse : la face visible du bardage vient contre la face
+intérieure du rebord côté cabane.** Il faut environ **5 mm de calage[^cale]**
+derrière l’OSB de 15 mm, aux appuis sur les tasseaux. Les retours R1/R2/R3
+rejoignent toujours cette face visible et la face finie du placo côté cellier.
+Leur profondeur devient **environ 8,2 cm sur le dessin**, au lieu de 7,5 cm.
+**Cette valeur est indicative : mesurer la profondeur réelle entre ces deux
+faces avant commande de découpe.** Les longueurs brutes restent 170 cm pour
+R1/R2 et 50 cm pour R3, à raccourcir après présentation.
+
+Le **BA13[^ba13] de 12,5 mm est confirmé** et se trouve après le rail, sans
+chevauchement. Les cotes arrondies donnent 7 − 2 + 1,25 = **6,25 cm** jusqu’à
+sa face finie, contre **6 cm ± 2 mm mesurés**. Cet écart de 2,5 mm est signalé,
+pas traité comme une nouvelle mesure. Il explique pourquoi la largeur finale
+des retours doit être relevée sur place. Les anciennes bandes de 7,5 cm ne
+correspondent plus à cette hypothèse de pose.
 
 Ces bandes restent comprises dans le même panneau de 250 × 125 cm. Les
 variations de ±2 mm et les raccords sont à vérifier avant commande de coupe.
@@ -88,7 +98,7 @@ La scie japonaise et les serre-joints déjà disponibles sont réservés aux
 coupes courtes et petits ajustements. Les longues coupes dans la largeur
 sont à confier au service de découpe, après relevé des dimensions finales.
 
-**[Rail au sol et raccord à 7,5 cm — PDF](https://nextnet.top/cabane/bardage/detail_rail_raccord_v2.pdf)**
+**[Rail au sol, calage et raccord — PDF](https://nextnet.top/cabane/bardage/detail_rail_raccord_v2.pdf)**
 
 ## Voir l’assemblage
 
@@ -154,7 +164,8 @@ son défaut. [Conseils de préparation Placo](https://www.placo.fr/faut-il-trait
 |:---|:---|:---|
 | **Vis de fixation de l’OSB** | Une petite boîte | Selon les 15 mm de panneau et le bois ou métal réellement rencontré. Avec une vis de 24 mm, il ne reste que 9 mm après le panneau, avant tout vide ou métal éventuel. Ne pas choisir sur cette seule longueur. |
 | **Fixation des baguettes** | Produit de collage ou petites pointes à choisir | Selon le bois, l’OSB et le plâtre peint ; éviter les têtes ou pointes saillantes. Présenter les profils avant choix définitif. |
-| **Tasseau[^tasseau] TA3, associé à T3** | **1 longueur permettant environ 170 cm utiles, à prévoir** | Appui et fixation de l’autre bord du panneau A. Section à choisir après vérification de l’ouverture et de l’accès à T3 ; **32 × 19 mm** est une possibilité si elle convient. Mettre les appuis de TA2 et TA3 dans le même plan. Fixation depuis la cabane à privilégier si accessible. Aucun achat ni pose de TA3 n’est confirmé. |
+| **Tasseau[^tasseau] TA3, associé à T3** | **1 longueur permettant environ 170 cm utiles, à prévoir** | Section **32 × 19 mm**, identique à TA1/TA2, retenue par l’utilisateur. Appui de l’autre bord de A ; accès à T3 et fixation à vérifier. Mettre les appuis de TA2 et TA3 dans le même plan. Aucun achat ni pose de TA3 n’est confirmé. |
+| **Cales rigides[^cale] pour les appuis du bardage** | Un assortiment permettant environ **3 à 7 mm**, à ajuster | Environ **5 mm nominaux** derrière l’OSB si sa face visible vient contre le rebord intérieur du rail. Placer les cales aux fixations sur les tasseaux et devant la traverse ; vérifier les appuis et le plan. Stock non confirmé, prix non ajouté au total. |
 | **Autres supports en haut et en bas de A ou au-dessus du passage** | Selon les appuis existants | Examiner les appuis de chaque bord et les fixations possibles sans modification de l’escalier. |
 | **Cisaille à tôle[^cisaille]** | Une si absente et retenue | [DEXTER 80125135](https://www.leroymerlin.fr/produits/pince-coupe-tole-devant-dexter-l-250-mm-80125135.html), pour les ailes accessibles du rail[^rail] ; vérifier l’accès réel avant achat. |
 | **Protection rigide pour la table** | Une chute peut suffire | Empêcher la scie de toucher le plateau ; une bâche seule ne suffit pas. |
@@ -205,3 +216,6 @@ les scies, les serre-joints, les abrasifs et les protections déjà achetés
 [^enduit]: **Enduit de rebouchage** : pâte destinée à combler les petits creux avant finition.
 [^couteau]: **Couteau à enduire** : spatule à lame plate pour appliquer et lisser l’enduit.
 [^souscouche]: **Sous-couche** : première couche de peinture adaptée au support, appliquée avant la peinture de finition.
+
+[^cale]: **Cale** : petite pièce rigide placée entre le support et le panneau pour régler sa position, notamment au droit des vis.
+[^ba13]: **BA13** : plaque de plâtre à bords amincis, d’épaisseur 12,5 mm ici confirmée par l’utilisateur.
