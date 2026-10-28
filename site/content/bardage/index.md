@@ -33,30 +33,34 @@ sont toutes au-dessus. Le plâtre est découpé dans le passage.
 | **B** | Bande de façade côté T1 | **170 × 6 cm** |
 | **C** | Façade au-dessus du passage | **24 × 55 cm** |
 
-| Repère | Emplacement | Quantité | Réserve de matière : longueur × profondeur |
+**A/B/C : ces valeurs sont des enveloppes de matière, pas une commande de
+coupe finale.** Faire couper leurs largeurs finales après relevé des supports
+(notamment TA3) et du raccord A/C. Les faire couper plus larges imposerait
+encore de longues recoupes avec la scie manuelle.
+
+| Repère | Emplacement | Quantité | Longueur brute × profondeur nominale à faire couper en magasin |
 |:---|:---|:---|:---|
-| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 12 cm**, à recouper |
-| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 12 cm**, à recouper |
-| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 12 cm**, à recouper |
+| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 6 cm** |
+| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 6 cm** |
+| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 6 cm** |
 
-**Ces trois réserves sont déjà comprises dans le panneau de 250 × 125 cm :
-aucun panneau supplémentaire à acheter.** Les 12 cm correspondent aux réserves
-larges du plan de matière, préparé avant le relevé de profondeur. **La profondeur
-à couvrir est maintenant connue : 6 cm ± 2 mm.** Il n’est pas nécessaire de
-découper d’abord les réserves à 12 cm si les bandes sont ajustées directement
-sur place. Leurs longueurs finales dépendent des raccords, du calage et du bas
-de l’habillage ; ne pas confondre ces réserves avec les dimensions finales.
+**Les bandes sont comprises dans le panneau de 250 × 125 cm : aucun panneau
+supplémentaire à acheter.** Les 6 cm correspondent à la profondeur mesurée.
+Les longueurs de 170 et 50 cm laissent de la marge pour des coupes courtes à
+la maison ; **aucune recoupe manuelle de 170 cm dans la largeur n’est prévue**.
 
-Ces morceaux sont **à présenter et à ajuster**, pas à visser directement à ces
-dimensions. Conserver les chutes pour les deux côtés intérieurs R1/R2 et le
-dessus intérieur R3. Les réserves de 12 cm sur le plan de matière ne sont pas
-des largeurs de pose : la profondeur mesurée des retours[^retour] est **6 cm
-avec une variation de 2 mm**. Les longueurs et raccords finaux restent à relever.
+Les variations de **± 2 mm** seront vérifiées à la présentation et au calage :
+rechercher l’affleurement côté cellier et ajuster le raccord avec la façade
+côté cabane avant vissage. Si cet ajustement ne suffit pas, faire reprendre
+la coupe avec un équipement adapté plutôt que d’imposer une longue recoupe
+manuelle étroite. Vérifier que le service du magasin accepte les bandes de
+6 cm ; s’il les refuse, prévoir un autre service de découpe, pas une bande
+de 12 cm à refendre soi-même.
 
-Un panneau proposé de **250 × 125 cm** suffit à ces morceaux et réserves.
-Le plan prévoit un trait de scie de 4 mm, à confirmer avec le service de
-découpe. Si une bande de 6 cm n’est pas acceptée en magasin, garder un brut
-plus large pour B et le recouper à la maison.
+Les retours[^retour] couvrent la profondeur de 6 cm mesurée entre le métal
+côté cabane et la surface finie du plâtre côté cellier. Les longueurs finales
+se reportent après présentation. Les vues suivantes illustrent l’assemblage,
+sans transformer les enveloppes de matière en cotes de coupe finales.
 
 ## Vue depuis la cabane
 

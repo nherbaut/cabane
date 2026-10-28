@@ -47,19 +47,29 @@ OSB de **15 mm**.
 | **B** | Bande de façade côté T1 | 1 | **170 × 6 cm** |
 | **C** | Façade au-dessus du passage | 1 | **24 × 55 cm** |
 
-| Repère | Emplacement | Quantité | Réserve de matière : longueur × profondeur |
-|:---|:---|:---|:---|
-| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 12 cm**, à recouper |
-| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 12 cm**, à recouper |
-| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 12 cm**, à recouper |
+**A/B/C : ces valeurs sont des enveloppes de matière, pas une commande de
+coupe finale.** Faire couper leurs largeurs finales après relevé des supports
+(notamment TA3) et du raccord A/C. Les faire couper plus larges imposerait
+encore de longues recoupes avec la scie manuelle.
 
-**Ces trois réserves sont déjà comprises dans le panneau de 250 × 125 cm :
-aucun panneau supplémentaire à acheter.** Les 12 cm correspondent aux réserves
-larges du plan de matière, préparé avant le relevé de profondeur. **La profondeur
-à couvrir est maintenant connue : 6 cm ± 2 mm.** Il n’est pas nécessaire de
-découper d’abord les réserves à 12 cm si les bandes sont ajustées directement
-sur place. Leurs longueurs finales dépendent des raccords, du calage et du bas
-de l’habillage ; ne pas confondre ces réserves avec les dimensions finales.
+| Repère | Emplacement | Quantité | Longueur brute × profondeur nominale à faire couper en magasin |
+|:---|:---|:---|:---|
+| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 6 cm** |
+| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 6 cm** |
+| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 6 cm** |
+
+**Les bandes sont comprises dans le panneau de 250 × 125 cm : aucun panneau
+supplémentaire à acheter.** Les 6 cm correspondent à la profondeur mesurée.
+Les longueurs de 170 et 50 cm laissent de la marge pour des coupes courtes à
+la maison ; **aucune recoupe manuelle de 170 cm dans la largeur n’est prévue**.
+
+Les variations de **± 2 mm** seront vérifiées à la présentation et au calage :
+rechercher l’affleurement côté cellier et ajuster le raccord avec la façade
+côté cabane avant vissage. Si cet ajustement ne suffit pas, faire reprendre
+la coupe avec un équipement adapté plutôt que d’imposer une longue recoupe
+manuelle étroite. Vérifier que le service du magasin accepte les bandes de
+6 cm ; s’il les refuse, prévoir un autre service de découpe, pas une bande
+de 12 cm à refendre soi-même.
 
 **[Schéma des découpes — PDF](https://nextnet.top/cabane/bardage/schema_decoupes.pdf)** ·
 [Placement dans le panneau de 250 × 125 cm — PDF](https://nextnet.top/cabane/bardage/debit_preparatoire.pdf) ·
@@ -72,13 +82,12 @@ Les hauteurs d’habillage visées sont **188 cm au-dessus de T1–T2** et **170
 entre T2 et T3**. Les largeurs finales, la largeur haute à 188 cm, les jeux et
 le raccord A/C restent à reporter après présentation. Le décrochement de C
 dans la vue 3D est une proposition de raccord, pas une nouvelle cote de coupe
-validée. Si le magasin refuse une bande de 6 cm, conserver un morceau plus
-large pour B et le recouper à la maison.
+validée. Pour B également, vérifier la possibilité de découpe à la largeur finale
+en magasin ; prévoir un autre service de coupe si nécessaire.
 
-La scie japonaise et les serre-joints déjà disponibles permettent les
-ajustements à la maison. Faire débiter les grands rectangles en magasin
-facilite la manutention et les longues coupes ; vérifier le prix et la largeur
-minimale acceptée par le service de découpe.
+La scie japonaise et les serre-joints déjà disponibles sont réservés aux
+coupes courtes et petits ajustements. Les longues coupes dans la largeur
+sont à confier au service de découpe, après relevé des dimensions finales.
 
 ## Voir l’assemblage
 

@@ -18,7 +18,7 @@ colors = {'A':'#a2cbdc','B':'#a7cbb0','C':'#f2c38c',
           'R1':'#d9dce1','R2':'#d9dce1','R3':'#d9dce1'}
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'svg.fonttype':'none'})
 fig = plt.figure(figsize=(15,10), facecolor='white')
-fig.suptitle('Bardage : schéma des découpes brutes',fontsize=23,fontweight='bold',y=.97)
+fig.suptitle('Bardage : préparation de la matière et des bandes',fontsize=22,fontweight='bold',y=.97)
 fig.text(.5,.919,'OSB de 15 mm proposé • Cotes en cm : hauteur × largeur',ha='center',fontsize=13)
 fig.text(.5,.885,'Zones visées : 188 cm au-dessus de T1–T2 ; 170 cm entre T2 et T3.',ha='center',fontsize=12)
 gs = fig.add_gridspec(1,2,left=.06,right=.97,bottom=.22,top=.81,wspace=.2)
@@ -27,9 +27,9 @@ left,right = fig.add_subplot(gs[0]),fig.add_subplot(gs[1])
 def panel(ax, name, x, y, reserve=False):
     a,b=pieces[name]['width'],pieces[name]['height']
     ax.add_patch(Rectangle((x,y),a,b,facecolor=colors[name],edgecolor='#34454d',lw=1.3))
-    label=name if a<15 else f'{name}\n{b:g} × {a:g}'
+    label=name if a<15 else (f'{name} : {b:g} × {a:g}' if b<=6 else f'{name}\n{b:g} × {a:g}')
     ax.text(x+a/2,y+b/2,label,ha='center',va='center',fontsize=11 if not reserve else 9,
-            rotation=0,fontweight='bold' if not reserve else 'normal')
+            rotation=90 if name in ['R1','R2'] else 0,fontweight='bold' if not reserve else 'normal')
 
 def dim(ax,x1,y1,x2,y2,text,vertical=False):
     ax.annotate('',xy=(x1,y1),xytext=(x2,y2),arrowprops={'arrowstyle':'<->','lw':1.1})
@@ -78,9 +78,9 @@ right.set_xlim(-23,width+5);right.set_ylim(-25,height+5)
 right.set_aspect('equal');right.axis('off')
 
 fig.text(.06,.158,'A — 170 × 48 cm : façade T2–T3     B — 170 × 6 cm : bande côté T1     C — 24 × 55 cm : partie haute',fontsize=12,fontweight='bold')
-fig.text(.06,.121,'R1/R2 : réserves 170 × 12 cm ; R3 : réserve 12 × 50 cm. Profondeur mesurée : 6 cm ± 2 mm ; réserves à recouper.',fontsize=11)
-fig.text(.06,.080,'Bruts à ajuster sur place. Vue de gauche éclatée : les espaces et les alignements ne sont pas des cotes de pose.',fontsize=11)
-fig.text(.06,.050,'Les raccords entre A, B et C restent à tracer. À droite : trait de scie supposé de 4 mm ; vérifier au magasin.',fontsize=11)
+fig.text(.06,.121,'R1/R2 : bandes 170 × 6 cm ; R3 : bande 6 × 50 cm. Largeur magasin 6 cm ; raccourcissement à la maison.',fontsize=11)
+fig.text(.06,.080,'A/B/C : enveloppes de matière ; relever les largeurs finales avant commande pour éviter les longues recoupes.',fontsize=11)
+fig.text(.06,.050,'Vue éclatée, pas un plan de pose. Ajustement des écarts de 2 mm à vérifier. Trait de scie supposé : 4 mm.',fontsize=11)
 for ext in ('png','svg','pdf'):
     fig.savefig(here/f'schema_decoupes.{ext}',dpi=160)
 print('Schéma coté généré depuis les données ; réserves placées sans recouvrement.')

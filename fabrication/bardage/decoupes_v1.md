@@ -66,8 +66,10 @@ le bois sans suivre les marches et sans fabriquer un grand panneau en U fragile.
 | **B** | 1 | **170 × 6** | Bande de façade côté T1 ; sa hauteur sera raccourcie sous la pièce C |
 | **C** | 1 | **24 × 55** | Façade au-dessus du passage, jusqu’à l’escalier à 188 cm |
 
-Si le magasin ne coupe pas une bande de 6 cm, conserver un morceau plus large
-pour B et le recouper ensuite. Le schéma prévoit un trait de scie de **4 mm
+Pour éviter les longues recoupes manuelles, relever les largeurs finales
+de A et B et le raccord de C avant commande de découpe. Les dimensions brutes
+du tableau sont des enveloppes de matière, pas une commande de coupe finale.
+Si le magasin refuse une bande étroite, prévoir un autre service de découpe. Le schéma prévoit un trait de scie de **4 mm
 supposé** ; vérifier ce trait et le format du panneau réellement vendu.
 Les dimensions brutes sont à présenter devant l’ouvrage : ne jamais les
 forcer entre les bois ou les métaux existants.
@@ -103,21 +105,29 @@ raccord, puis recouper. Les pentes de T2 ne doivent pas être reproduites en
 forçant les panneaux. Le trait à 170 cm concerne A ; le haut de C est à 187,7 cm
 si le jeu de 3 mm sous la limite à 188 cm est retenu.
 
-## Réserves pour l’intérieur du passage
+## Bandes pour l’intérieur du passage
 
-Il s’agit de pièces différentes de la façade A/B/C.
+Les anciennes réserves de 12 cm sont remplacées par des **bandes nominales de
+6 cm découpées en magasin**, pour éviter toute longue recoupe manuelle.
 
-| Pièce | Réserve de matière seulement | Mesure indispensable avant coupe finale |
+| Pièce | Longueur brute × profondeur nominale | Ajustement restant |
 |:--|:--|:--|
-| Deux retours verticaux R1/R2 | **170 × 12 cm chacun** | Profondeur connue : 6 cm ± 2 mm ; calage et position basse à ajuster |
-| Retour horizontal R3 | **50 × 12 cm** | Profondeur connue : 6 cm ± 2 mm ; distance entre retours à relever |
+| R1, côté T1 | **170 × 6 cm** | Raccourcir ; vérifier position et calage |
+| R2, côté T2 | **170 × 6 cm** | Raccourcir ; vérifier position et calage |
+| R3, sous la traverse | **50 × 6 cm** | Raccourcir entre les côtés réellement présentés |
 
-**Mesure désormais confirmée : profondeur 6 cm ± 2 mm partout**, de la face
-du M48 côté cabane à la surface finie du plâtre côté cellier. Les 12 cm du
-tableau sont des réserves de matière antérieures, à recouper ; la largeur
-nominale des retours est de 6 cm, à ajuster localement. Ne pas ajouter
-l’épaisseur du bardage à cette mesure sans changer le détail du raccord.
-Les 70 mm du rail au sol ne définissent pas cette profondeur.
+La profondeur mesurée est **6 cm ± 2 mm** entre la face du M48 côté cabane et
+la surface finie du plâtre côté cellier. Présenter avant vissage pour vérifier
+l’affleurement côté cellier et le raccord côté cabane. Les faibles écarts
+locaux restent à examiner : si le positionnement et le calage ne suffisent
+pas, une reprise de largeur devra être faite avec un équipement adapté.
+Le choix de bandes de 6 cm ne valide donc pas à lui seul leur ajustement.
+Ne pas ajouter l’épaisseur du bardage à ces 6 cm sans modifier le raccord.
+
+Si le service de découpe ne réalise pas ces bandes, demander une autre
+solution de coupe ; ne pas revenir par défaut à 12 cm à refendre à la main.
+Les 170 et 50 cm sont des longueurs brutes ; les coupes finales en longueur
+se font après présentation.
 
 Avec deux retours de 1,5 cm et aucun calage empiétant au point le plus étroit,
 la largeur utile théorique serait **45 − 1,5 − 1,5 = 42 cm**. Ce n’est pas une

@@ -474,16 +474,16 @@
         {
           "id": "R1",
           "height": 170,
-          "width": 12
+          "width": 6
         },
         {
           "id": "R2",
           "height": 170,
-          "width": 12
+          "width": 6
         },
         {
           "id": "R3",
-          "height": 12,
+          "height": 6,
           "width": 50
         }
       ],
@@ -511,7 +511,9 @@
           "thickness": 0.6
         },
         "status": "proposition illustrée, dimensions et fixation à choisir ; aucune nouvelle coupe du mur cellier prescrite"
-      }
+      },
+      "lining_cutting_note": "Bandes nominales de 6 cm à couper au magasin ; remplacer les anciennes réserves de 12 cm. Vérifier les écarts locaux de 2 mm à la présentation et au calage ; raccourcissement en longueur uniquement prévu à la maison.",
+      "rough_blanks_note": "Enveloppes de matière seulement : relever les largeurs finales de A/B et le raccord de C avant commande de découpe, pour éviter les longues recoupes manuelles."
     }
   }
 }

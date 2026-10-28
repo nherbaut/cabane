@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-28T14:49:26.025935</dc:date>
+    <dc:date>2026-10-28T16:24:04.960621</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -35,7 +35,7 @@ L 221.737382 517.31583
 L 221.737382 238.489575
 L 211.896455 238.489575
 z
-" clip-path="url(#pb7bece4388)" style="fill: #a7cbb0; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p33d4238b20)" style="fill: #a7cbb0; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 310.305721 517.31583
@@ -43,7 +43,7 @@ L 389.033134 517.31583
 L 389.033134 238.489575
 L 310.305721 238.489575
 z
-" clip-path="url(#pb7bece4388)" style="fill: #a2cbdc; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p33d4238b20)" style="fill: #a2cbdc; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 211.896455 217.167568
@@ -51,7 +51,7 @@ L 302.104949 217.167568
 L 302.104949 177.803861
 L 211.896455 177.803861
 z
-" clip-path="url(#pb7bece4388)" style="fill: #f2c38c; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p33d4238b20)" style="fill: #f2c38c; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <text style="font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="216.816918" y="380.938015" transform="rotate(-0 216.816918 380.938015)">B</text>
@@ -127,7 +127,7 @@ L 932.712078 523.671429
 L 932.712078 144.385714
 L 743.069221 144.385714
 z
-" clip-path="url(#pa8b7a2934b)" style="fill: #f8f5ef; stroke: #34454d; stroke-width: 1.4; stroke-linejoin: miter"/>
+" clip-path="url(#p5512b19053)" style="fill: #f8f5ef; stroke: #34454d; stroke-width: 1.4; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 743.069221 523.671429
@@ -135,7 +135,7 @@ L 815.892078 523.671429
 L 815.892078 265.757143
 L 743.069221 265.757143
 z
-" clip-path="url(#pa8b7a2934b)" style="fill: #a2cbdc; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p5512b19053)" style="fill: #a2cbdc; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 816.498935 523.671429
@@ -143,23 +143,23 @@ L 825.601792 523.671429
 L 825.601792 265.757143
 L 816.498935 265.757143
 z
-" clip-path="url(#pa8b7a2934b)" style="fill: #a7cbb0; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p5512b19053)" style="fill: #a7cbb0; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 826.208649 523.671429
-L 844.414364 523.671429
-L 844.414364 265.757143
+L 835.311506 523.671429
+L 835.311506 265.757143
 L 826.208649 265.757143
 z
-" clip-path="url(#pa8b7a2934b)" style="fill: #d9dce1; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p5512b19053)" style="fill: #d9dce1; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
-    <path d="M 845.021221 523.671429
-L 863.226935 523.671429
-L 863.226935 265.757143
+    <path d="M 835.918364 523.671429
+L 845.021221 523.671429
 L 845.021221 265.757143
+L 835.918364 265.757143
 z
-" clip-path="url(#pa8b7a2934b)" style="fill: #d9dce1; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p5512b19053)" style="fill: #d9dce1; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 743.069221 265.150286
@@ -167,15 +167,15 @@ L 826.512078 265.150286
 L 826.512078 228.738857
 L 743.069221 228.738857
 z
-" clip-path="url(#pa8b7a2934b)" style="fill: #f2c38c; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p5512b19053)" style="fill: #f2c38c; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
     <path d="M 827.118935 265.150286
 L 902.976078 265.150286
-L 902.976078 246.944571
-L 827.118935 246.944571
+L 902.976078 256.047429
+L 827.118935 256.047429
 z
-" clip-path="url(#pa8b7a2934b)" style="fill: #d9dce1; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#p5512b19053)" style="fill: #d9dce1; stroke: #34454d; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="text_11">
     <text style="font: 700 11px 'DejaVu Sans'" transform="translate(775.224165 391.590801)">A</text>
@@ -185,18 +185,17 @@ z
     <text style="font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="821.050364" y="397.749598" transform="rotate(-0 821.050364 397.749598)">B</text>
    </g>
    <g id="text_13">
-    <text style="font: 9px 'DejaVu Sans'; text-anchor: middle" x="835.311506" y="397.197723" transform="rotate(-0 835.311506 397.197723)">R1</text>
+    <text style="font: 9px 'DejaVu Sans'" transform="translate(833.243515 400.704208) rotate(-90)">R1</text>
    </g>
    <g id="text_14">
-    <text style="font: 9px 'DejaVu Sans'; text-anchor: middle" x="854.124078" y="397.197723" transform="rotate(-0 854.124078 397.197723)">R2</text>
+    <text style="font: 9px 'DejaVu Sans'" transform="translate(842.95323 400.704208) rotate(-90)">R2</text>
    </g>
    <g id="text_15">
     <text style="font: 700 11px 'DejaVu Sans'" transform="translate(780.754165 243.821087)">C</text>
     <text style="font: 700 11px 'DejaVu Sans'" transform="translate(761.045259 256.138681)">24 × 55</text>
    </g>
    <g id="text_16">
-    <text style="font: 9px 'DejaVu Sans'" transform="translate(859.057585 253.49185)">R3</text>
-    <text style="font: 9px 'DejaVu Sans'" transform="translate(846.963835 263.569882)">12 × 50</text>
+    <text style="font: 9px 'DejaVu Sans'; text-anchor: middle" x="865.047506" y="263.082295" transform="rotate(-0 865.047506 263.082295)">R3 : 6 × 50</text>
    </g>
    <g id="text_17">
     <text style="fill: #52616b; font: 12px 'DejaVu Sans'" transform="translate(813.532524 180.423991)">CHUTES</text>
@@ -239,7 +238,7 @@ L 730.449221 516.441058
    </g>
   </g>
   <g id="text_21">
-   <text style="font: 700 23px 'DejaVu Sans'; text-anchor: middle" x="540" y="39.996406" transform="rotate(-0 540 39.996406)">Bardage : schéma des découpes brutes</text>
+   <text style="font: 700 22px 'DejaVu Sans'; text-anchor: middle" x="540" y="39.196563" transform="rotate(-0 540 39.196563)">Bardage : préparation de la matière et des bandes</text>
   </g>
   <g id="text_22">
    <text style="font: 13px 'DejaVu Sans'; text-anchor: middle" x="540" y="58.32" transform="rotate(-0 540 58.32)">OSB de 15 mm proposé • Cotes en cm : hauteur × largeur</text>
@@ -251,20 +250,20 @@ L 730.449221 516.441058
    <text style="font: 700 12px 'DejaVu Sans'; text-anchor: start" x="64.8" y="606.24" transform="rotate(-0 64.8 606.24)">A — 170 × 48 cm : façade T2–T3     B — 170 × 6 cm : bande côté T1     C — 24 × 55 cm : partie haute</text>
   </g>
   <g id="text_25">
-   <text style="font: 11px 'DejaVu Sans'; text-anchor: start" x="64.8" y="632.88" transform="rotate(-0 64.8 632.88)">R1/R2 : réserves 170 × 12 cm ; R3 : réserve 12 × 50 cm. Profondeur mesurée : 6 cm ± 2 mm ; réserves à recouper.</text>
+   <text style="font: 11px 'DejaVu Sans'; text-anchor: start" x="64.8" y="632.88" transform="rotate(-0 64.8 632.88)">R1/R2 : bandes 170 × 6 cm ; R3 : bande 6 × 50 cm. Largeur magasin 6 cm ; raccourcissement à la maison.</text>
   </g>
   <g id="text_26">
-   <text style="font: 11px 'DejaVu Sans'; text-anchor: start" x="64.8" y="662.4" transform="rotate(-0 64.8 662.4)">Bruts à ajuster sur place. Vue de gauche éclatée : les espaces et les alignements ne sont pas des cotes de pose.</text>
+   <text style="font: 11px 'DejaVu Sans'; text-anchor: start" x="64.8" y="662.4" transform="rotate(-0 64.8 662.4)">A/B/C : enveloppes de matière ; relever les largeurs finales avant commande pour éviter les longues recoupes.</text>
   </g>
   <g id="text_27">
-   <text style="font: 11px 'DejaVu Sans'; text-anchor: start" x="64.8" y="684" transform="rotate(-0 64.8 684)">Les raccords entre A, B et C restent à tracer. À droite : trait de scie supposé de 4 mm ; vérifier au magasin.</text>
+   <text style="font: 11px 'DejaVu Sans'; text-anchor: start" x="64.8" y="684" transform="rotate(-0 64.8 684)">Vue éclatée, pas un plan de pose. Ajustement des écarts de 2 mm à vérifier. Trait de scie supposé : 4 mm.</text>
   </g>
  </g>
  <defs>
-  <clipPath id="pb7bece4388">
+  <clipPath id="p33d4238b20">
    <rect x="175.813057" y="136.8" width="224.701158" height="424.8"/>
   </clipPath>
-  <clipPath id="pa8b7a2934b">
+  <clipPath id="p5512b19053">
    <rect x="708.174935" y="136.8" width="232.122857" height="424.8"/>
   </clipPath>
  </defs>
