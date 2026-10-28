@@ -31,20 +31,21 @@ converties en cm avant inscription dans les données du projet.
 
 | Étape | Mesure concrète | Résultat | Pièces concernées |
 |:--|:--|:--|:--|
-| 1 | Distance est–ouest entre l'intérieur du rebord côté cabane et la face peinte côté cellier, près de T1 puis de T2 | **8,5 mesurés ; localisation T1/T2 à confirmer** | Profondeur de R1/R2/R3 ; remplace le calcul indicatif ≈ 8,2 au point mesuré |
+| 1 | Distance est–ouest entre l'intérieur du rebord côté cabane et la face peinte côté cellier, près de T1 puis de T2 | **8,25 nominaux retenus après photos près de T1 et T2** | Profondeur de R1/R2/R3 ; remplace les 8,5 provisoires |
 | 2 | Largeur de façade à couvrir entre le raccord avec R2 et le bord extérieur retenu côté T3, en bas et en haut de A ; vérifier l'appui prévu sur TA3 | À relever | Largeur finale de A |
 | 3 | Largeur entre le mur nord et le raccord avec R1 dans le plan de la façade, en bas et en haut de B | À relever | Largeur finale de B |
 | 4 | Largeur disponible en haut de C, à 188, et limite commune avec A au niveau de T2 | À relever | Largeur et décrochement de C |
 | 5 | Vérifier la hauteur disponible sous les marches sur toute la largeur de A | À vérifier | Haut souhaité de A à 170 |
 
-La mesure 1 fixe les **longues coupes** des retours. Si les deux valeurs
-diffèrent, arrêter leur profondeur avec le raccord prévu avant commande ;
-ne pas choisir automatiquement la plus petite ou la plus grande.
+La profondeur nominale des retours est retenue à **8,25** après les deux
+photos et la correction explicite de l’utilisateur. Cette valeur nominale
+ne signifie pas que la lecture photographique est précise au demi-millimètre.
+Vérifier la tolérance du service de coupe lors de la commande.
 
 ## Ce qui pourra être raccourci chez soi
 
-Les longueurs préparatoires de R1/R2 peuvent rester **170**, celle de R3
-**50**, si le magasin accepte ces bandes. Leurs longueurs finales seront
+Les bandes préparatoires deviennent **170 × 8,25 pour R1/R2** et
+**50 × 8,25 pour R3**, si le magasin accepte ces bandes. Leurs longueurs finales seront
 reportées après présentation :
 
 - R1/R2 : de leur niveau bas réel, au-dessus du rail aménagé, jusqu'à

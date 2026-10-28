@@ -416,12 +416,19 @@
       "plasterboard_thickness_cm": 1.25,
       "plasterboard_thickness_source": "Utilisateur : BA13, épaisseur 12,5 mm confirmée.",
       "lining_depth_from_inner_rail_flange": {
-        "nominal": 8.5,
+        "nominal": 8.25,
         "unit": "cm",
         "reference": "face est (intérieure) du rebord ouest du rail côté cabane → face peinte du BA13 côté cellier",
-        "source": "mesure directe explicitement donnée par utilisateur : 8,5 cm",
-        "locations_confirmed": [],
-        "status": "valeur mesurée acquise ; confirmation de sa présence près de T1 et T2 attendue avant commande de coupe"
+        "source": "Utilisateur : photos près de T1 et T2, puis correction explicite « plus proche de 82,5 que de 85 » ; ancienne valeur 8,5 cm remplacée",
+        "locations_confirmed": [
+          "près de T1",
+          "près de T2"
+        ],
+        "status": "profondeur nominale retenue pour préparer R1/R2/R3 ; relevés photographiques approximatifs, pas une précision garantie au demi-millimètre",
+        "photo_references": [
+          "/tmp/codex-clipboard-rQUXQc.png",
+          "/tmp/codex-clipboard-tbdFOq.png"
+        ]
       }
     },
     "floor_rail": {
@@ -489,16 +496,16 @@
         {
           "id": "R1",
           "height": 170,
-          "width": 8.2
+          "width": 8.25
         },
         {
           "id": "R2",
           "height": 170,
-          "width": 8.2
+          "width": 8.25
         },
         {
           "id": "R3",
-          "height": 8.2,
+          "height": 8.25,
           "width": 50
         }
       ],
@@ -537,14 +544,14 @@
         },
         "status": "proposition illustrée, dimensions et fixation à choisir ; aucune nouvelle coupe du mur cellier prescrite"
       },
-      "lining_cutting_note": "Pose contre le rebord intérieur : environ 8,2 cm sur le dessin sans chevauchement (8,25 cm moins la tôle supposée). Profondeur finale à relever entre rebord intérieur et face finie du BA13 ; anciennes bandes 7,5 cm remplacées dans cette hypothèse, ne pas commander sur la seule cote arrondie.",
+      "lining_cutting_note": "Profondeur nominale retenue 8,25 cm après photos près de T1 et T2 et correction utilisateur ; les 8,5 cm provisoires sont remplacés. Longueurs préparatoires 170 cm pour R1/R2, 50 cm pour R3, à raccourcir. Précision des photos et tolérance de coupe à distinguer du nominal.",
       "rough_blanks_note": "Enveloppes de matière seulement : relever les largeurs finales de A/B et le raccord de C avant commande de découpe, pour éviter les longues recoupes manuelles.",
       "joint_option": {
         "status": "hypothèse demandée par utilisateur pour la vue 3D, pas gabarit de coupe validé",
         "type": "retours jusqu’à la face visible du bardage ; bardage au contact du rebord intérieur du rail, cales derrière ; plâtre après le rail",
         "measured_wall_depth": 6,
         "facade_thickness": 1.5,
-        "lining_nominal_depth": 8.2,
+        "lining_nominal_depth": 8.25,
         "vertical_lining_top": "sous la traverse à 166,8 cm",
         "upper_lining": "entre les deux retours verticaux, sous la traverse",
         "front_top_panel_bottom": 166.8
@@ -569,8 +576,8 @@
         "status": "cotes arrondies non fermées ; 6,25 sert uniquement à dessiner les pièces sans chevauchement, pas une mesure validée",
         "lining_depth_before_sheet_allowance_cm": 8.25,
         "lining_depth_approx_cm": 8.2,
-        "missing": "Confirmer si les 8,5 cm mesurés entre rebord intérieur et face peinte sont identiques près de T1 et de T2 ; les 8,2 cm restent le calcul illustratif antérieur.",
-        "latest_direct_lining_measurement_cm": 8.5
+        "missing": "Les relevés près de T1/T2 confirment une profondeur proche de 8,25 cm ; vérifier les raccords et la tolérance de coupe du magasin. Les cotes antérieures de 6 cm et 2 cm restent des relevés arrondis distincts.",
+        "latest_direct_lining_measurement_cm": 8.25
       },
       "frame_render_assumptions": {
         "stud_depth_cm": 4.8,
