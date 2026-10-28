@@ -129,7 +129,11 @@
     "Champlats chêne réf. 69125476",
     "Baguettes d’angle chêne réf. 68178096",
     "Cisaille à tôle",
-    "Vis et produit de fixation des panneaux et finitions à choisir selon les supports"
+    "Vis et produit de fixation des panneaux et finitions à choisir selon les supports",
+    "TA3 : section et accès à T3 à vérifier",
+    "Enduit de rebouchage intérieur",
+    "Couteau à enduire 8 cm",
+    "Sous-couche, peinture du cellier et outil de retouche : stock à vérifier"
   ],
   "exclusions": "Les achats sans lien confirmé avec le projet sont omis.",
   "shopping_proposal": {
@@ -155,6 +159,37 @@
       }
     ],
     "subtotal_eur": 81.38,
-    "scope": "propositions non achetées ; hors découpe, visserie, colle, transport et impression au fablab"
+    "scope": "propositions non achetées ; hors découpe, visserie, colle, transport et impression au fablab",
+    "touchups": {
+      "status": "achats prévisionnels seulement, si absents du stock personnel",
+      "items": [
+        {
+          "article": "Enduit Rapid rebouch TOUPRET 330 g",
+          "lm_reference": "68613146",
+          "quantity": 1,
+          "price_each_eur": 7.99
+        },
+        {
+          "article": "Couteau à enduire DEXTER 8 cm",
+          "lm_reference": "83628645",
+          "quantity": 1,
+          "price_each_eur": 5.99
+        }
+      ],
+      "subtotal_eur": 13.98,
+      "base_plus_touchups_eur": 95.36,
+      "excludes": "TA3, sous-couche, peinture et outils de peinture, fixations, découpe, transport et fablab"
+    },
+    "TA3": {
+      "quantity": 1,
+      "minimum_useful_length_cm": 170,
+      "section_option_cm": [
+        3.2,
+        1.9
+      ],
+      "section_status": "à vérifier selon ouverture et accès à T3",
+      "purchase_confirmed": false,
+      "purpose": "appui et fixation du panneau A côté T3, aligné avec TA2"
+    }
   }
 }

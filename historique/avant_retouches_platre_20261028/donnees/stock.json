@@ -1,0 +1,160 @@
+{
+  "updated": "2026-10-28",
+  "scope": "Stock du projet uniquement ; quantités acquises, hors consommation non renseignée. Aucun justificatif ni renseignement personnel.",
+  "items": [
+    {
+      "id": "ta1_ta2",
+      "article": "Tasseaux en pin TA1 et TA2, 32 × 19 mm",
+      "quantity": 2,
+      "unit": "pièces",
+      "status": "posés et vissés",
+      "source": "déclaration utilisateur"
+    },
+    {
+      "id": "brackets",
+      "article": "Équerres Hettich 9209109",
+      "quantity": null,
+      "unit": "pièces",
+      "status": "quatre posées, toutes au-dessus de la traverse ; quantité restante non précisée",
+      "source": "déclaration utilisateur"
+    },
+    {
+      "id": "wood_screws_existing",
+      "article": "Vis à bois Ø 3 × 24 mm",
+      "quantity": null,
+      "unit": "pièces",
+      "status": "stock antérieur, partiellement utilisé pour TA1/TA2",
+      "source": "déclaration utilisateur"
+    },
+    {
+      "id": "hacksaw",
+      "article": "Scie à métaux DEXTER 300 mm",
+      "quantity": 1,
+      "unit": "outil",
+      "lm_reference": "95595161",
+      "status": "disponible",
+      "source": "déclaration utilisateur"
+    },
+    {
+      "id": "crosspiece_stock",
+      "article": "Tasseau en sapin 34 × 44 mm, longueur 240 cm",
+      "quantity": 1,
+      "unit": "longueur",
+      "lm_reference": "66125710",
+      "status": "traverse posée, 44 mm verticalement ; dessous à 166,8 cm et dessus à 171,2 cm"
+    },
+    {
+      "id": "pull_saw",
+      "article": "Scie japonaise DEXTER double lame 240 mm",
+      "quantity": 1,
+      "unit": "outil",
+      "lm_reference": "95595174",
+      "status": "achetée"
+    },
+    {
+      "id": "plaster_saw",
+      "article": "Scie à guichet PRO 250 mm",
+      "quantity": 1,
+      "unit": "outil",
+      "status": "disponible ; ouverture dans le plâtre réalisée"
+    },
+    {
+      "id": "clamps",
+      "article": "Serre-joints à une main DEXTER 150 mm",
+      "quantity": 2,
+      "unit": "outils",
+      "lm_reference": "82303536",
+      "status": "achetés"
+    },
+    {
+      "id": "wood_bits",
+      "article": "Coffret forets à bois Ø 3 / 4 / 5 / 6 / 8 mm",
+      "quantity": 1,
+      "unit": "coffret de cinq forets",
+      "status": "acheté"
+    },
+    {
+      "id": "sanding_block",
+      "article": "Cale à poncer rectangulaire ergonomique 92 × 185 mm",
+      "quantity": 1,
+      "unit": "outil",
+      "status": "achetée"
+    },
+    {
+      "id": "abrasives_120",
+      "article": "Abrasifs Norton 93 × 185 mm, grain 120",
+      "quantity": 3,
+      "unit": "feuilles",
+      "status": "achetées, un paquet de trois"
+    },
+    {
+      "id": "abrasives_180",
+      "article": "Abrasifs Norton 93 × 185 mm, grain 180",
+      "quantity": 3,
+      "unit": "feuilles",
+      "status": "achetées, un paquet de trois"
+    },
+    {
+      "id": "respirators",
+      "article": "Masques FFP2 DEXTER",
+      "quantity": 3,
+      "unit": "masques",
+      "status": "achetés, un lot de trois"
+    },
+    {
+      "id": "gloves",
+      "article": "Gants de bricolage DEXTER taille 9",
+      "quantity": 1,
+      "unit": "paire",
+      "status": "achetés ; aptitude à la manipulation des tôles selon marquage"
+    },
+    {
+      "id": "eye_protection",
+      "article": "Lunettes de protection DEXTER",
+      "quantity": 1,
+      "unit": "équipement",
+      "status": "achetées"
+    },
+    {
+      "id": "plaster_wood_screws",
+      "article": "Vis pour fixer le plâtre dans le bois Ø 3,5 × 40 mm",
+      "quantity": 15,
+      "unit": "vis",
+      "status": "15 achetées ; cinq vis déclarées posées dans la traverse ; reste non inventorié",
+      "source": "déclaration utilisateur"
+    }
+  ],
+  "not_confirmed_purchased": [
+    "OSB/3 de 15 mm",
+    "Champlats chêne réf. 69125476",
+    "Baguettes d’angle chêne réf. 68178096",
+    "Cisaille à tôle",
+    "Vis et produit de fixation des panneaux et finitions à choisir selon les supports"
+  ],
+  "exclusions": "Les achats sans lien confirmé avec le projet sont omis.",
+  "shopping_proposal": {
+    "date": "2026-10-28",
+    "items": [
+      {
+        "article": "Panneau OSB/3 250 × 125 cm, 15 mm",
+        "lm_reference": "67764151",
+        "quantity": 1,
+        "price_each_eur": 36
+      },
+      {
+        "article": "Champlat chêne 4,3 × 37,5 mm, 2,4 m",
+        "lm_reference": "69125476",
+        "quantity": 2,
+        "price_each_eur": 8.79
+      },
+      {
+        "article": "Baguette d’angle chêne 22,5 × 22,5 mm, 2,4 m",
+        "lm_reference": "68178096",
+        "quantity": 2,
+        "price_each_eur": 13.9
+      }
+    ],
+    "subtotal_eur": 81.38,
+    "scope": "propositions non achetées ; hors découpe, visserie, colle, transport et impression au fablab"
+  }
+}

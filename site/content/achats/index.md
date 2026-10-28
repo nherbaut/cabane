@@ -25,7 +25,7 @@ ponçage des bords et baguettes de finition autour du passage.
 | **Champlat[^champlat] chêne, deux arrondis, 4,3 × 37,5 mm, longueur 2,40 m** | **2 longueurs**, pour les deux côtés et le dessus côté cellier | [Leroy Merlin **69125476**](https://www.leroymerlin.fr/produits/champlat-chene-2-arrondis-petits-noeuds-4-3-x-37-5-mm-l-2-4-m-69125476.html) — **8,79 € pièce**, soit **17,58 €** |
 | **Baguette d’angle[^corniere] chêne, 22,5 × 22,5 mm, longueur 2,40 m** | **2 longueurs**, pour B–R1, A–R2 et C–R3 côté cabane | [Leroy Merlin **68178096**](https://www.leroymerlin.fr/produits/baguette-angle-chene-petits-noeuds-22-5-x-22-5-mm-l-2-4-m-68178096.html) — **13,90 € pièce**, soit **27,80 €** |
 
-**Sous-total prévisionnel : 81,38 €**, hors découpe, fixation, transport et
+**Sous-total OSB et baguettes : 81,38 €**, hors découpe, fixation, transport et
 impression au fablab. Prix et stock du magasin à confirmer. Choisir des baguettes
 droites, sans fissure ni nœud fragile aux futures coupes.
 
@@ -103,13 +103,38 @@ sont celles examinées ; vérifier leur recouvrement sur l’assemblage réel.
 Une table est disponible. Les achats sans lien avec le projet sont exclus.
 **L’OSB, les champlats et les baguettes d’angle ne sont pas encore achetés.**
 
+## Retouches du plâtre côté cellier
+
+À prévoir **si ces produits et outils ne sont pas déjà disponibles** :
+
+| Article proposé | Quantité prévisionnelle | Référence ou choix à faire |
+|:---|:---|:---|
+| **Enduit de rebouchage[^enduit] intérieur prêt à l’emploi, petit conditionnement** | **1 tube de 330 g** pour quelques têtes de vis et petits défauts | [TOUPRET Rapid rebouch **68613146**](https://www.leroymerlin.fr/produits/enduit-de-rebouchage-pate-rapid-rebouch-toupret-blanc-330-g-68613146.html) — **7,99 €**, prix affiché le 28 octobre 2026. Quantité à revoir si les réparations sont plus étendues. |
+| **Couteau à enduire[^couteau] DEXTER, 8 cm** | **1 si absent** | [Leroy Merlin **83628645**](https://www.leroymerlin.fr/produits/couteau-a-enduire-8-cm-dexter-83628645.html) — **5,99 €**, prix affiché le 28 octobre 2026. |
+| **Sous-couche[^souscouche] adaptée au plâtre et à l’enduit** | Petit conditionnement, seulement si absent | Vérifier d’abord les produits déjà disponibles ; choisir un produit compatible avec la peinture retenue. |
+| **Peinture de retouche du cellier** | Selon surface et produit déjà disponible | Reprendre la référence, la teinte et l’aspect du mur existant. Une retouche localisée peut rester visible ; la référence n’est pas déduite d’une photo. |
+| **Petit pinceau ou mini-rouleau** | Un outil adapté, si absent | Selon la peinture et la taille des retouches. |
+
+**Enduit + couteau : 13,98 € en complément**, soit **95,36 € avec l’OSB et
+les baguettes**, si tous ces articles sont à acheter. Ce montant ne comprend
+pas TA3, la sous-couche, la peinture, les fixations, la découpe ni le fablab.
+La cale à poncer et les abrasifs 180 sont déjà dans le stock.
+
+Pour les têtes apparentes : vérifier qu’elles sont légèrement en creux sans
+carton déchiré, dépoussiérer, appliquer l’enduit en fines passes avec séchage
+selon la notice, poncer légèrement, puis appliquer sous-couche et peinture.
+Les têtes sous les champlats seront masquées, mais ne doivent pas empêcher
+la baguette de reposer à plat. Ne pas enduire une vis mal fixée pour masquer
+son défaut. [Conseils de préparation Placo](https://www.placo.fr/faut-il-traiter-les-plaques-de-platre-avant-de-les-peindre).
+
 ## Compléments à choisir selon le montage
 
 | Fourniture | Quantité prévisionnelle | Condition |
 |:---|:---|:---|
 | **Vis de fixation de l’OSB** | Une petite boîte | Selon les 15 mm de panneau et le bois ou métal réellement rencontré. Avec une vis de 24 mm, il ne reste que 9 mm après le panneau, avant tout vide ou métal éventuel. Ne pas choisir sur cette seule longueur. |
 | **Fixation des baguettes** | Produit de collage ou petites pointes à choisir | Selon le bois, l’OSB et le plâtre peint ; éviter les têtes ou pointes saillantes. Présenter les profils avant choix définitif. |
-| **Supports complémentaires côté T3 ou en haut** | Seulement si nécessaires | L’appui de chaque bord doit être défini ; un tasseau[^tasseau] dans T3 n’a pas été confirmé. |
+| **Tasseau[^tasseau] TA3, associé à T3** | **1 longueur permettant environ 170 cm utiles, à prévoir** | Appui et fixation de l’autre bord du panneau A. Section à choisir après vérification de l’ouverture et de l’accès à T3 ; **32 × 19 mm** est une possibilité si elle convient. Mettre les appuis de TA2 et TA3 dans le même plan. Fixation depuis la cabane à privilégier si accessible. Aucun achat ni pose de TA3 n’est confirmé. |
+| **Autres supports en haut et en bas de A ou au-dessus du passage** | Selon les appuis existants | Examiner les appuis de chaque bord et les fixations possibles sans modification de l’escalier. |
 | **Cisaille à tôle[^cisaille]** | Une si absente et retenue | [DEXTER 80125135](https://www.leroymerlin.fr/produits/pince-coupe-tole-devant-dexter-l-250-mm-80125135.html), pour les ailes accessibles du rail[^rail] ; vérifier l’accès réel avant achat. |
 | **Protection rigide pour la table** | Une chute peut suffire | Empêcher la scie de toucher le plateau ; une bâche seule ne suffit pas. |
 
@@ -155,3 +180,7 @@ les scies, les serre-joints, les abrasifs et les protections déjà achetés
 [^guichet]: **Scie à guichet** : scie à lame étroite permettant de découper le plâtre.
 [^serrejoint]: **Serre-joint** : outil maintenant une pièce serrée contre son support.
 [^foret]: **Foret** : outil monté sur une perceuse pour réaliser un trou.
+
+[^enduit]: **Enduit de rebouchage** : pâte destinée à combler les petits creux avant finition.
+[^couteau]: **Couteau à enduire** : spatule à lame plate pour appliquer et lisser l’enduit.
+[^souscouche]: **Sous-couche** : première couche de peinture adaptée au support, appliquée avant la peinture de finition.
