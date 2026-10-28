@@ -63,12 +63,23 @@ sans transformer les enveloppes de matière en cotes de coupe finales.
 
 ## Vue depuis la cabane
 
-![Vue isométrique : bardage A/B/C assemblé et panneaux intérieurs R1/R2/R3 présentés séparément.](isometrie_bardage_v1.png)
+![Vue isométrique : bardage A/B/C, panneaux intérieurs R1/R2/R3 et plâtre conservé en transparence côté cellier.](isometrie_bardage_v1.png)
 
 [Télécharger la vue côté cabane — PDF](isometrie_bardage_v1.pdf)
 
+Le **plâtre conservé côté cellier est représenté en transparence**, de part
+et d’autre et au-dessus du passage, **y compris au-dessus de A, à droite de
+C**. Sa surface finie se situe à 6 cm de la face des M48 côté cabane.
+**L’épaisseur dessinée de 1,25 cm est une hypothèse à confirmer.** Elle est
+comprise dans les 6 cm mesurés et ne s’y ajoute pas.
+
+Le placo ne s’arrête pas à la hauteur choisie de 170 cm pour le bardage A.
+Le dessin du mur est tronqué à 188 cm pour la lisibilité : **le contour réel
+sous les marches reste à relever**. Ce bord schématique ne prescrit aucune
+nouvelle coupe du plâtre.
+
 La vue de droite masque la façade pour rendre visibles les trois panneaux
-intérieurs. Ils vont de la face visible du bardage au plâtre côté cellier :
+intérieurs et le plâtre derrière eux. Ils vont de la face visible du bardage au plâtre côté cellier :
 **7,5 cm nominaux**. R1/R2 montent sous la traverse ; R3 se place entre eux.
 Le bas de C rejoint le dessus de R3 : les bords des panneaux de façade sont
 recouverts par les panneaux intérieurs dans cette hypothèse. **Le décrochement dessiné dans C est un exemple de raccord avec
@@ -94,7 +105,7 @@ des ailes et l’épaisseur de tôle sont inconnues : elles sont représentées 
 
 ## Vue depuis le cellier
 
-![Vue partielle côté cellier : mur peint, panneaux intérieurs et trois couvre-joints proposés.](isometrie_cellier_v1.png)
+![Vue partielle côté cellier : plâtre conservé transparent, panneaux intérieurs et trois couvre-joints proposés.](isometrie_cellier_v1.png)
 
 [Télécharger la vue côté cellier — PDF](isometrie_cellier_v1.pdf)
 

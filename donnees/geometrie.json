@@ -506,7 +506,16 @@
         "lining_depth_cm": 7.5,
         "joint_A_C": "exemple de raccord à décrochement dans C ; contour final non acté",
         "frame": "local translaté : origine à la face de T1 bordant le passage, au sol ; axes parallèles au repère du projet ; translation globale non fixée",
-        "top_width": "non mesurée à 188 cm ; représentation fondée sur le passage minimal de 45 cm et les faces annoncées de 3,5 cm"
+        "top_width": "non mesurée à 188 cm ; représentation fondée sur le passage minimal de 45 cm et les faces annoncées de 3,5 cm",
+        "plaster_display": {
+          "opacity": 0.28,
+          "surface_position_from_stud_face": 6,
+          "thickness_drawn": true,
+          "note": "plâtre conservé, y compris au-dessus de A ; surface finie côté cellier à 6 cm ; épaisseur de 1,25 cm supposée pour le dessin, à confirmer ; représentation tronquée à 188 cm, sans représenter le contour réel sous les marches ni prescrire de coupe",
+          "thickness_assumption_cm": 1.25,
+          "display_crop_height_cm": 188,
+          "actual_upper_outline_measured": false
+        }
       },
       "cellier_finish_proposal": {
         "type": "trois couvre-joints autour des retours arrivant à la surface du plâtre",
