@@ -1,196 +1,131 @@
 ---
-title: "Bardage OSB côté cabane — deux hauteurs"
+title: "Bardage OSB — découpes de préparation consolidées"
 date: "28 octobre 2026"
 lang: fr-FR
 ---
 
-**Décision actuelle : monter à 188 cm au-dessus du passage T1–T2 et
-s’arrêter à 170 cm entre T2 et T3.** Aucun panneau OSB n’est acheté.
-La proposition antérieure d’un arrêt général à 170 cm est remplacée.
-Les photos expliquent les raccords, mais ne servent pas à mesurer.
+Les relevés permettent de commander les rectangles ci-dessous pour
+l’habillage du passage **T1–T2**, côté cabane. Le bardage est souhaité jusqu’à
+188 cm au-dessus du passage et jusqu’à 170 cm entre T2 et T3. Aucun achat
+OSB[^osb] n’est confirmé. Un panneau proposé de **250 × 125 × 1,5 cm** suffit
+aux six morceaux, selon le placement vérifié dans `debit_preparatoire.pdf`.
 
-Le document `schema_decoupes.pdf` présente les trois pièces brutes en vue
-éclatée et leur placement dans un panneau de 250 × 125 cm. Il ne fixe pas
-les lignes de raccord définitives sur la cloison.
+## Découpes à préparer
 
-Les vues `isometrie_bardage_v1.pdf` et `isometrie_cellier_v1.pdf` montrent
-l’assemblage proposé et la finition côté cellier. La façade A/B/C est côté
-cabane. Les retours R1/R2/R3 arrivent à la surface du plâtre côté cellier ;
-des couvre-joints[^couvrejoint] peuvent y masquer le raccord. Leur largeur,
-leur épaisseur et leurs fixations restent à choisir.
-
-## Faits et dimensions des zones
-
-| Zone ou élément | Dimension donnée par l’utilisateur |
-|:--|:--|
-| Sous-face de l’escalier au-dessus du passage T1–T2 | **188 cm du carrelage** |
-| Limite souhaitée entre T2 et T3, imposée par les marches | **170 cm du carrelage** |
-| Dessous / dessus de la traverse[^traverse] | **166,8 / 171,2 cm** |
-| Vide T1–T2 en bas / juste sous la traverse | **45 / 46 cm** |
-| Vide T2–T3 en bas / juste sous la traverse | **37,5 / 37 cm** |
-| Largeur de face de chaque montant[^montant], annoncée | **3,5 cm** |
-
-Le panneau entre T2 et T3 doit couvrir aussi les montants, pas seulement
-les 37–37,5 cm de vide. La somme des deux faces et du vide donne **44,5 cm
-en bas et 44 cm à 166,8 cm**, avant recouvrement des retours intérieurs.
-T2 est de travers : ces deux largeurs ne constituent pas un rectangle définitif.
-
-Au-dessus du passage, la hauteur brute à couvrir depuis le dessous de la
-traverse est **188 − 166,8 = 21,2 cm**. À 166,8 cm, la somme des faces de T1,
-du vide et de la face de T2 vaut **3,5 + 46 + 3,5 = 53 cm**. La largeur
-exacte en haut à 188 cm n’est pas encore mesurée.
-
-L’ancienne cote de 174 cm concernait une pièce locale liée à l’escalier.
-Elle reste à préserver et ne doit pas remplacer la nouvelle mesure de
-188 cm pour l’enveloppe de la zone haute. Aucun élément d’escalier ne doit
-être recoupé pour installer le bardage.
-
-## Proposition de matière
-
-**OSB/3[^osb] de 15 mm proposé**, pour conserver les 1,5 cm envisagés pour
-les trois retours[^retour] du passage. Un panneau de **250 × 125 cm** suffit
-aux réserves de matière dessinées dans `debit_preparatoire.pdf`.
-Cette épaisseur et ce format sont proposés, pas déjà achetés ni imposés.
-
-\newpage
-
-## Découpes brutes de préparation
-
-**Les trois cotes ci-dessous sont des morceaux à ajuster sur place, pas
-les dimensions finales à visser directement.** Elles permettent de préparer
-le bois sans suivre les marches et sans fabriquer un grand panneau en U fragile.
-
-| Repère | Quantité | Hauteur × largeur, en cm | Destination |
+| Repère | Quantité | Emplacement | Longueur × largeur de préparation |
 |:--|--:|:--|:--|
-| **A** | 1 | **170 × 48** | Façade entre T2 et T3, y compris le recouvrement des montants et du raccord du passage |
-| **B** | 1 | **170 × 6** | Bande de façade côté T1 ; sa hauteur sera raccourcie sous la pièce C |
-| **C** | 1 | **24 × 55** | Façade au-dessus du passage, jusqu’à l’escalier à 188 cm |
+| **A** | 1 | Façade T2–T3, jusqu’au bois voisin | **170 × 46,7 cm** |
+| **B** | 1 | Bande côté mur nord / T1 | **170 × 3,2 cm** |
+| **C** | 1 | Partie haute au-dessus du passage | **24 × 52,4 cm** |
+| **R1** | 1 | Intérieur du passage, côté T1 | **170 × 8,25 cm** |
+| **R2** | 1 | Intérieur du passage, côté T2 | **170 × 8,25 cm** |
+| **R3** | 1 | Dessus intérieur, sous la traverse | **50 × 8,25 cm** |
 
-Pour éviter les longues recoupes manuelles, relever les largeurs finales
-de A et B et le raccord de C avant commande de découpe. Les dimensions brutes
-du tableau sont des enveloppes de matière, pas une commande de coupe finale.
-Si le magasin refuse une bande étroite, prévoir un autre service de découpe. Le schéma prévoit un trait de scie de **4 mm
-supposé** ; vérifier ce trait et le format du panneau réellement vendu.
-Les dimensions brutes sont à présenter devant l’ouvrage : ne jamais les
-forcer entre les bois ou les métaux existants.
+Les **largeurs de préparation sont définies** à partir des derniers relevés.
+Les longueurs A/B/R1/R2/R3 et la hauteur de C seront raccourcies après
+présentation. Le petit décrochement[^decrochement] de C sera reporté sur place.
+Il n’est pas prévu de longue recoupe manuelle sur 170 cm.
 
-## Ajustement final : ce qui est calculable
+**Atelier de coupe à prévoir pour les six pièces.** [Leroy Merlin](https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html)
+exclut les formats sous 20 × 20 ou 60 × 10 cm et annonce ±3 mm : les bandes
+B/R1/R2/R3 sont hors de ces formats. Pour conserver les jeux proposés de
+3 mm sans longue recoupe manuelle, privilégier un atelier capable de tenir
+une tolérance d’environ ±1 mm sur l’ensemble de la commande, à confirmer
+avec lui. Un fablab équipé ou un menuisier peut être sollicité.
 
-Propositions de détail : **1 cm de jeu au sol** pour les façades verticales,
-**3 mm sous l’escalier** pour C, et un retour supérieur en OSB de 15 mm posé
-directement sous la traverse. Ces choix restent à vérifier avec le panneau
-acheté, ses instructions de pose et les raccords réellement retenus.
+## Faits retenus et calcul des largeurs
 
-| Pièce | Calcul | Résultat proposé, sous conditions |
-|:--|:--|:--|
-| **A : hauteur** | 170 − 1 | **169 cm**, pour avoir le haut à 170 cm et le bas à 1 cm |
-| **C : hauteur, avec les retours jusqu’à la face visible du bardage** | 188 − 0,3 − 166,8 | **20,9 cm**, avant jeux éventuels du raccord |
-| **B : hauteur, jusqu’au dessous de la traverse** | 166,8 − 1 | **165,8 cm**, avant jeux éventuels |
+Les montants[^montant] portent les noms T1/T2/T3 du nord vers le sud.
+La traverse[^traverse] est posée, dessous à 166,8 cm et dessus à 171,2 cm,
+avec quatre équerres toutes au-dessus. Le plâtre conservé lui est vissé ;
+l’ouverture est découpée. TA1/TA2 sont en place ; TA3, section 3,2 × 1,9 cm,
+est prévu mais sa pose n’est pas confirmée.
 
-**Hypothèse actuelle demandée pour le dessin :** R1/R2/R3 font **environ 8,2 cm de
-profondeur sur le dessin** avec le bardage contre le rebord intérieur du rail
-et environ 5 mm de calage derrière l’OSB. Cette profondeur doit être relevée
-avant découpe. Ils couvrent les bords étroits des panneaux de façade, jusqu’à leur
-face visible côté cabane. R1 et R2 montent sous la traverse et R3 se place
-entre eux. La variante précédente où C recouvrait le bord de R3 et mesurait
-22,4 cm de haut n’est plus celle dessinée. Les jeux restent à arrêter avant
-coupe définitive.
+- **A :** 92 cm de T1 jusqu’au bois, moins 45 cm jusqu’au plan extérieur
+  de R2 maintenu vertical, moins 0,3 cm de jeu proposé contre le bois :
+  **46,7 cm**.
+- **B :** 3,5 cm entre le mur nord et le bord de T1 côté passage, moins
+  0,3 cm de jeu proposé au mur : **3,2 cm**.
+- **C :** largeur haute mesurée de 52,7 à 52,8 cm ; on retient 52,7 cm,
+  moins 0,3 cm de jeu proposé au mur : **52,4 cm**.
+- **R1/R2/R3 :** profondeur nominale **8,25 cm**, retenue après les relevés
+  près de T1 et de T2. Les photographies ne garantissent pas une précision
+  au demi-millimètre ; cette valeur est une cote nominale de préparation.
 
-Les **largeurs finales de A, B et C ne sont pas encore des cotes validées** :
-elles dépendent du calage[^cale] des retours, du bord droit à couvrir à T3,
-du raccord au mur nord et du joint entre A et C au droit de T2.
-C et A ne doivent pas se retrouver superposés dans le même plan sur T2 :
-repérer la ligne de raccord sur un support avant de débiter leurs contours.
-Les 48, 6 et 55 cm sont donc volontairement des réserves de coupe.
+Le vide T1–T2 mesure 45 cm en bas et 46 cm sous la traverse ; T2–T3 mesure
+37,5 cm puis 37 cm. **Le rectangle A utilise la référence stable de T1
+jusqu’au bois**, pas la largeur variable calculée depuis T2 incliné.
+Le jeu de 0,3 cm est proposé ; les instructions du panneau acheté priment.
+R2 est maintenu vertical au repère des 45 cm par le calage[^cale] adapté,
+sans déplacer le montant.
 
-Pour rendre ce repérage simple, présenter d’abord les morceaux ou des patrons
-carton contre la cloison, marquer les limites de l’ouverture et les lignes de
-raccord, puis recouper. Les pentes de T2 ne doivent pas être reproduites en
-forçant les panneaux. Le trait à 170 cm concerne A ; le haut de C est à 187,7 cm
-si le jeu de 3 mm sous la limite à 188 cm est retenu.
+## Ajustements courts après présentation
 
-## Bandes pour l’intérieur du passage
+- **A :** vérifier le passage sous les marches sur toute la largeur ;
+  raccourcir la hauteur pour viser un haut à 170 cm avec l’espace au sol retenu.
+  Avec un bas à 1 cm, sa hauteur serait de 169 cm. Ce centimètre reste une
+  proposition, pas une obligation établie.
+- **B :** raccourcir sous la traverse, dont le dessous est à **166,8 cm**.
+- **R1/R2 :** raccourcir entre leur niveau bas réel au-dessus du rail aménagé
+  et la traverse, en laissant le petit espace de pose retenu. Une cale
+  provisoire sous le panneau se retire après vissage ; les cales d’appui derrière
+  le panneau restent en place.
+- **R3 :** mesurer sa longueur entre R1 et R2 présentés. Les **42 cm**
+  calculés à partir de 45 moins deux épaisseurs de 1,5 ne sont pas une coupe finale.
+- **C :** présenter le rectangle de 24 × 52,4 cm, puis reporter la hauteur et
+  le petit décrochement au raccord avec A. Avec un haut à 187,7 cm et un bas
+  à 166,8 cm, sa hauteur serait **20,9 cm**. Le contour doit respecter les
+  pièces de l’escalier et le raccord réel ; ne pas le découper d’après la seule
+  vue 3D.
 
-**L’hypothèse du bardage contre le rebord intérieur du rail remplace les
-bandes de 7,5 cm par une profondeur indicative d’environ 8,2 cm.** Mesurer
-la distance réelle du rebord intérieur à la face finie du BA13 avant commande.
-La mesure de cloison de 6 cm ± 2 mm reste inchangée comme fait rapporté.
+## Montage représenté et rail au sol
 
-| Pièce | Longueur brute × profondeur indicative à relever | Ajustement restant |
-|:--|:--|:--|
-| R1, côté T1 | **170 × environ 8,2 cm** | Raccourcir ; vérifier les jeux et le calage |
-| R2, côté T2 | **170 × environ 8,2 cm** | Raccourcir ; vérifier les jeux et le calage |
-| R3, sous la traverse | **50 × environ 8,2 cm** | Raccourcir entre les côtés réellement présentés |
+Les retours[^retour] couvrent les bords de la façade et rejoignent le plâtre
+côté cellier. R1/R2 montent sous la traverse, R3 se place entre eux. Les vues
+3D montrent aussi TA1/TA2 dans les M48 transparents, la traverse et TA3 proposé.
+Les positions fines et hauteurs des bois sont schématiques ; les dessins ne
+valident pas les fixations.
 
-Les quelque 8,2 cm du dessin relient la face visible du bardage côté cabane et la face finie du
-plâtre côté cellier. Ce calcul dépend de la position de la façade et des jeux ;
-il reste à vérifier sur place avant commande de découpe. Les bandes sont à
-faire couper avec un équipement adapté ; aucune longue recoupe manuelle de
-170 cm n’est prévue. Les longueurs finales seront raccourcies après présentation.
+Le rail[^rail] fait environ 7 cm de large et son rebord côté cabane se situe
+à environ 2 cm devant les M48. La façade OSB de 1,5 cm est proposée contre
+sa face intérieure, avec environ 0,5 cm de calage aux appuis. Le BA13[^ba13]
+de 1,25 cm est extérieur au rail, sans chevauchement. Les cotes du métal sont
+arrondies dans la vue ; la profondeur nominale de commande des retours est
+celle du relevé, **8,25 cm**.
 
-## Rail au sol dans la vue 3D
+Le fond du rail et sa vis restent en place. L’utilisateur envisage de couper
+verticalement les ailes aux limites du passage puis de les replier vers
+l’intérieur. Les vues masquent ces ailes dans le passage et ne représentent
+pas un pliage réalisé. La hauteur après pliage, les éventuels chevauchements
+et la rencontre avec la tête de vis restent à vérifier pour le seuil et les
+pieds de R1/R2. Les parties sous T1/T2 restent intactes.
 
-Le rail fait 7 cm de large ; son rebord côté cabane dépasse la face des M48
-de 2 cm ± 2 mm. Le bardage de 1,5 cm est désormais représenté **contre la
-face intérieure du rebord**, avec **environ 5 mm de cales rigides** derrière
-l’OSB aux fixations sur les tasseaux. Ce contact latéral au pied n’annule pas
-le jeu vertical au sol proposé. Contrôler le plan et ne pas forcer le panneau
-contre un rail irrégulier ; le rebord ne remplace pas la fixation aux tasseaux.
-Une finition basse reste à définir.
+## Supports, finitions et sécurité
 
-Le **BA13[^ba13] de 12,5 mm est confirmé** et est représenté après le rail,
-sans chevauchement. Les cotes arrondies donnent 7 − 2 + 1,25 = **6,25 cm**
-jusqu’à sa face finie, contre 6 cm mesurés : cet écart de **2,5 mm** reste à
-contrôler et n’est pas une nouvelle mesure. Le dessin donne environ 8,2 cm
-pour les retours après prise en compte de la tôle supposée.
+- Prévoir TA3 et les appuis du panneau A ; fixer dans le bois des tasseaux[^tasseau], avec les cales
+  nécessaires, sans forcer les panneaux contre un support incliné.
+- Choisir des vis dont la prise dans le bois reste suffisante après OSB et
+  calage ; les 3 × 24 mm du stock ne sont pas automatiquement adaptées.
+- Prévoir les protections d’angle et les couvre-joints[^couvrejoint] avant
+  vissage ; ils se posent après ajustement.
+- Conserver les fixations du rail, les pieds des montants et les éléments de
+  l’escalier. Aucun panneau n’est validé ici pour porter des étagères.
+- Les 170 cm sur A sont une hauteur souhaitée : vérifier la hauteur minimale
+  disponible sous les marches avant sa recoupe finale.
+- La sous-face de la pièce liée à l’escalier à 174 cm reste une information
+  locale ; elle ne prescrit aucune modification de cette pièce.
 
-Une troisième vue masque l’OSB pour montrer TA1 et TA2 dans les M48, la
-traverse et TA3 restant à poser. Les sections de bois sont 32 × 19 mm ; les
-hauteurs et positions fines sont illustratives. L’orientation du profil de T3
-n’est pas relevée, seule son enveloppe est montrée.
+Les données numériques viennent de `donnees/geometrie.json`. Les premières
+réserves 170 × 48, 170 × 6 et 24 × 55 cm sont remplacées pour la commande
+actuelle ; les anciennes variantes sont archivées dans `historique/`.
 
-La vue conserve le fond du rail et sa vis et représente les ailes retirées
-dans le passage uniquement. Ce retrait reste une proposition. La hauteur
-des ailes et l’épaisseur de la tôle ne sont pas mesurées : **3 cm et 0,6 mm
-sont des hypothèses graphiques, pas des cotes de découpe**. Voir le document
-`detail_rail_raccord_v2.pdf` pour le détail du pied de T1 et le plan B/R1.
-
-Avec deux retours de 1,5 cm et aucun calage empiétant au point le plus étroit,
-la largeur utile théorique serait **45 − 1,5 − 1,5 = 42 cm**. Ce n’est pas une
-longueur de coupe définitive pour R3. Le dessous du retour supérieur serait à
-**165,3 cm du carrelage**, avant déduction de la hauteur du futur seuil pour
-obtenir la hauteur réellement franchissable.
-
-## Supports, finition et sécurité
-
-- Le bardage est un habillage ; aucune capacité à porter des étagères n’est
-  validée ici.
-- La traverse est maintenue par **quatre équerres toutes au-dessus** et le
-  plâtre conservé lui est vissé. Cela ne constitue pas une certification mécanique.
-- Pour C, les appuis possibles sont la traverse existante et le rail métallique
-  visible en haut ; leur liaison aux panneaux et les vis adaptées restent à définir.
-  Ne pas improviser une fixation dans les pièces de l’escalier.
-- Les appuis du panneau A doivent être définis sur T2/T3. Un tasseau[^tasseau]
-  dans T3 n’a pas été confirmé. Ne pas fixer les panneaux uniquement au plâtre.
-- Conserver les pieds T1/T2, le fond du rail et la vis au sol. Le seuil imprimé
-  fait l’objet d’un échantillon distinct, pas encore d’une pièce finale validée.
-- Poncer les bords et les éclats ; prévoir une protection des arêtes accessibles
-  autour du passage. L’OSB brut n’est pas parfaitement lisse.
-- Laisser les jeux demandés par le fabricant du panneau. La largeur de ces jeux
-  n’est pas remplacée par une règle déduite du seul schéma de découpe.
-
-Source technique générale : [EGGER, construction bois et mise en œuvre OSB](https://neufert-cdn.archdaily.net/uploads/product_file/file/31450/EGGER_Building_with_Wood_EN.pdf).
-Cette documentation rappelle les jeux entre panneaux ; elle ne valide pas
-le détail de cette cloison existante. Les dimensions de chantier sont
-consolidées dans `donnees/geometrie.json`, relevé du 28 octobre 2026.
-
-[^osb]: **OSB** : panneau de grandes lamelles de bois collées. La classe OSB/3 indique une aptitude à des conditions humides, pas une imperméabilité.
-[^traverse]: **Traverse** : pièce de bois horizontale installée au-dessus du passage.
-[^montant]: **Montant** : profil métallique vertical de la cloison ; T1, T2 et T3 désignent ces trois profils, du nord vers le sud.
-[^retour]: **Retour intérieur** : bande de panneau couvrant l’épaisseur de la cloison sur un côté ou au-dessus du passage.
-[^cale]: **Cale** : pièce intercalée entre un support et le panneau pour corriger sa position sans le courber.
-[^tasseau]: **Tasseau** : petite pièce de bois servant notamment de support de fixation.
-
-[^couvrejoint]: **Couvre-joint** : baguette qui recouvre la jonction entre le bord du panneau et le plâtre.
-
-[^ba13]: **BA13** : plaque de plâtre à bords amincis, d’épaisseur 12,5 mm ici confirmée.
+[^osb]: **OSB** : panneau de grandes lamelles de bois collées ; l’OSB/3 n’est pas imperméable.
+[^decrochement]: **Décrochement** : petit changement de contour, ici une découpe en angle permettant à C de rejoindre A.
+[^montant]: **Montant** : profil métallique vertical ; T1, T2 et T3 sont ceux du nord vers le sud.
+[^traverse]: **Traverse** : bois horizontal placé au-dessus du passage.
+[^retour]: **Retour** : panneau couvrant l’épaisseur de la cloison à l’intérieur du passage.
+[^rail]: **Rail** : profil métallique en U posé au sol ; ses ailes sont les deux rebords verticaux.
+[^cale]: **Cale** : pièce rigide interposée pour régler la position ou l’appui d’un panneau.
+[^ba13]: **BA13** : plaque de plâtre à bords amincis, d’épaisseur 1,25 cm ici confirmée.
+[^tasseau]: **Tasseau** : pièce de bois servant de support aux vis de l’habillage.
+[^couvrejoint]: **Couvre-joint** : baguette masquant le raccord entre deux surfaces.

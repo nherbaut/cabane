@@ -38,6 +38,14 @@ top=passage['cabin_cladding_top_zones']['over_T1_T2']-p['top_gap_under_stair']
 side_top=passage['cabin_cladding_top_zones']['between_T2_T3']
 joint=.3  # Proposition graphique de joint, pas une cote de coupe actée.
 y_left=-t; y_right=-gap+t; y_far=-(gap+stud+second+stud)
+width_A=p['panel_A_outer_edge']['preparation_cut_width_cm']
+width_B=p['panel_B_width']['preparation_cut_width_cm']
+width_C=p['panel_C_width']['preparation_cut_width_cm']
+wall_gap=p['panel_B_width']['proposed_gap_to_north_wall_cm']
+y_wood=-passage['T1_passage_edge_to_T3_neighbour_wood']['nominal']
+y_A_end=-gap-width_A
+y_C_end=width_B-width_C
+nominal_lining=passage['lining_depth_from_inner_rail_flange']['nominal']
 palette={'A':'#86b7d3','B':'#8cbc99','C':'#e7b276',
          'R1':'#ad96cd','R2':'#db9295','R3':'#e3c75f',
          'L':'#8c969f','LW':'#8c969f','V':'#48515a','P':'#9fb6c1',
@@ -75,12 +83,12 @@ def box(name,x0,x1,y0,y1,z0,z1):
     return extrusion(name,[(y0,z0),(y1,z0),(y1,z1),(y0,z1)],x0,x1)
 
 front=[]
-front+=box('A',front_x0,front_x1,y_far,-gap,floor,side_top)
-front+=box('B',front_x0,front_x1,0,stud,floor,under)
+front+=box('A',front_x0,front_x1,y_A_end,-gap,floor,side_top)
+front+=box('B',front_x0,front_x1,0,width_B,floor,under)
 # Une encoche basse dans C permet ici de garder A rectangulaire. C'est
 # seulement un exemple de raccord : largeur haute et contour restent à relever.
-header=[(-gap+joint,under),(stud,under),(stud,top),
-        (-gap-stud,top),(-gap-stud,side_top+joint),
+header=[(-gap+joint,under),(width_B,under),(width_B,top),
+        (y_C_end,top),(y_C_end,side_top+joint),
         (-gap+joint,side_top+joint)]
 front+=extrusion('C',header,front_x0,front_x1)
 returns=[]
@@ -96,8 +104,8 @@ assert np.isclose(depth-measured_depth,.25)
 # conservée comme fait ; l'écart de fermeture est explicite dans les légendes.
 # Le placo continue au-dessus de A. Le dessin est tronqué à 188 cm : ce bord
 # n'est ni le contour sous les marches, encore inconnu, ni une ligne de coupe.
-wall_outline=[(y_far,0),(-gap,0),(-gap,under),(0,under),(0,0),
-              (stud,0),(stud,plaster_crop),(y_far,plaster_crop)]
+wall_outline=[(y_wood,0),(-gap,0),(-gap,under),(0,under),(0,0),
+              (stud,0),(stud,plaster_crop),(y_wood,plaster_crop)]
 wall=extrusion('P',wall_outline,plaster_inner,depth)
 
 # Ossature : T1 et T2 sont des C ouverts l'un vers l'autre. T3 est montré
@@ -250,16 +258,19 @@ for name,point in [('A',(front_x0,(y_far+y_right)/2,90)),('B',(front_x0,1,85)),
     x,y=project([point])[0];ax.text(x,y,name,ha='center',va='center',fontsize=18,fontweight='bold')
 label(ax,(-t,-44.5,174),'Raccord A / C\nexemple à ajuster',(32,33))
 label(ax,(depth,-73,181),'Plâtre conservé\nau-dessus de A\ncontour non relevé',(21,11))
+wood_limit=project([(front_x0,y_wood,0),(front_x0,y_wood,side_top)])
+ax.plot(wood_limit[:,0],wood_limit[:,1],color='#9a7043',lw=1.4,ls='--')
+label(ax,(front_x0,y_wood,55),'Début du bois\nJeu proposé 3 mm',(19,-8))
 ax.text(*project([(-t,-20,72)])[0],'Vers\nle cellier',ha='center',va='center',fontsize=12,color='#596773')
 dimension(ax,(-t,stud,0),(-t,stud,188),'188\nlimite haute',(-13,0),(-7,0))
-dimension(ax,(-t,y_far,0),(-t,y_far,side_top),'170 visés',(12,0),(7,0))
+dimension(ax,(-t,y_A_end,0),(-t,y_A_end,side_top),'170 visés',(12,0),(7,0))
 
 label(bx,(depth/2,-t/2,103),'R1 — côté T1',(-24,11),'right')
 label(bx,(depth/2,-gap+t/2,87),'R2 — côté T2',(22,6))
 label(bx,(depth/2,-22,under),'R3 — sous la traverse',(13,16))
 label(bx,(depth,-72,120),'Plâtre conservé\ncôté cellier',(-28,30))
 dimension(bx,(0,y_right,0),(0,y_left,0),'42 théoriques¹',(0,-9),(0,-6))
-dimension(bx,(front_x0,-22,under),(depth,-22,under),'≈ 8,2 à vérifier',(0,7),(0,5))
+dimension(bx,(front_x0,-22,under),(depth,-22,under),'8,25 nominaux',(0,7),(0,5))
 dimension(bx,(depth,-gap,0),(depth,-gap,opening_top),'165,3²',(16,0),(7,0))
 
 # Fenêtres communes : les deux dessins gardent le même facteur d'échelle.
@@ -284,11 +295,11 @@ legend.extend(Patch(facecolor=palette[k],edgecolor='#41535e',label=v) for k,v in
 fig.legend(handles=legend,loc='lower center',bbox_to_anchor=(.5,.175),ncol=4,frameon=False,fontsize=10)
 notes=[
  'MESURES : cloison 6 cm ± 2 mm ; rail large de 7 cm, rebord côté cabane à 2 cm ± 2 mm devant les M48.',
- 'POSE PROPOSÉE : façade contre le rebord intérieur ; calage ≈ 5 mm aux appuis ; retours ≈ 8,2 cm à relever avant coupe.',
+ 'RELEVÉS : retours 8,25 cm nominaux ; T1 → bois 92 cm ; mur nord → T1 3,5 cm ; largeur haute 52,7 à 52,8 cm.',
  '¹ Largeur théorique : 45 − 1,5 − 1,5 = 42 cm, avant calage.  ² Sous-face proposée : 166,8 − 1,5 = 165,3 cm du carrelage.',
- 'À MESURER : largeur haute, profil sous les marches sur A, jeux et raccords. T2 est corrigé par l’habillage, sans déplacer le métal.',
- 'RAIL : fond et vis conservés ; ailes retirées dans le passage (proposition). Ailes hautes de 3 cm et tôle 0,6 mm : non mesurées.',
- 'BA13 CONFIRMÉ : 12,5 mm après le rail. Face finie déduite 6,25 cm contre 6 cm mesurés : écart 2,5 mm à contrôler.',
+ 'APRÈS PRÉSENTATION : hauteur sous les marches sur A, longueurs et petit contour C ; T2 corrigé par calage, sans déplacer le métal.',
+ 'POSE PROPOSÉE : calage ≈ 5 mm ; A large de 46,7 cm, B de 3,2 cm, C de 52,4 cm ; jeux de 3 mm contre mur/bois.',
+ 'RAIL : fond et vis conservés, ailes masquées dans le passage ; repli envisagé. Métal arrondi pour le dessin (ailes 3 cm, tôle 0,6 mm supposées).',
  'OSSATURE : sections bois 32 × 19 mm ; hauteurs et positions fines des tasseaux schématiques. TA3 à poser. Contour sous les marches non relevé.'
 ]
 for i,text in enumerate(notes):fig.text(.045,.14-i*.021,text,fontsize=10,ha='left')
@@ -326,10 +337,10 @@ fig.legend(handles=[Patch(facecolor=palette['P'],edgecolor='#526d7b',alpha=plast
                     Patch(facecolor=palette['R1'],edgecolor='#41535e',label='Panneaux intérieurs')],
            loc='lower center',bbox_to_anchor=(.5,.14),frameon=False,ncol=1,fontsize=11)
 for i,text in enumerate([
-    'Retours ≈ 8,2 cm : façade contre le rebord intérieur, plâtre après le rail ; cote finale à relever.',
+    'Retours : profondeur nominale 8,25 cm retenue ; façade contre le rebord intérieur, BA13 après le rail.',
     'Les baguettes recouvrent leur raccord avec le plâtre, sur les trois côtés du passage.',
     'Largeur 3 cm et épaisseur 0,6 cm des baguettes : hypothèses pour le dessin uniquement.',
-    'BA13 12,5 mm confirmé ; face finie déduite 6,25 cm contre 6 cm mesurés. Haut schématique.'
+    'BA13 12,5 mm confirmé ; géométrie du métal arrondie pour le dessin. Haut du mur schématique.'
 ]):fig.text(.07,.12-.027*i,text,fontsize=10)
 for ext in ('png','svg','pdf'):fig.savefig(HERE/f'isometrie_cellier_v1.{ext}',dpi=160)
 plt.close(fig)
@@ -343,7 +354,7 @@ fig.subplots_adjust(left=.06,right=.96,top=.82,bottom=.24,wspace=.28)
 fig.suptitle('Rail au sol et raccord B / R1 — façade contre le rebord intérieur',fontsize=20,fontweight='bold',y=.965)
 fig.text(.5,.917,'Vue depuis la cabane • Mesures en cm • Schéma de compréhension',ha='center',fontsize=13)
 zoom=make_rail(-10,stud)+[(name,face) for name,face in rail if name=='V']
-zoom+=box('B',front_x0,front_x1,0,stud,floor,15)
+zoom+=box('B',front_x0,front_x1,0,width_B,floor,15)
 zoom+=box('R1',front_x0,depth,-t,0,floor,15)
 zoom+=make_stud(0,stud,15,'sud')
 zoom+=box('W',wx,wx+ww,ta1_y,ta1_y+wy,rail_s,15)
@@ -358,7 +369,7 @@ label(ax,(sx,sy,.3),'Vis conservée',(5,-3))
 dimension(ax,(rail_x0,stud,3),(0,stud,3),'2 ± 0,2',(0,3),(0,1.4))
 
 bx.set_title('Plan du raccord : les retours couvrent le bord de la façade',fontsize=13)
-bx.add_patch(Polygon([(front_x0,0),(front_x1,0),(front_x1,stud),(front_x0,stud)],facecolor=palette['B'],edgecolor='#41535e'))
+bx.add_patch(Polygon([(front_x0,0),(front_x1,0),(front_x1,width_B),(front_x0,width_B)],facecolor=palette['B'],edgecolor='#41535e'))
 bx.add_patch(Polygon([(front_x0,-t),(depth,-t),(depth,0),(front_x0,0)],facecolor=palette['R1'],edgecolor='#41535e'))
 bx.add_patch(Polygon([(plaster_inner,0),(depth,0),(depth,stud),(plaster_inner,stud)],
                     facecolor=palette['P'],edgecolor='#526d7b',alpha=plaster_alpha,linestyle='--'))
@@ -373,7 +384,7 @@ bx.plot([rail_x1,rail_x1],[-2.3,3.8],ls='--',color='#8c969f',lw=1.6)
 bx.text((front_x0+front_x1)/2,1.7,'B',ha='center',fontsize=16,fontweight='bold')
 bx.text(wx+ww/2,ta1_y+wy/2,'TA1',ha='center',va='center',fontsize=11)
 bx.text(2.4,-.75,'R1',ha='center',fontsize=16,fontweight='bold')
-for a,b,y,labeltext in [(front_x0,front_x1,4.3,'1,5'),(0,depth,4.3,'6,25 déduits*'),(front_x0,depth,-2.8,'≈ 8,2 à relever')]:
+for a,b,y,labeltext in [(front_x0,front_x1,4.3,'1,5'),(0,depth,4.3,'≈ 6,25 dessinés'),(front_x0,depth,-2.8,'8,25 nominaux relevés')]:
     bx.annotate('',xy=(a,y),xytext=(b,y),arrowprops={'arrowstyle':'<->','lw':1})
     bx.text((a+b)/2,y+.18,labeltext,ha='center',va='bottom',fontsize=11)
 bx.annotate('Face M48',xy=(0,3.7),xytext=(1.6,3.5),fontsize=10,arrowprops={'arrowstyle':'-'})
@@ -386,9 +397,9 @@ bx.set_xlim(-5.2,11);bx.set_ylim(-5,6.7);bx.set_aspect('equal');bx.axis('off')
 for i,text in enumerate([
     'FAITS : profondeur M48 → plâtre 6 ± 0,2 cm ; rebord rail → M48 2 ± 0,2 cm ; rail large de 7 cm.',
     'HYPOTHÈSE : OSB 1,5 cm contre le rebord intérieur ; cales ≈ 5 mm derrière. Fixation aux tasseaux, pas au rebord.',
-    '* BA13 confirmé 1,25 cm après le rail : 7 − 2 + 1,25 = 6,25 cm, contre 6 cm mesurés. Écart de 2,5 mm à contrôler.',
-    'À RELEVER : rebord intérieur → face finie du BA13 pour les retours (≈ 8,2 cm dessinés). Ailes 3 cm et tôle 0,6 mm supposées.',
-    'Le rebord reste visible devant le pied de B/A : finition basse à définir. Ailes retirées uniquement dans le passage : proposition.',
+    'RELEVÉS : retours 8,25 cm nominaux après photos T1/T2 ; B large de 3,2 cm avec jeu proposé de 0,3 cm au mur nord.',
+    'Métal arrondi pour le dessin ; ailes de 3 cm et tôle de 0,6 mm supposées. Cette vue n’est pas un gabarit de coupe.',
+    'Fond et vis conservés. Ailes masquées dans le passage : repli intérieur envisagé, hauteur après pliage et seuil à vérifier.',
     'Ce dessin ne valide ni les coupes finales ni les fixations. Aucun retrait de métal sous les montants n’est prescrit.'
 ]):fig.text(.045,.184-.027*i,text,fontsize=10)
 for ext in ('png','svg','pdf'):fig.savefig(HERE/f'detail_rail_raccord_v2.{ext}',dpi=160)

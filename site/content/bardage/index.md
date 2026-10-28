@@ -1,166 +1,154 @@
 ---
 title: "Bardage OSB — découpes et vues 3D"
-description: "Morceaux bruts à préparer, profondeur de passage mesurée et finitions vues depuis la cabane et le cellier."
+description: "Commande des rectangles de préparation après relevés, ajustements courts et assemblage vu depuis la cabane et le cellier."
 date: 2026-10-28T00:00:00+01:00
-nav_anchor: "découpes-brutes"
+nav_anchor: "découpes-à-commander"
 nav_label: "Découpes"
 ---
 
-**[Liste d’achat et références Leroy Merlin](../achats/)** · [Fiche détaillée des découpes — PDF](decoupes_v1.pdf)
+**[Commande de découpe à emporter — PDF](commande_decoupe.pdf)** ·
+[Liste d’achat et références](../achats/) · [Fiche détaillée — PDF](decoupes_v1.pdf)
 
-## Faits et choix actuels
+## Découpes à commander
 
-Le passage se situe entre **T1 et T2**, qui désignent les montants[^montant]
-métalliques. La profondeur de cloison mesurée est de **6 cm ± 2 mm**, de
-la face du métal côté cabane à la surface finie du plâtre côté cellier. Le
-bardage est souhaité jusqu’à **188 cm au-dessus du passage** et jusqu’à
-**170 cm entre T2 et T3**. Ce second espace reste fermé.
+OSB/3[^osb] proposé de **1,5 cm** ; achat non confirmé. Un panneau de
+**250 × 125 cm** suffit au placement dessiné. Les valeurs sont en **cm**.
 
-L’OSB[^osb] de **15 mm** est proposé pour la façade et les trois panneaux
-intérieurs. Aucun panneau n’est encore acheté. La traverse[^traverse] est
-posée, dessous à **166,8 cm**, dessus à **171,2 cm** ; les quatre équerres
-sont toutes au-dessus. Le plâtre est découpé dans le passage.
+| Repère | Quantité | Emplacement | Longueur × largeur de préparation |
+|:--|--:|:--|:--|
+| **A** | 1 | Façade T2–T3, jusqu’au bois voisin | **170 × 46,7 cm** |
+| **B** | 1 | Bande côté mur nord / T1 | **170 × 3,2 cm** |
+| **C** | 1 | Partie haute au-dessus du passage | **24 × 52,4 cm** |
+| **R1** | 1 | Intérieur du passage, côté T1 | **170 × 8,25 cm** |
+| **R2** | 1 | Intérieur du passage, côté T2 | **170 × 8,25 cm** |
+| **R3** | 1 | Dessus intérieur, sous la traverse | **50 × 8,25 cm** |
 
-## Découpes brutes
+Les **largeurs de préparation sont définies** à partir des derniers relevés.
+Les longueurs A/B/R1/R2/R3 et la hauteur de C seront raccourcies après
+présentation. Le petit décrochement[^decrochement] de C sera reporté sur place.
+Il n’est pas prévu de longue recoupe manuelle sur 170 cm.
 
-![Trois morceaux bruts identifiés et placés dans un panneau de 250 × 125 cm.](schema_decoupes.png)
+**Atelier de coupe à prévoir pour les six pièces.** [Leroy Merlin](https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html)
+exclut les formats sous 20 × 20 ou 60 × 10 cm et annonce ±3 mm : les bandes
+B/R1/R2/R3 sont hors de ces formats. Pour conserver les jeux proposés de
+3 mm sans longue recoupe manuelle, privilégier un atelier capable de tenir
+une tolérance d’environ ±1 mm sur l’ensemble de la commande, à confirmer
+avec lui. Un fablab équipé ou un menuisier peut être sollicité.
 
-**[Schéma imprimable — PDF](schema_decoupes.pdf)** · [Placement des réserves — PDF](debit_preparatoire.pdf)
+![Rectangles de préparation cotés et placement dans un panneau de 250 × 125 cm.](schema_decoupes.png)
 
-| Repère | Emplacement | Hauteur × largeur brute |
-|:---|:---|:---|
-| **A** | Façade entre T2 et T3 | **170 × 48 cm** |
-| **B** | Bande de façade côté T1 | **170 × 6 cm** |
-| **C** | Façade au-dessus du passage | **24 × 55 cm** |
+[Schéma des découpes — PDF](schema_decoupes.pdf) · [Placement — PDF](debit_preparatoire.pdf)
 
-**A/B/C : ces valeurs sont des enveloppes de matière, pas une commande de
-coupe finale.** Faire couper leurs largeurs finales après relevé des supports
-(notamment TA3) et du raccord A/C. Les faire couper plus larges imposerait
-encore de longues recoupes avec la scie manuelle.
+## Faits et calculs des largeurs
 
-| Repère | Emplacement | Quantité | Longueur brute × profondeur indicative, à relever avant commande |
-|:---|:---|:---|:---|
-| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × environ 8,2 cm** |
-| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × environ 8,2 cm** |
-| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × environ 8,2 cm** |
+Le passage est entre les montants[^montant] **T1 et T2** ; T2–T3 reste fermé.
+La traverse[^traverse] est posée, dessous à **166,8 cm**, dessus à **171,2 cm** ;
+les quatre équerres sont au-dessus et le plâtre lui est vissé. TA1/TA2 sont
+posés, TA3 en **3,2 × 1,9 cm** reste à prévoir.
 
-**Nouvelle hypothèse : la face visible du bardage vient contre la face
-intérieure du rebord côté cabane.** Il faut environ **5 mm de calage[^cale]**
-derrière l’OSB de 15 mm, aux appuis sur les tasseaux. Les retours R1/R2/R3
-rejoignent toujours cette face visible et la face finie du placo côté cellier.
-Leur profondeur devient **environ 8,2 cm sur le dessin**, au lieu de 7,5 cm.
-**Cette valeur est indicative : mesurer la profondeur réelle entre ces deux
-faces avant commande de découpe.** Les longueurs brutes restent 170 cm pour
-R1/R2 et 50 cm pour R3, à raccourcir après présentation.
+- **A :** 92 cm de T1 jusqu’au bois, moins 45 cm jusqu’au plan extérieur
+  de R2 maintenu vertical, moins 0,3 cm de jeu proposé contre le bois :
+  **46,7 cm**.
+- **B :** 3,5 cm entre le mur nord et le bord de T1 côté passage, moins
+  0,3 cm de jeu proposé au mur : **3,2 cm**.
+- **C :** largeur haute mesurée de 52,7 à 52,8 cm ; on retient 52,7 cm,
+  moins 0,3 cm de jeu proposé au mur : **52,4 cm**.
+- **R1/R2/R3 :** profondeur nominale **8,25 cm**, retenue après les relevés
+  près de T1 et de T2. Les photographies ne garantissent pas une précision
+  au demi-millimètre ; cette valeur est une cote nominale de préparation.
 
-Le **BA13[^ba13] de 12,5 mm est confirmé** et se trouve après le rail, sans
-chevauchement. Les cotes arrondies donnent 7 − 2 + 1,25 = **6,25 cm** jusqu’à
-sa face finie, contre **6 cm ± 2 mm mesurés**. Cet écart de 2,5 mm est signalé,
-pas traité comme une nouvelle mesure. Il explique pourquoi la largeur finale
-des retours doit être relevée sur place. Les anciennes bandes de 7,5 cm ne
-correspondent plus à cette hypothèse de pose.
-
-Ces bandes restent comprises dans le même panneau de 250 × 125 cm. Les
-variations de ±2 mm et les raccords sont à vérifier avant commande de coupe.
-Les longues coupes sont à confier au magasin ; vérifier qu’il accepte les
-bandes étroites. L’hypothèse ne transforme pas les enveloppes A/B/C en cotes
-finales et ne prévoit pas de recoupe longitudinale de 170 cm à la main.
-
-Les retours[^retour] vont désormais du bardage calé contre le rebord à la
-face finie du BA13 : environ 8,2 cm dans le dessin corrigé. Les vues suivantes
-illustrent cet assemblage, sans valider les dimensions finales de coupe.
+Les hauteurs souhaitées sont **188 cm au-dessus du passage** et **170 cm
+sur A**. La hauteur minimale sous les marches sur A reste à vérifier avant
+recoupe finale. Le jeu de 0,3 cm est proposé ; les instructions du panneau
+acheté priment.
 
 ## Vue depuis la cabane
 
-![Vue isométrique : bardage assemblé, retours intérieurs et ossature avec TA1/TA2 dans les M48, TA3 proposé et placo transparent.](isometrie_bardage_v1.png)
+![Bardage assemblé, retours intérieurs et ossature avec TA1/TA2 visibles dans les M48 transparents ; TA3 reste à poser.](isometrie_bardage_v1.png)
 
-[Télécharger la vue côté cabane — PDF](isometrie_bardage_v1.pdf)
+[Vue côté cabane — PDF](isometrie_bardage_v1.pdf)
 
-Le **plâtre conservé côté cellier est représenté en transparence**, de part
-et d’autre et au-dessus du passage, **y compris au-dessus de A, à droite de
-C**. Le **BA13 de 12,5 mm est confirmé** et commence après le rail côté cellier.
-Sa face finie est dessinée à 6,25 cm des M48, afin d’éviter tout chevauchement ;
-l’écart avec les 6 cm mesurés reste explicitement indiqué.
+Les trois vues montrent successivement la façade, les retours[^retour],
+puis les tasseaux[^tasseau] et la traverse derrière l’OSB masqué. Le BA13[^ba13]
+conservé est transparent, y compris au-dessus de A, à droite de C. Son
+contour supérieur est tronqué schématiquement à 188 cm et ne prescrit
+aucune coupe du plâtre. Les hauteurs et positions fines des tasseaux sont
+schématiques ; l’orientation du profil de T3 reste inconnue.
 
-Le placo ne s’arrête pas à la hauteur choisie de 170 cm pour le bardage A.
-Le dessin du mur est tronqué à 188 cm pour la lisibilité : **le contour réel
-sous les marches reste à relever**. Ce bord schématique ne prescrit aucune
-nouvelle coupe du plâtre.
+**R1/R2/R3 couvrent les bords de la façade jusqu’à sa face visible.** R1/R2
+montent sous la traverse et R3 s’insère entre eux. C présente un petit
+décrochement au raccord avec A : sa forme sera reportée après présentation.
+Les baguettes d’angle[^corniere] proposées se posent après vissage ; prévoir
+leur place avant. Elles ne sont pas représentées dans cette vue.
 
-La vue centrale masque la façade pour montrer les trois panneaux intérieurs.
-La vue de droite masque aussi les retours et rend les M48 transparents : on voit **TA1 et TA2 dans T1/T2**,
-la traverse, le calage proposé et **TA3 à poser** dans T3. La section des
-tasseaux[^tasseau] est de **32 × 19 mm**, les 32 mm suivant l’axe est–ouest.
-Leurs hauteurs et positions fines sont schématiques ; l’orientation du profil
-de T3 n’est pas relevée. Les équerres ne sont pas détaillées.
+## Rail, calage et raccord B / R1
 
-Les retours vont de la face visible du bardage au plâtre côté cellier :
-**environ 8,2 cm, à relever avant coupe**. R1/R2 montent sous la traverse ; R3 se place entre eux.
-Le bas de C rejoint le dessus de R3 : les bords des panneaux de façade sont
-recouverts par les panneaux intérieurs dans cette hypothèse. **Le décrochement dessiné dans C est un exemple de raccord avec
-A**, pas un contour de coupe validé. Les baguettes d’angle[^corniere] proposées
-sur B–R1, A–R2 et C–R3 se posent après vissage et ajustement des panneaux ;
-prévoir leur place avant de visser. Elles ne sont pas dessinées sur cette vue.
-
-## Rail au sol et raccord B / R1
-
-![Détail du pied de T1 : TA1 dans le M48, calage du bardage contre le rebord et BA13 après le rail sans chevauchement.](detail_rail_raccord_v2.png)
+![Raccord B/R1 avec TA1 dans le M48, calage proposé, bardage contre le rebord intérieur et BA13 après le rail.](detail_rail_raccord_v2.png)
 
 [Rail et raccord — PDF](detail_rail_raccord_v2.pdf)
 
-Le rail mesure **7 cm** de large. Son rebord côté cabane est à **2 cm ± 2 mm**
-devant les M48. Le bardage de 1,5 cm est désormais dessiné contre la **face intérieure du
-rebord**, avec environ 5 mm de calage rigide derrière pour rejoindre les
-supports. Le rebord sert de repère au pied ; **il ne remplace pas la fixation
-aux tasseaux**. Contrôler le plan au niveau et ne pas cintrer le panneau pour
-suivre un rail irrégulier. Le jeu vertical au sol proposé reste indépendant
-de cet appui latéral. La finition basse reste à définir.
+Le rail[^rail] mesure environ **7 cm** ; son rebord côté cabane est à environ
+**2 cm ± 2 mm** devant les M48. La façade est proposée contre la face
+intérieure du rebord, avec environ **0,5 cm de cales[^cale]** aux appuis.
+Elle reste vissée aux tasseaux ; le rebord ne remplace pas cette fixation.
+Le BA13 de **1,25 cm confirmé** se trouve après le rail, sans chevauchement.
+La vue utilise une géométrie du métal arrondie ; elle ne sert pas de gabarit.
+La profondeur de préparation des retours est le nominal relevé de **8,25 cm**.
 
-Le fond et la vis sont conservés ; le retrait des ailes dans le passage est
-une proposition représentée, pas une opération déclarée réalisée. La hauteur
-des ailes et l’épaisseur de tôle sont inconnues : elles sont représentées à
-3 cm et 0,6 mm pour comprendre la forme, sans constituer des cotes de coupe.
+**Fond, vis et parties sous T1/T2 conservés.** Le repli intérieur des ailes
+est désormais envisagé, après coupes verticales aux limites du passage.
+Il n’est pas déclaré réalisé. Les ailes sont masquées dans l’ouverture sur
+les vues ; leur hauteur après pliage reste à vérifier pour le seuil et les
+pieds de R1/R2. Les 3 cm de hauteur d’aile et 0,6 mm de tôle du dessin sont
+des hypothèses, pas des mesures.
 
 ## Vue depuis le cellier
 
-![Vue partielle côté cellier : plâtre conservé transparent, panneaux intérieurs et trois couvre-joints proposés.](isometrie_cellier_v1.png)
+![Plâtre conservé transparent côté cellier, retours intérieurs et couvre-joints proposés.](isometrie_cellier_v1.png)
 
-[Télécharger la vue côté cellier — PDF](isometrie_cellier_v1.pdf)
+[Vue côté cellier — PDF](isometrie_cellier_v1.pdf)
 
-Les panneaux intérieurs arrivent à la surface du plâtre. Trois
-couvre-joints[^couvrejoint] peuvent masquer le raccord : deux sur les côtés
-et un au-dessus. Le champlat[^champlat] chêne de 37,5 mm examiné pour l’achat
-est dans la [liste d’achat](../achats/). Les sections des baguettes montrées
-dans le dessin sont illustratives ; présenter le profil réellement acheté.
-Le mur est représenté partiellement : son contour supérieur ne prescrit
-aucune nouvelle coupe du plâtre.
+Les retours arrivent à la face peinte du plâtre. Trois couvre-joints[^couvrejoint]
+peuvent masquer le raccord : deux verticaux et un horizontal. Le champlat[^champlat]
+chêne envisagé figure dans la [liste d’achat](../achats/). Les sections des
+baguettes dessinées sont illustratives et restent à comparer aux profils achetés.
 
-## Hypothèses, mesures manquantes et sécurité
+## Ajustements restant chez soi
 
-- **Propositions :** panneaux de 15 mm, jeu au sol de 1 cm, jeu de 3 mm sous
-  l’escalier, raccord A/C à ajuster et baguettes de finition.
-- **Calculs indicatifs :** largeur de 42 cm avant calage et baguettes, si
-  seuls deux panneaux de 15 mm empiètent dans les 45 cm minimaux ; dessous
-  du retour haut à 165,3 cm du carrelage si posé directement sous la traverse.
-- **À mesurer :** largeur haute à 188 cm, contours des raccords, longueurs
-  finales des retours, hauteur minimale sous les marches sur A et supports disponibles. T2 est représenté corrigé
-  par le calage de l’habillage, sans déplacement du montant.
-- **Sécurité :** les dessins expliquent l’assemblage et ne certifient pas sa
-  résistance. Conserver les fixations et la structure de l’escalier. Le seuil
-  et les fixations ne sont pas représentés.
+- **A :** vérifier le passage sous les marches sur toute la largeur ;
+  raccourcir la hauteur pour viser un haut à 170 cm avec l’espace au sol retenu.
+  Avec un bas à 1 cm, sa hauteur serait de 169 cm. Ce centimètre reste une
+  proposition, pas une obligation établie.
+- **B :** raccourcir sous la traverse, dont le dessous est à **166,8 cm**.
+- **R1/R2 :** raccourcir entre leur niveau bas réel au-dessus du rail aménagé
+  et la traverse, en laissant le petit espace de pose retenu. Une cale
+  provisoire sous le panneau se retire après vissage ; les cales d’appui derrière
+  le panneau restent en place.
+- **R3 :** mesurer sa longueur entre R1 et R2 présentés. Les **42 cm**
+  calculés à partir de 45 moins deux épaisseurs de 1,5 ne sont pas une coupe finale.
+- **C :** présenter le rectangle de 24 × 52,4 cm, puis reporter la hauteur et
+  le petit décrochement au raccord avec A. Avec un haut à 187,7 cm et un bas
+  à 166,8 cm, sa hauteur serait **20,9 cm**. Le contour doit respecter les
+  pièces de l’escalier et le raccord réel ; ne pas le découper d’après la seule
+  vue 3D.
 
-Les coupes finales seront reportées après présentation ; les premiers
-gabarits à 168 cm du guide historique ne définissent plus ces découpes.
+## Hypothèses et sécurité
 
-[^osb]: **OSB** : panneau de grandes lamelles de bois collées.
-[^montant]: **Montant** : profil métallique vertical de la cloison.
-[^traverse]: **Traverse** : bois horizontal au-dessus du passage.
-[^retour]: **Retour intérieur** : panneau couvrant l’épaisseur de la cloison dans le passage.
+Les jeux proposés, le calage et le décrochement de C sont à vérifier après
+présentation. La largeur théorique du passage serait de 42 cm avant calage
+et baguettes ; la sous-face de R3 serait à 165,3 cm du carrelage avant seuil.
+Conserver les fixations et les éléments de l’escalier. Les dessins expliquent
+l’assemblage, sans certifier sa résistance ni les vis à choisir.
+
+[^osb]: **OSB** : panneau de grandes lamelles de bois collées ; l’OSB/3 n’est pas imperméable.
+[^decrochement]: **Décrochement** : petit changement de contour, ici une découpe en angle permettant à C de rejoindre A.
+[^montant]: **Montant** : profil métallique vertical ; T1, T2 et T3 sont ceux du nord vers le sud.
+[^traverse]: **Traverse** : bois horizontal placé au-dessus du passage.
+[^retour]: **Retour** : panneau couvrant l’épaisseur de la cloison à l’intérieur du passage.
+[^rail]: **Rail** : profil métallique en U posé au sol ; ses ailes sont les deux rebords verticaux.
+[^cale]: **Cale** : pièce rigide interposée pour régler la position ou l’appui d’un panneau.
+[^ba13]: **BA13** : plaque de plâtre à bords amincis, d’épaisseur 1,25 cm ici confirmée.
+[^tasseau]: **Tasseau** : pièce de bois servant de support aux vis de l’habillage.
+[^couvrejoint]: **Couvre-joint** : baguette masquant le raccord entre deux surfaces.
 [^corniere]: **Baguette d’angle**, ou cornière : profil en L couvrant deux faces perpendiculaires.
-[^couvrejoint]: **Couvre-joint** : baguette masquant le raccord entre le panneau et le mur.
 [^champlat]: **Champlat** : baguette plate et mince.
-
-[^cale]: **Cale** : petite pièce rigide placée entre le support et le panneau pour régler sa position, notamment au droit des vis.
-[^ba13]: **BA13** : plaque de plâtre à bords amincis, d’épaisseur 12,5 mm ici confirmée par l’utilisateur.
-
-[^tasseau]: **Tasseau** : pièce de bois de petite section servant de support aux vis de l’habillage.

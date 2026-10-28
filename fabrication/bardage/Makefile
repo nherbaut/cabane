@@ -6,3 +6,4 @@ dessin:
 	MPLCONFIGDIR=/tmp/cabane-matplotlib python3 generer_isometrie.py
 pdf:
 	pandoc decoupes_v1.md --standalone --pdf-engine=xelatex -V geometry:margin=1.8cm -V fontsize=10pt -V papersize=a4 -o decoupes_v1.pdf
+	pandoc commande_decoupe.md --standalone --pdf-engine=xelatex -V geometry:margin=1.5cm -V fontsize=10pt -V papersize=a4 -o commande_decoupe.pdf

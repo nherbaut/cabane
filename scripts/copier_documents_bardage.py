@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'fabrication/bardage'
 DESTINATION = ROOT / 'site/content/bardage'
 FILES = (
+    'commande_decoupe.pdf',
     'decoupes_v1.pdf',
     'schema_decoupes.pdf', 'schema_decoupes.png',
     'debit_preparatoire.pdf',

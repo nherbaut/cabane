@@ -441,6 +441,15 @@
         "nominal": 3.5,
         "source": "Utilisateur : confirmation explicite de 35 mm entre mur nord et bord de T1 donnant dans le passage",
         "status": "dimension mesurée confirmée"
+      },
+      "header_upper_width_cm": {
+        "range": [
+          52.7,
+          52.8
+        ],
+        "nominal_for_cutting": 52.7,
+        "reference": "mur nord → bord extérieur de T2 côté T3, au plus près du dessous de l’escalier",
+        "source": "Utilisateur : « 52.7-8 », compris comme 52,7 à 52,8 cm"
       }
     },
     "floor_rail": {
@@ -462,7 +471,7 @@
       },
       "T2_T3_screw": "conserver",
       "T1_north_partition_screws": "5 à 6 ; support derrière le plâtre inconnu",
-      "decision": "conserver le fond continu et la vis ; proposition de retirer uniquement les ailes dans le passage puis de couvrir par un seuil collé ; coupe non confirmée",
+      "decision": "conserver fond continu, vis et parties sous T1/T2 ; option désormais examinée : couper verticalement les ailes aux limites du passage puis les replier vers l’intérieur. Exécution non confirmée, hauteur après pliage à relever pour le seuil et les pieds R1/R2.",
       "MDF_skirting": "reste à retirer dans le passage",
       "cabin_flange_offset_from_stud_face": {
         "nominal": 2,
@@ -499,9 +508,9 @@
         },
         {
           "id": "C",
-          "label": "façade haute au-dessus du passage",
+          "label": "façade haute ; largeur de préparation fixée, hauteur et décrochement à ajuster",
           "height": 24,
-          "width": 55
+          "width": 52.4
         }
       ],
       "lining_reserves": [
@@ -528,19 +537,19 @@
       "finished_T2_T3_height_if_floor_gap_1cm": 169,
       "header_height_without_lining_overlap": 21.2,
       "header_height_with_15mm_lining_overlap_and_3mm_top_gap": 22.4,
-      "status": "coupes brutes proposées ; joints entre A/B/C, profondeur des retours et contours finaux à relever après présentation",
+      "status": "dimensions des rectangles définies après relevés ; atelier de coupe adapté à prévoir pour les bandes étroites et une tolérance suffisante ; longueurs, hauteur sur A et petit décrochement C ajustés après présentation",
       "isometric_view": {
         "source": "fabrication/bardage/generer_isometrie.py",
         "thickness_cm": 1.5,
-        "lining_depth_cm": 8.2,
-        "joint_A_C": "exemple de raccord à décrochement dans C ; contour final non acté",
+        "lining_depth_cm": 8.25,
+        "joint_A_C": "petit décrochement illustratif à reporter après présentation ; pas une coupe finale automatique",
         "frame": "local translaté : origine à la face de T1 bordant le passage, au sol ; axes parallèles au repère du projet ; translation globale non fixée",
-        "top_width": "non mesurée à 188 cm ; représentation fondée sur le passage minimal de 45 cm et les faces annoncées de 3,5 cm",
+        "top_width": "52,7 à 52,8 cm mesurés près de l’escalier ; minimum 52,7 retenu, largeur C 52,4 après jeu proposé de 0,3 au mur",
         "plaster_display": {
           "opacity": 0.28,
           "surface_position_from_stud_face": 6.25,
           "thickness_drawn": true,
-          "note": "BA13 confirmé de 1,25 cm ; posé hors du rail côté cellier. Face finie dessinée à 6,25 cm pour éviter le chevauchement. Écart de 0,25 cm avec les 6 cm mesurés à signaler, pas nouvelle mesure. Contour supérieur tronqué schématiquement à 188 cm.",
+          "note": "BA13 1,25 confirmé après le rail ; retours 8,25 nominaux issus des relevés T1/T2. Géométrie est–ouest du métal arrondie pour le dessin, sans chevauchement ; contour supérieur tronqué à 188 sans nouvelle coupe du plâtre.",
           "display_crop_height_cm": 188,
           "actual_upper_outline_measured": false,
           "thickness_status": "confirmée BA13 par utilisateur",
@@ -557,7 +566,7 @@
         "status": "proposition illustrée, dimensions et fixation à choisir ; aucune nouvelle coupe du mur cellier prescrite"
       },
       "lining_cutting_note": "Profondeur nominale retenue 8,25 cm après photos près de T1 et T2 et correction utilisateur ; les 8,5 cm provisoires sont remplacés. Longueurs préparatoires 170 cm pour R1/R2, 50 cm pour R3, à raccourcir. Précision des photos et tolérance de coupe à distinguer du nominal.",
-      "rough_blanks_note": "A : 170 × 46,7 cm et B : 170 × 3,2 cm, largeurs de préparation retenues avec jeux proposés de 3 mm contre bois/mur et R2 vertical au repère de 45 cm. Longueurs à ajuster. C : réserve 24 × 55 cm, largeur haute et raccord à préciser.",
+      "rough_blanks_note": "Rectangles de préparation : A 170 × 46,7 ; B 170 × 3,2 ; C 24 × 52,4 cm. Largeurs établies avec jeux proposés de 0,3 cm contre bois/mur et R2 vertical au repère de 45 cm depuis T1. Hauteurs et décrochement C à reporter après présentation ; aucune longue recoupe manuelle prévue.",
       "joint_option": {
         "status": "hypothèse demandée par utilisateur pour la vue 3D, pas gabarit de coupe validé",
         "type": "retours jusqu’à la face visible du bardage ; bardage au contact du rebord intérieur du rail, cales derrière ; plâtre après le rail",
@@ -572,7 +581,7 @@
         "sheet_thickness": 0.06,
         "flange_height": 3,
         "note": "dimensions non mesurées, représentation illustrative uniquement",
-        "passage": "fond continu et vis conservés ; ailes retirées seulement dans l’ouverture brute, proposition non exécutée confirmée"
+        "passage": "fond et vis conservés ; ailes masquées dans le passage sur la vue. Repli intérieur désormais envisagé par utilisateur ; hauteur réelle et faisabilité locale à vérifier avant pose du seuil."
       },
       "facade_rail_contact_proposal": {
         "status": "hypothèse de pose demandée par utilisateur, à présenter avant coupe finale",
@@ -585,10 +594,10 @@
         "derived_plaster_face_cm": 6.25,
         "difference_cm": 0.25,
         "derivation": "rail 7 − décalage 2 + BA13 1,25 = 6,25 cm",
-        "status": "cotes arrondies non fermées ; 6,25 sert uniquement à dessiner les pièces sans chevauchement, pas une mesure validée",
+        "status": "les anciens calculs arrondis ne remplacent pas le relevé direct : profondeur nominale 8,25 cm retenue après photos T1/T2",
         "lining_depth_before_sheet_allowance_cm": 8.25,
         "lining_depth_approx_cm": 8.2,
-        "missing": "Les relevés près de T1/T2 confirment une profondeur proche de 8,25 cm ; vérifier les raccords et la tolérance de coupe du magasin. Les cotes antérieures de 6 cm et 2 cm restent des relevés arrondis distincts.",
+        "missing": "vérifier la tolérance du service de coupe et les appuis après présentation ; aucune nouvelle mesure de profondeur demandée avant préparation des bandes",
         "latest_direct_lining_measurement_cm": 8.25
       },
       "frame_render_assumptions": {
@@ -645,6 +654,51 @@
         "preparation_length_cm": 170,
         "formula": "3,5 − 0,3 = 3,2 cm",
         "status": "largeur de préparation proposée avec jeu de 3 mm au mur ; longueur à raccourcir après présentation ; instructions du fabricant de panneau à respecter"
+      },
+      "panel_C_width": {
+        "coverage_min_cm": 52.7,
+        "proposed_gap_to_north_wall_cm": 0.3,
+        "preparation_cut_width_cm": 52.4,
+        "preparation_height_cm": 24,
+        "formula": "52,7 − 0,3 = 52,4 cm",
+        "status": "largeur de préparation retenue ; hauteur et décrochement ajustés par coupes courtes après présentation, sans modification de l’escalier"
+      },
+      "preparation_cut_status": {
+        "widths_defined": true,
+        "sheet": "OSB proposé, 1,5 cm ; achat non confirmé",
+        "conditions": "atelier acceptant B 3,2 cm et retours 8,25 cm ; tolérance visée ±0,1 cm à confirmer ; formats Leroy Merlin incompatibles pour ces bandes. Les jeux de 0,3 sont proposés, soumis aux instructions fabricant.",
+        "remaining_short_cuts": [
+          "longueurs A/B/R1/R2 après choix du jeu et vérification du rail",
+          "longueur R3 entre retours présentés",
+          "hauteur et décrochement C, hauteur minimale sous les marches sur A"
+        ],
+        "scope": "préparation des rectangles, pas contours finaux de pose ni validation des fixations"
+      },
+      "cutting_service": {
+        "source": "https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html",
+        "source_checked": "2026-10-28",
+        "Leroy_Merlin": {
+          "minimum_formats_cm": [
+            [
+              20,
+              20
+            ],
+            [
+              60,
+              10
+            ]
+          ],
+          "announced_tolerance_cm": 0.3,
+          "incompatible_pieces": [
+            "B",
+            "R1",
+            "R2",
+            "R3"
+          ],
+          "A_C": "formats compatibles, mais tolérance annoncée égale au jeu de pose proposé ; ne pas promettre une pose sans recoupe sur cette base"
+        },
+        "proposal": "confier les six rectangles à un atelier adapté aux petites largeurs et tenant environ ±0,1 cm, à confirmer avec lui ; fablab équipé ou menuisier envisageable",
+        "workshop_confirmed": false
       }
     }
   }

@@ -18,11 +18,12 @@ positions={}; next_x=0
 for name in ['A','B','R1','R2']:
     positions[name]=(next_x,0)
     next_x+=blanks[name]['width']+kerf
-positions.update(C=(0,170+kerf),R3=(55+kerf,170+kerf))
+positions.update(C=(0,170+kerf),R3=(blanks['C']['width']+kerf,170+kerf))
+def fr(value):return f'{value:g}'.replace('.',',')
 pieces=[]
 for name,(x,y) in positions.items():
     q=blanks[name]; a,b=q['width'],q['height']
-    label=name if a<=6 else (f'{name}\nEnveloppe {b:g} × {a:g} cm' if name in ('A','B','C') else f'{name} : {b:g} × {a:g}')
+    label=name if a<=6 else f'{name}\n{fr(b)} × {fr(a)} cm'
     pieces.append((label,x,y,a,b,'#9fc6ca' if name in ('A','B','C') else '#f1d099'))
 for _,x,y,a,b,_ in pieces:
     assert 0 <= x and 0 <= y and x+a <= w and y+b <= h
@@ -36,14 +37,14 @@ ax.add_patch(Rectangle((0,0),w,h,facecolor='#f7f3eb',edgecolor='black'))
 for label,x,y,a,b,color in pieces:
     ax.add_patch(Rectangle((x,y),a,b,facecolor=color,edgecolor='#35454a'))
     ax.text(x+a/2,y+b/2,label,ha='center',va='center',rotation=90 if a<=12 else 0)
-ax.text(62.5,220,'CHUTES À CONSERVER\n\nR1/R2 : 170 × 8,2 cm\nR3 : 50 × 8,2 cm\nProfondeur à relever avant coupe.\nLongueurs à raccourcir.',ha='center',va='center')
+ax.text(62.5,220,f"CHUTES À CONSERVER\n\nR1/R2 : 170 × {fr(blanks['R1']['width'])} cm\nR3 : 50 × {fr(blanks['R3']['height'])} cm\nLongueurs et contour C\nà ajuster après présentation.",ha='center',va='center')
 ax.annotate('',xy=(0,-7),xytext=(w,-7),arrowprops={'arrowstyle':'<->'})
 ax.text(w/2,-13,f'{w:g} cm',ha='center')
 ax.annotate('',xy=(-7,0),xytext=(-7,h),arrowprops={'arrowstyle':'<->'})
 ax.text(-12,h/2,f'{h:g} cm',ha='center',va='center',rotation=90)
-ax.set_title('OSB proposé : 15 mm — dimensions en cm\nA/B/C : enveloppes ; R1/R2/R3 : ≈ 8,2 cm à relever avant coupe',pad=15)
+ax.set_title('OSB proposé : 15 mm — dimensions en cm\nRectangles de préparation : largeurs définies, longueurs à ajuster',pad=15)
 ax.set_xlim(-20,w+5); ax.set_ylim(-22,h+5); ax.set_aspect('equal'); ax.axis('off')
-fig.text(.5,.013,'A/B/C : relever les largeurs finales avant coupe en magasin. Trait de scie supposé : 4 mm.',ha='center',fontsize=9)
+fig.text(.5,.013,'Atelier adapté requis pour les bandes étroites. Trait de scie supposé : 4 mm.',ha='center',fontsize=9)
 for ext in ('pdf','svg','png'):
     fig.savefig(here/f'debit_preparatoire.{ext}',dpi=150)
 print('Placement vérifié dans un panneau de 250 × 125 cm ; aucune superposition.')

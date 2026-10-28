@@ -49,6 +49,7 @@ mesures dans `donnees/geometrie.json`. La profondeur mesurée est de 6 cm
 (Matplotlib, NumPy, Shapely pour les occultations des vues 3D, Pandoc et
 XeLaTeX). Les dépendances Python figurent dans
 `fabrication/bardage/requirements.txt`. Les fichiers produits sont versionnés.
-`make site-build` copie uniquement dix PDF/PNG explicitement désignés par
+`make site-build` copie uniquement onze PDF/PNG, dont la commande de découpe,
+explicitement désignés par
 `scripts/copier_documents_bardage.py` ; la CI n’a pas à installer les outils
 de dessin ou TeX. Aucun répertoire d’achat privé n’est parcouru par ce script.

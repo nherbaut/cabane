@@ -1,6 +1,6 @@
 # Relevé pour arrêter les découpes OSB
 
-**État : commande de coupe en préparation, pas encore validée.**
+**État : largeurs de préparation définies ; rectangles définis, à confier à un atelier adapté, avec tolérance visée d’environ ±1 mm à confirmer. Contours de pose encore à ajuster.**
 Les valeurs ci-dessous sont en **cm**. Les réponses relevées en mm seront
 converties en cm avant inscription dans les données du projet.
 
@@ -34,7 +34,7 @@ converties en cm avant inscription dans les données du projet.
 | 1 | Distance est–ouest entre l'intérieur du rebord côté cabane et la face peinte côté cellier, près de T1 puis de T2 | **8,25 nominaux retenus après photos près de T1 et T2** | Profondeur de R1/R2/R3 ; remplace les 8,5 provisoires |
 | 2 | Référence stable : bord de T1 côté passage → début du bois voisin de T3 | **92 confirmés** ; R2 vertical au repère de 45 ; espace à couvrir **47** | **A : largeur de préparation 46,7**, avec jeu proposé de 0,3 contre le bois |
 | 3 | Largeur entre le mur nord et le bord de T1 donnant dans le passage | **3,5 confirmés** | **B : largeur de préparation 3,2**, avec jeu proposé de 0,3 au mur |
-| 4 | Largeur disponible en haut de C, à 188, et limite commune avec A au niveau de T2 | À relever | Largeur et décrochement de C |
+| 4 | Mur nord → bord extérieur de T2 côté T3, près de l’escalier | **52,7 à 52,8 mesurés** | **C : largeur de préparation 52,4**, avec jeu proposé de 0,3 au mur ; décrochement à reporter |
 | 5 | Vérifier la hauteur disponible sous les marches sur toute la largeur de A | À vérifier | Haut souhaité de A à 170 |
 
 La profondeur nominale des retours est retenue à **8,25** après les deux
@@ -62,13 +62,16 @@ vérifiant le passage sous les marches et l’espace au sol.
 le bord de T1 côté passage reçoivent le panneau, avec un jeu proposé de 0,3
 contre le mur. La longueur sera raccourcie après présentation.
 
-**C : réserve actuelle 24 × 55.** La largeur haute entre le mur nord et le
-bord extérieur de T2 côté T3, au plus près de l’escalier, est demandée pour
-préciser le rectangle et son raccord avec A. La largeur connue de 53 concerne
-le niveau juste sous la traverse et n’est pas une mesure à 188 de hauteur.
+**C : rectangle préparatoire 24 × 52,4.** La largeur haute mesurée de
+52,7 à 52,8 reçoit une réserve de pose de 0,3 au mur nord, à partir du
+minimum 52,7. La hauteur et le petit décrochement se reportent après
+présentation. La largeur de préparation est arrêtée ; aucune nouvelle
+mesure haute n’est demandée pour préparer ce rectangle.
 
-Les bandes étroites (B : 3,2 ; R1/R2/R3 : 8,25) demandent de vérifier les
-capacités du service de coupe ; aucune longue recoupe manuelle n’est prévue.
+Les bandes étroites B/R1/R2/R3 ne sont pas réalisables selon les formats
+publiés par le service standard Leroy Merlin. Voir la source et la tolérance
+annoncée dans `commande_decoupe.md`. Prévoir un atelier équipé pour les six
+pièces et une tolérance d’environ ±1 mm à confirmer avec lui.
 
 ## Points à conserver lors de la préparation du rail
 

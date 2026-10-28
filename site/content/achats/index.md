@@ -37,66 +37,49 @@ sur l’ouverture et sera à intégrer à la largeur utile finale.
 
 ## Découpes à préparer
 
-**Ces trois rectangles sont des morceaux bruts à ajuster sur place**, et non
-les dimensions finales à visser directement. Les panneaux sont proposés en
-OSB de **15 mm**.
+**[Commande de découpe à emporter — PDF](https://nextnet.top/cabane/bardage/commande_decoupe.pdf)**
 
-| Repère | Emplacement | Quantité | Hauteur × largeur brute |
-|:---|:---|:---|:---|
-| **A** | Façade entre T2 et T3 | 1 | **170 × 48 cm** |
-| **B** | Bande de façade côté T1 | 1 | **170 × 6 cm** |
-| **C** | Façade au-dessus du passage | 1 | **24 × 55 cm** |
+Pour un panneau OSB/3 de **250 × 125 × 1,5 cm**, préparer six morceaux :
 
-**A/B/C : ces valeurs sont des enveloppes de matière, pas une commande de
-coupe finale.** Faire couper leurs largeurs finales après relevé des supports
-(notamment TA3) et du raccord A/C. Les faire couper plus larges imposerait
-encore de longues recoupes avec la scie manuelle.
+| Repère | Quantité | Emplacement | Longueur × largeur de préparation |
+|:--|--:|:--|:--|
+| **A** | 1 | Façade T2–T3, jusqu’au bois voisin | **170 × 46,7 cm** |
+| **B** | 1 | Bande côté mur nord / T1 | **170 × 3,2 cm** |
+| **C** | 1 | Partie haute au-dessus du passage | **24 × 52,4 cm** |
+| **R1** | 1 | Intérieur du passage, côté T1 | **170 × 8,25 cm** |
+| **R2** | 1 | Intérieur du passage, côté T2 | **170 × 8,25 cm** |
+| **R3** | 1 | Dessus intérieur, sous la traverse | **50 × 8,25 cm** |
 
-| Repère | Emplacement | Quantité | Longueur brute × profondeur indicative, à relever avant commande |
-|:---|:---|:---|:---|
-| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × environ 8,2 cm** |
-| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × environ 8,2 cm** |
-| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × environ 8,2 cm** |
+Les **largeurs de préparation sont définies** à partir des derniers relevés.
+Les longueurs A/B/R1/R2/R3 et la hauteur de C seront raccourcies après
+présentation. Le petit décrochement[^decrochement] de C sera reporté sur place.
+Il n’est pas prévu de longue recoupe manuelle sur 170 cm.
 
-**Nouvelle hypothèse : la face visible du bardage vient contre la face
-intérieure du rebord côté cabane.** Il faut environ **5 mm de calage[^cale]**
-derrière l’OSB de 15 mm, aux appuis sur les tasseaux. Les retours R1/R2/R3
-rejoignent toujours cette face visible et la face finie du placo côté cellier.
-Leur profondeur devient **environ 8,2 cm sur le dessin**, au lieu de 7,5 cm.
-**Cette valeur est indicative : mesurer la profondeur réelle entre ces deux
-faces avant commande de découpe.** Les longueurs brutes restent 170 cm pour
-R1/R2 et 50 cm pour R3, à raccourcir après présentation.
+**Atelier de coupe à prévoir pour les six pièces.** [Leroy Merlin](https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html)
+exclut les formats sous 20 × 20 ou 60 × 10 cm et annonce ±3 mm : les bandes
+B/R1/R2/R3 sont hors de ces formats. Pour conserver les jeux proposés de
+3 mm sans longue recoupe manuelle, privilégier un atelier capable de tenir
+une tolérance d’environ ±1 mm sur l’ensemble de la commande, à confirmer
+avec lui. Un fablab équipé ou un menuisier peut être sollicité.
 
-Le **BA13[^ba13] de 12,5 mm est confirmé** et se trouve après le rail, sans
-chevauchement. Les cotes arrondies donnent 7 − 2 + 1,25 = **6,25 cm** jusqu’à
-sa face finie, contre **6 cm ± 2 mm mesurés**. Cet écart de 2,5 mm est signalé,
-pas traité comme une nouvelle mesure. Il explique pourquoi la largeur finale
-des retours doit être relevée sur place. Les anciennes bandes de 7,5 cm ne
-correspondent plus à cette hypothèse de pose.
-
-Ces bandes restent comprises dans le même panneau de 250 × 125 cm. Les
-variations de ±2 mm et les raccords sont à vérifier avant commande de coupe.
-Les longues coupes sont à confier au magasin ; vérifier qu’il accepte les
-bandes étroites. L’hypothèse ne transforme pas les enveloppes A/B/C en cotes
-finales et ne prévoit pas de recoupe longitudinale de 170 cm à la main.
+Les jeux proposés de **0,3 cm** contre le mur ou le bois sont déjà déduits
+des largeurs A/B/C. A suppose R2 maintenu vertical au repère de **45 cm**
+depuis T1 et la référence T1 → bois de **92 cm**. La profondeur nominale
+**8,25 cm** des retours remplace les anciennes propositions 7,5 ou environ
+8,2 cm. Les instructions du fabricant de panneau priment pour les jeux.
 
 **[Schéma des découpes — PDF](https://nextnet.top/cabane/bardage/schema_decoupes.pdf)** ·
-[Placement dans le panneau de 250 × 125 cm — PDF](https://nextnet.top/cabane/bardage/debit_preparatoire.pdf) ·
-[Fiche détaillée avec les ajustements — PDF](https://nextnet.top/cabane/bardage/decoupes_v1.pdf)
+[Placement dans le panneau — PDF](https://nextnet.top/cabane/bardage/debit_preparatoire.pdf) ·
+[Fiche détaillée — PDF](https://nextnet.top/cabane/bardage/decoupes_v1.pdf)
 
-La profondeur de **6 cm ± 2 mm** se mesure de la face métallique côté cabane
-à la surface finie du plâtre côté cellier, avant ajout du bardage de façade.
+A reste à ajuster à la hauteur disponible sous les marches. C conserve une
+réserve de hauteur, avec un petit décrochement à reporter au raccord avec A.
+Les longueurs des retours sont raccourcies après présentation ; le bas de
+R1/R2 dépend du rail aménagé et du petit espace de pose retenu. Le repli des
+ailes du rail est envisagé, pas déclaré réalisé.
 
-Les hauteurs d’habillage visées sont **188 cm au-dessus de T1–T2** et **170 cm
-entre T2 et T3**. Les largeurs finales, la largeur haute à 188 cm, les jeux et
-le raccord A/C restent à reporter après présentation. Le décrochement de C
-dans la vue 3D est une proposition de raccord, pas une nouvelle cote de coupe
-validée. Pour B également, vérifier la possibilité de découpe à la largeur finale
-en magasin ; prévoir un autre service de coupe si nécessaire.
-
-La scie japonaise et les serre-joints déjà disponibles sont réservés aux
-coupes courtes et petits ajustements. Les longues coupes dans la largeur
-sont à confier au service de découpe, après relevé des dimensions finales.
+La scie japonaise et les serre-joints disponibles servent aux coupes courtes
+et aux petits ajustements. Les longues coupes sont confiées à un service équipé.
 
 **[Rail au sol, calage et raccord — PDF](https://nextnet.top/cabane/bardage/detail_rail_raccord_v2.pdf)**
 
@@ -167,13 +150,14 @@ son défaut. [Conseils de préparation Placo](https://www.placo.fr/faut-il-trait
 | **Tasseau[^tasseau] TA3, associé à T3** | **1 longueur permettant environ 170 cm utiles, à prévoir** | Section **32 × 19 mm**, identique à TA1/TA2, retenue par l’utilisateur. Appui de l’autre bord de A ; accès à T3 et fixation à vérifier. Mettre les appuis de TA2 et TA3 dans le même plan. Aucun achat ni pose de TA3 n’est confirmé. |
 | **Cales rigides[^cale] pour les appuis du bardage** | Un assortiment permettant environ **3 à 7 mm**, à ajuster | Environ **5 mm nominaux** derrière l’OSB si sa face visible vient contre le rebord intérieur du rail. Placer les cales aux fixations sur les tasseaux et devant la traverse ; vérifier les appuis et le plan. Stock non confirmé, prix non ajouté au total. |
 | **Autres supports en haut et en bas de A ou au-dessus du passage** | Selon les appuis existants | Examiner les appuis de chaque bord et les fixations possibles sans modification de l’escalier. |
-| **Cisaille à tôle[^cisaille]** | Une si absente et retenue | [DEXTER 80125135](https://www.leroymerlin.fr/produits/pince-coupe-tole-devant-dexter-l-250-mm-80125135.html), pour les ailes accessibles du rail[^rail] ; vérifier l’accès réel avant achat. |
 | **Protection rigide pour la table** | Une chute peut suffire | Empêcher la scie de toucher le plateau ; une bâche seule ne suffit pas. |
 
-Le fond du rail au sol et sa vis située à 5,3 cm de T1 sont **conservés dans
+Le fond du rail[^rail] au sol et sa vis située à 5,3 cm de T1 sont **conservés dans
 l’option actuelle**. Le rail fait 7 cm de large ; la tête de vis dépasse de
-3 mm. Seules les ailes gênantes dans le passage sont envisagées au retrait,
-sans entamer les montants[^montant] ni leurs fixations. Le seuil est étudié
+3 mm. L’option examinée est de couper verticalement les ailes aux limites
+du passage puis de les replier vers l’intérieur, sans entamer le fond, les
+montants[^montant] ni leurs fixations. La hauteur obtenue et la rencontre
+avec la vis restent à vérifier. L’achat d’une cisaille n’est pas retenu à ce stade. Le seuil est étudié
 par impression 3D au fablab : l’échantillon sert à vérifier l’ajustement,
 **le seuil complet n’est pas encore validé**. Aucun seuil de 3 m à 60 €
 n’est retenu dans les achats.
@@ -183,8 +167,9 @@ n’est retenu dans les achats.
 - **Hypothèses proposées :** OSB de 15 mm, jeu au sol de 1 cm, jeu de 3 mm sous
   l’escalier pour C, et raccord A/C à ajuster. La profondeur de 6 cm est, elle,
   une mesure utilisateur avec variation de 2 mm.
-- **Mesures manquantes :** largeur de la partie haute à 188 cm, contours des
-  raccords, longueur finale des retours, hauteur minimale sous les marches sur A et supports disponibles.
+- **Ajustements restants :** contours des raccords et longueurs finales des
+  retours ; hauteur minimale sous les marches sur A et supports disponibles à vérifier.
+  La largeur haute de C est désormais mesurée : 52,7 à 52,8 cm.
 - **Calculs indicatifs :** deux côtés de 15 mm laisseraient **42 cm** avant
   calage et baguettes. Le dessous du retour haut serait à **165,3 cm du
   carrelage**, avant déduction de la hauteur du futur seuil.
@@ -203,7 +188,6 @@ les scies, les serre-joints, les abrasifs et les protections déjà achetés
 [^champlat]: **Champlat** : baguette plate et mince, utilisée pour masquer un raccord.
 [^corniere]: **Baguette d’angle**, ou cornière : profil en L couvrant deux faces perpendiculaires.
 [^tasseau]: **Tasseau** : petite pièce de bois servant de support aux fixations.
-[^cisaille]: **Cisaille à tôle** : ciseaux renforcés pour couper une tôle mince.
 [^rail]: **Rail** : profil métallique en U fixé au sol, qui reçoit les montants.
 [^montant]: **Montant** : profil métallique vertical de la cloison.
 
@@ -218,4 +202,5 @@ les scies, les serre-joints, les abrasifs et les protections déjà achetés
 [^souscouche]: **Sous-couche** : première couche de peinture adaptée au support, appliquée avant la peinture de finition.
 
 [^cale]: **Cale** : petite pièce rigide placée entre le support et le panneau pour régler sa position, notamment au droit des vis.
-[^ba13]: **BA13** : plaque de plâtre à bords amincis, d’épaisseur 12,5 mm ici confirmée par l’utilisateur.
+
+[^decrochement]: **Décrochement** : petite découpe en angle au raccord de C avec A.
