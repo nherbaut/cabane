@@ -47,15 +47,26 @@ OSB de **15 mm**.
 | **B** | Bande de façade côté T1 | 1 | **170 × 6 cm** |
 | **C** | Façade au-dessus du passage | 1 | **24 × 55 cm** |
 
+| Repère | Emplacement | Quantité | Réserve de matière : longueur × profondeur |
+|:---|:---|:---|:---|
+| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 12 cm**, à recouper |
+| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 12 cm**, à recouper |
+| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 12 cm**, à recouper |
+
+**Ces trois réserves sont déjà comprises dans le panneau de 250 × 125 cm :
+aucun panneau supplémentaire à acheter.** Les 12 cm correspondent aux réserves
+larges du plan de matière, préparé avant le relevé de profondeur. **La profondeur
+à couvrir est maintenant connue : 6 cm ± 2 mm.** Il n’est pas nécessaire de
+découper d’abord les réserves à 12 cm si les bandes sont ajustées directement
+sur place. Leurs longueurs finales dépendent des raccords, du calage et du bas
+de l’habillage ; ne pas confondre ces réserves avec les dimensions finales.
+
 **[Schéma des découpes — PDF](https://nextnet.top/cabane/bardage/schema_decoupes.pdf)** ·
 [Placement dans le panneau de 250 × 125 cm — PDF](https://nextnet.top/cabane/bardage/debit_preparatoire.pdf) ·
 [Fiche détaillée avec les ajustements — PDF](https://nextnet.top/cabane/bardage/decoupes_v1.pdf)
 
-Conserver les chutes pour **R1 et R2, les deux côtés intérieurs, et R3,
-le dessus intérieur**. Leur profondeur mesurée est **6 cm ± 2 mm**, de la face
-métallique côté cabane à la surface finie du plâtre côté cellier. Les bandes de
-12 cm figurant comme réserves sur le plan de matière sont donc **à recouper** ;
-12 cm n’est pas leur largeur de pose.
+La profondeur de **6 cm ± 2 mm** se mesure de la face métallique côté cabane
+à la surface finie du plâtre côté cellier, avant ajout du bardage de façade.
 
 Les hauteurs d’habillage visées sont **188 cm au-dessus de T1–T2** et **170 cm
 entre T2 et T3**. Les largeurs finales, la largeur haute à 188 cm, les jeux et

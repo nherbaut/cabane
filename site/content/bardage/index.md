@@ -33,6 +33,20 @@ sont toutes au-dessus. Le plâtre est découpé dans le passage.
 | **B** | Bande de façade côté T1 | **170 × 6 cm** |
 | **C** | Façade au-dessus du passage | **24 × 55 cm** |
 
+| Repère | Emplacement | Quantité | Réserve de matière : longueur × profondeur |
+|:---|:---|:---|:---|
+| **R1** | Côté intérieur du passage, contre T1 | 1 | **170 × 12 cm**, à recouper |
+| **R2** | Côté intérieur du passage, contre T2 | 1 | **170 × 12 cm**, à recouper |
+| **R3** | Dessus intérieur, sous la traverse | 1 | **50 × 12 cm**, à recouper |
+
+**Ces trois réserves sont déjà comprises dans le panneau de 250 × 125 cm :
+aucun panneau supplémentaire à acheter.** Les 12 cm correspondent aux réserves
+larges du plan de matière, préparé avant le relevé de profondeur. **La profondeur
+à couvrir est maintenant connue : 6 cm ± 2 mm.** Il n’est pas nécessaire de
+découper d’abord les réserves à 12 cm si les bandes sont ajustées directement
+sur place. Leurs longueurs finales dépendent des raccords, du calage et du bas
+de l’habillage ; ne pas confondre ces réserves avec les dimensions finales.
+
 Ces morceaux sont **à présenter et à ajuster**, pas à visser directement à ces
 dimensions. Conserver les chutes pour les deux côtés intérieurs R1/R2 et le
 dessus intérieur R3. Les réserves de 12 cm sur le plan de matière ne sont pas
