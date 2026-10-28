@@ -426,9 +426,16 @@
         ],
         "status": "profondeur nominale retenue pour préparer R1/R2/R3 ; relevés photographiques approximatifs, pas une précision garantie au demi-millimètre",
         "photo_references": [
-          "/tmp/codex-clipboard-rQUXQc.png",
-          "/tmp/codex-clipboard-tbdFOq.png"
+          "photos/originales/07_releve_profondeur_T1_20261028.png",
+          "photos/originales/08_releve_profondeur_T2_20261028.png"
         ]
+      },
+      "T1_passage_edge_to_T3_neighbour_wood": {
+        "nominal": 92,
+        "unit": "cm",
+        "direction": "horizontalement le long de la cloison, vers le sud depuis le bord de T1 donnant dans le passage",
+        "source": "Utilisateur : « je confirme 92 cm », en réponse à la demande du relevé près du sol puis sous la traverse",
+        "status": "92 cm retenus comme référence nominale pour le rectangle de A ; pas de précision au millimètre déduite des anciens relevés"
       }
     },
     "floor_rail": {
@@ -475,9 +482,9 @@
       "rough_blanks": [
         {
           "id": "A",
-          "label": "façade T2–T3",
+          "label": "façade T2–T3 jusqu’au bois voisin ; largeur de préparation fixée, hauteur à ajuster",
           "height": 170,
-          "width": 48
+          "width": 46.7
         },
         {
           "id": "B",
@@ -603,6 +610,28 @@
         "beam_depth_cm": 3.4,
         "TA3_status": "proposé, non posé confirmé",
         "note": "position exacte des tasseaux dans les profils, longueur de la traverse et contacts à vérifier ; aucune nouvelle fixation prescrite"
+      },
+      "panel_A_outer_edge": {
+        "decision": "rejoindre le bois voisin côté T3",
+        "source": "Utilisateur : « il faudrait rejoindre le bois, celui-ci commence à 2,5 cm après le rail »",
+        "reported_distance_cm": 2.5,
+        "distance_start_reference": "bord extérieur de T3, côté sud",
+        "distance_axis": "le long de la cloison, vers le sud (y décroissant)",
+        "status": "arrêt au bois confirmé ; largeur de préparation retenue avec référence T1→bois de 92 cm et R2 vertical au repère de 45 cm",
+        "raw_span_from_T2_cm": {
+          "bottom": 47,
+          "under_crosspiece_if_wood_offset_same": 46.5,
+          "bottom_formula": "37,5 + 3,5 + 3,5 + 2,5 = 47",
+          "top_formula": "37 + 3,5 + 3,5 + 2,5 = 46,5, si le décalage vers le bois reste de 2,5",
+          "status": "anciens calculs préparatoires avant référence stable depuis T1 ; ne pas utiliser pour commander le rectangle"
+        },
+        "T1_to_wood_cm": 92,
+        "R2_outer_plane_from_T1_cm": 45,
+        "coverage_width_cm": 47,
+        "proposed_gap_to_wood_cm": 0.3,
+        "preparation_cut_width_cm": 46.7,
+        "cut_formula": "92 − 45 − 0,3 = 46,7 cm",
+        "gap_status": "jeu de 3 mm proposé, à vérifier selon le panneau acheté ; les instructions fabricant priment"
       }
     }
   }

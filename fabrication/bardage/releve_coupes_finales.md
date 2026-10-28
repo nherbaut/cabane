@@ -32,7 +32,7 @@ converties en cm avant inscription dans les données du projet.
 | Étape | Mesure concrète | Résultat | Pièces concernées |
 |:--|:--|:--|:--|
 | 1 | Distance est–ouest entre l'intérieur du rebord côté cabane et la face peinte côté cellier, près de T1 puis de T2 | **8,25 nominaux retenus après photos près de T1 et T2** | Profondeur de R1/R2/R3 ; remplace les 8,5 provisoires |
-| 2 | Largeur de façade à couvrir entre le raccord avec R2 et le bord extérieur retenu côté T3, en bas et en haut de A ; vérifier l'appui prévu sur TA3 | À relever | Largeur finale de A |
+| 2 | Référence stable : bord de T1 côté passage → début du bois voisin de T3 | **92 confirmés** ; R2 vertical au repère de 45 ; espace à couvrir **47** | **A : largeur de préparation 46,7**, avec jeu proposé de 0,3 contre le bois |
 | 3 | Largeur entre le mur nord et le raccord avec R1 dans le plan de la façade, en bas et en haut de B | À relever | Largeur finale de B |
 | 4 | Largeur disponible en haut de C, à 188, et limite commune avec A au niveau de T2 | À relever | Largeur et décrochement de C |
 | 5 | Vérifier la hauteur disponible sous les marches sur toute la largeur de A | À vérifier | Haut souhaité de A à 170 |
@@ -53,9 +53,14 @@ reportées après présentation :
 - R3 : distance réelle entre R1 et R2 positionnés ; les **42** calculés à
   partir de 45 moins deux épaisseurs de 1,5 sont un repère, pas une coupe finale.
 
-Les largeurs préparatoires A **48**, B **6** et C **55** restent des réserves
-de matière. Pour éviter de longues recoupes à la scie manuelle, les remplacer
-par les largeurs finales relevées **avant** la commande de coupe.
+**A : bande préparatoire 170 × 46,7.** La largeur tient compte du raccord
+avec R2 maintenu vertical au repère de 45 depuis T1 et d’un jeu proposé de
+0,3 contre le bois. La hauteur sera raccourcie après présentation, en
+vérifiant le passage sous les marches et l’espace au sol.
+
+B **6** et C **55** restent des réserves de largeur. La prochaine mesure
+est la distance mur nord → bord de T1 côté passage, pour arrêter B.
+Pour éviter une longue recoupe de B, fixer sa largeur avant la commande.
 
 ## Points à conserver lors de la préparation du rail
 
