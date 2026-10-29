@@ -4,6 +4,12 @@ date: "28 octobre 2026"
 lang: fr-FR
 ---
 
+**Variante atelier :** ce document décrit les six rectangles à faire découper par un atelier adapté.
+L’autre hypothèse, **Leroy Merlin + scie manuelle à la maison**, figure dans
+[variante_leroy_maison.pdf](https://nextnet.top/cabane/bardage/variante_leroy_maison.pdf).
+Les dimensions des pièces de l’habillage restent les mêmes.
+
+
 **Matière proposée : 1 panneau OSB/3[^osb] de 250 × 125 cm, épaisseur 1,5 cm.**
 Les cotes sont celles des morceaux à obtenir, en **cm** ; l’atelier gère
 les pertes dues à la lame. Quantité totale : **6 morceaux**.
@@ -25,7 +31,7 @@ le mur/bois sont déjà déduits des largeurs A/B/C.
 exclut les formats sous 20 × 20 ou 60 × 10 cm et annonce ±3 mm :
 B/R1/R2/R3 sont hors de ces formats. Pour les jeux proposés de 3 mm,
 rechercher un atelier tenant environ **±1 mm**, à confirmer avec lui.
-Un fablab équipé ou un menuisier peut être sollicité. Aucune longue recoupe
+Un atelier de menuiserie acceptant ces petites largeurs peut être sollicité. Aucune longue recoupe
 manuelle de bande plus large n’est prévue.
 
 **Après présentation :** raccourcir A/B/R1/R2/R3 ; ajuster la hauteur et le

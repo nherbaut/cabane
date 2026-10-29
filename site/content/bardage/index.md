@@ -1,18 +1,83 @@
 ---
-title: "Bardage OSB — découpes et vues 3D"
-description: "Commande des rectangles de préparation après relevés, ajustements courts et assemblage vu depuis la cabane et le cellier."
-date: 2026-10-28T00:00:00+01:00
+title: "Bardage — découpes en magasin et à la maison"
+description: "Variante Leroy Merlin puis scie manuelle, formats de transport à vérifier et vues 3D de l’habillage."
+date: 2026-10-29T00:00:00+01:00
 nav_anchor: "découpes-à-commander"
 nav_label: "Découpes"
 ---
 
-**[Commande de découpe à emporter — PDF](commande_decoupe.pdf)** ·
+**[Fiche Leroy Merlin + maison — PDF](variante_leroy_maison.pdf)** ·
+[Autre variante : six pièces par un atelier — PDF](commande_decoupe.pdf) ·
 [Liste d’achat et références](../achats/) · [Fiche détaillée — PDF](decoupes_v1.pdf)
+
+## Variante Leroy Merlin + scie à la maison {#variante-leroy-maison}
+
+**Hypothèse demandée le 29 octobre :** faire les grandes découpes chez Leroy
+Merlin, puis B et les trois retours[^retour] avec votre scie japonaise.
+Les pièces longues restent d’un seul tenant. La variante où un atelier
+découpe les six rectangles reste disponible séparément.
+
+**Matière à choisir :** épaisseur conservée de **1,5 cm**, en OSB/3[^osb]
+initialement proposé ou en contreplaqué[^cp] tout peuplier A+ si une référence
+est trouvée. Le contreplaqué vu par vous chez Leroy Merlin est **A, pas A+** ;
+aucun contreplaqué A+ de ce magasin n’est confirmé. Le placement ci-dessous
+utilise un format de **250 × 125 cm** : à recalculer si le panneau choisi
+a un autre format. Aucun panneau n’est déclaré acheté.
+
+### Les trois morceaux utiles à demander en magasin
+
+| Repère magasin | Quantité | Longueur × largeur | Utilisation |
+|:--|--:|:--|:--|
+| **A** | 1 | **170 × 46,7 cm** | Façade entre T2 et T3 |
+| **C** | 1 | **24 × 52,4 cm** | Au-dessus du passage |
+| **P** | 1 | **170 × 30 cm** | Planche à recouper pour B, R1, R2 et R3 |
+
+Ces formats respectent les minimums publiés de **20 × 20 cm ou 60 × 10 cm**.
+La tolérance annoncée est de **±3 mm** : contrôler A et C au retrait, car
+elle peut consommer les jeux proposés de 3 mm au mur/bois. Une reprise peut
+rester nécessaire ; demander un contrôle avant départ.
+[Conditions du service Leroy Merlin, vérifiées le 29 octobre 2026](https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html).
+
+![Plan coté des trois morceaux utiles et des chutes fractionnées en magasin, puis bandes à scier dans P.](schema_leroy_maison.png)
+
+**[Fiche imprimable avec l’ordre des coupes — PDF](variante_leroy_maison.pdf)** ·
+[Schéma à ouvrir en grand — PDF](schema_leroy_maison.pdf)
+
+### Ce qui reste à scier chez vous
+
+Dans P, tracer et découper successivement **R1 de 8,25 cm**, **R2 de 8,25 cm**,
+puis **B de 3,2 cm** sur les 170 cm. Après chaque coupe, repartir du bord
+restant pour tracer la bande suivante, sans cumuler les cotes en oubliant
+le bois retiré par la lame. Dans le reste, prendre une longueur de **50 cm**, puis
+la recouper à **8,25 cm** pour R3. Le schéma de droite montre cet ordre.
+
+**Effort à prévoir : trois coupes de 170 cm et une de 50 cm**, soit environ
+**5,6 m de sciage dans la longueur**, plus les coupes en travers et les
+ajustements de pose. Les bandes de 170 cm ne sont pas divisées en petits
+tronçons. Faire un essai sur une chute[^chute] avant les pièces utiles.
+
+### Transport : encore à vérifier dans votre voiture
+
+Les trois morceaux utiles s’inscrivent, orientés et empilés, dans
+**170 × 52,4 cm**, sur **4,5 cm d’épaisseur de bois**. Tester un carton de
+**171 × 54 cm** dans la voiture : ouverture du coffre, trajet pour l’insérer,
+sièges rabattus et coffre fermé. Ce rectangle laisse une petite marge ; il
+ne constitue pas une validation de chargement. Arrimer les panneaux.
+
+**Pour emporter les chutes aussi :** demander le fractionnement complémentaire
+du grand reste montré en S3/S4. Le plan donne alors **sept morceaux au total**,
+tous dans cette même enveloppe, pour **10,5 cm d’épaisseur de bois** hors
+protection. Les cotes S1–S4 dépendent de la largeur réelle de la lame.
+Le plan correspond à six coupes droites au total, à confirmer par l’opérateur.
+Laisser les chutes sur place est une possibilité uniquement si le magasin
+l’accepte. Si 170 cm ne rentre pas, il faut revoir les raccords et leurs
+supports avant de couper les pièces longues en deux.
 
 ## Découpes à commander
 
-OSB/3[^osb] proposé de **1,5 cm** ; achat non confirmé. Un panneau de
-**250 × 125 cm** suffit au placement dessiné. Les valeurs sont en **cm**.
+Les six rectangles de l’habillage gardent les cotes ci-dessous, pour un
+panneau de **1,5 cm**. Le dessin historique de placement est celui du panneau
+**250 × 125 cm** proposé. Les valeurs sont en **cm**.
 
 | Repère | Quantité | Emplacement | Longueur × largeur de préparation |
 |:--|--:|:--|:--|
@@ -26,14 +91,15 @@ OSB/3[^osb] proposé de **1,5 cm** ; achat non confirmé. Un panneau de
 Les **largeurs de préparation sont définies** à partir des derniers relevés.
 Les longueurs A/B/R1/R2/R3 et la hauteur de C seront raccourcies après
 présentation. Le petit décrochement[^decrochement] de C sera reporté sur place.
-Il n’est pas prévu de longue recoupe manuelle sur 170 cm.
+La variante atelier évite les longues recoupes manuelles ; la variante
+Leroy Merlin + maison les réalise dans P, comme indiqué plus haut.
 
-**Atelier de coupe à prévoir pour les six pièces.** [Leroy Merlin](https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html)
+**Autre variante : atelier de coupe pour les six pièces.** [Leroy Merlin](https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html)
 exclut les formats sous 20 × 20 ou 60 × 10 cm et annonce ±3 mm : les bandes
 B/R1/R2/R3 sont hors de ces formats. Pour conserver les jeux proposés de
 3 mm sans longue recoupe manuelle, privilégier un atelier capable de tenir
 une tolérance d’environ ±1 mm sur l’ensemble de la commande, à confirmer
-avec lui. Un fablab équipé ou un menuisier peut être sollicité.
+avec lui. Un atelier de menuiserie acceptant ces petites largeurs peut être sollicité.
 
 ![Rectangles de préparation cotés et placement dans un panneau de 250 × 125 cm.](schema_decoupes.png)
 
@@ -140,7 +206,16 @@ et baguettes ; la sous-face de R3 serait à 165,3 cm du carrelage avant seuil.
 Conserver les fixations et les éléments de l’escalier. Les dessins expliquent
 l’assemblage, sans certifier sa résistance ni les vis à choisir.
 
+Pour scier chez vous, maintenir le morceau conservé sur une table stable
+avec les deux serre-joints[^serrejoint]. Dégager le trajet de la lame de la
+table et du métal. Repositionner le panneau après arrêt de la coupe si
+nécessaire ; soutenir la bande en fin de coupe sans coincer la lame. Poncer
+les bords. La fiche ne valide pas une installation de sciage non observée.
+
 [^osb]: **OSB** : panneau de grandes lamelles de bois collées ; l’OSB/3 n’est pas imperméable.
+[^cp]: **Contreplaqué** : panneau constitué de fines feuilles de bois collées en couches croisées.
+[^chute]: **Chute** : morceau restant après découpe.
+[^serrejoint]: **Serre-joint** : outil maintenant fermement une pièce contre la table.
 [^decrochement]: **Décrochement** : petit changement de contour, ici une découpe en angle permettant à C de rejoindre A.
 [^montant]: **Montant** : profil métallique vertical ; T1, T2 et T3 sont ceux du nord vers le sud.
 [^traverse]: **Traverse** : bois horizontal placé au-dessus du passage.

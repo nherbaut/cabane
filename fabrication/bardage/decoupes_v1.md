@@ -4,6 +4,12 @@ date: "28 octobre 2026"
 lang: fr-FR
 ---
 
+**Variante atelier :** ce document décrit les six rectangles à faire découper par un atelier adapté.
+L’autre hypothèse, **Leroy Merlin + scie manuelle à la maison**, figure dans
+[variante_leroy_maison.pdf](https://nextnet.top/cabane/bardage/variante_leroy_maison.pdf).
+Les dimensions des pièces de l’habillage restent les mêmes.
+
+
 Les relevés permettent de commander les rectangles ci-dessous pour
 l’habillage du passage **T1–T2**, côté cabane. Le bardage est souhaité jusqu’à
 188 cm au-dessus du passage et jusqu’à 170 cm entre T2 et T3. Aucun achat
@@ -31,7 +37,7 @@ exclut les formats sous 20 × 20 ou 60 × 10 cm et annonce ±3 mm : les bandes
 B/R1/R2/R3 sont hors de ces formats. Pour conserver les jeux proposés de
 3 mm sans longue recoupe manuelle, privilégier un atelier capable de tenir
 une tolérance d’environ ±1 mm sur l’ensemble de la commande, à confirmer
-avec lui. Un fablab équipé ou un menuisier peut être sollicité.
+avec lui. Un atelier de menuiserie acceptant ces petites largeurs peut être sollicité.
 
 ## Faits retenus et calcul des largeurs
 

@@ -1,27 +1,38 @@
 ---
-title: "Liste d’achats — OSB et finitions du passage"
-description: "Stock du chantier, OSB à acheter, baguettes de finition et liens vers les découpes et les vues 3D."
-date: 2026-10-28T00:00:00+01:00
+title: "Liste d’achats — panneaux et finitions du passage"
+description: "Stock du chantier, choix du panneau, découpes Leroy Merlin puis scie manuelle et formats de transport à vérifier."
+date: 2026-10-29T00:00:00+01:00
 nav_anchor: "à-prévoir-chez-leroy-merlin"
 nav_label: "À acheter"
 ---
 
 **[Liste imprimable en PDF](https://nextnet.top/cabane/achats/achats.pdf)** · **[Découpes et vues 3D](https://nextnet.top/cabane/bardage/)**
 
-Mise à jour du **28 octobre 2026**. Les quantités du stock sont les quantités
+Mise à jour du **29 octobre 2026**. Les prix du tableau restent ceux relevés
+le 28 octobre ; ils ne sont pas revérifiés aujourd’hui. Les quantités du stock sont les quantités
 acquises, sans inventaire des consommations. Les fournitures proposées à l’achat
 ne sont pas ajoutées au stock tant que leur achat n’est pas confirmé.
 
 ## À prévoir chez Leroy Merlin
 
-Le choix actuel est un **bardage OSB[^osb] côté cabane**, avec le même matériau
-pour les trois panneaux à l’intérieur du passage. **Le contreplaqué de l’ancienne
-liste n’est plus à acheter pour cet habillage.** L’OSB est envisagé brut, avec
-ponçage des bords et baguettes de finition autour du passage.
+Le matériau est **à choisir**, sans achat confirmé : OSB[^osb] proposé au
+départ, ou **contreplaqué[^cp] tout peuplier de 15 mm**, avec classement A+
+documenté si ce critère est retenu. Le contreplaqué observé par vous chez
+Leroy Merlin est **A, pas A+** ; aucune référence A+ de ce magasin n’est
+confirmée. Ne pas acheter les deux matériaux. Le même panneau de **15 mm**
+est prévu pour la façade et les trois retours[^retour]. Le prix OSB ci-dessous
+reste un scénario budgétaire, pas une référence de contreplaqué.
+
+**Nouvelle hypothèse : [Leroy Merlin + scie à la maison](https://nextnet.top/cabane/bardage/#variante-leroy-maison).**
+Commander **A 170 × 46,7 cm**, **C 24 × 52,4 cm** et une planche **P 170 × 30 cm**.
+Chez vous, P donne B et R1–R3. Le transport reste à vérifier : tester un carton
+de **171 × 54 cm**, coffre fermé. La [fiche imprimable](https://nextnet.top/cabane/bardage/variante_leroy_maison.pdf)
+montre aussi comment fractionner les chutes pour qu’elles restent transportables
+dans cette même enveloppe.
 
 | Article proposé, non acheté | Quantité | Référence et prix affiché le 28 octobre 2026 |
 |:---|:---|:---|
-| **OSB/3 de 15 mm, 250 × 125 cm** | **1 panneau** pour A, B, C et les retours[^retour] | [Leroy Merlin **67764151**](https://www.leroymerlin.fr/produits/panneau-de-construction-osb-naturel-l-250-x-l-125-cm-ep-15-mm-67764151.html) — **36 €** |
+| **OSB/3 de 15 mm, 250 × 125 cm — si l’option OSB est conservée** | **1 panneau** pour A, B, C et les retours | [Leroy Merlin **67764151**](https://www.leroymerlin.fr/produits/panneau-de-construction-osb-naturel-l-250-x-l-125-cm-ep-15-mm-67764151.html) — **36 €** |
 | **Champlat[^champlat] chêne, deux arrondis, 4,3 × 37,5 mm, longueur 2,40 m** | **2 longueurs**, pour les deux côtés et le dessus côté cellier | [Leroy Merlin **69125476**](https://www.leroymerlin.fr/produits/champlat-chene-2-arrondis-petits-noeuds-4-3-x-37-5-mm-l-2-4-m-69125476.html) — **8,79 € pièce**, soit **17,58 €** |
 | **Baguette d’angle[^corniere] chêne, 22,5 × 22,5 mm, longueur 2,40 m** | **2 longueurs**, pour B–R1, A–R2 et C–R3 côté cabane | [Leroy Merlin **68178096**](https://www.leroymerlin.fr/produits/baguette-angle-chene-petits-noeuds-22-5-x-22-5-mm-l-2-4-m-68178096.html) — **13,90 € pièce**, soit **27,80 €** |
 
@@ -37,9 +48,12 @@ sur l’ouverture et sera à intégrer à la largeur utile finale.
 
 ## Découpes à préparer
 
-**[Commande de découpe à emporter — PDF](https://nextnet.top/cabane/bardage/commande_decoupe.pdf)**
+**[Variante Leroy Merlin + maison — PDF à emporter](https://nextnet.top/cabane/bardage/variante_leroy_maison.pdf)** ·
+[Autre variante : six pièces par un atelier — PDF](https://nextnet.top/cabane/bardage/commande_decoupe.pdf)
 
-Pour un panneau OSB/3 de **250 × 125 × 1,5 cm**, préparer six morceaux :
+Les six morceaux d’habillage ci-dessous gardent les mêmes dimensions.
+Le placement de référence utilise un panneau de **250 × 125 × 1,5 cm** ;
+il faudra le recalculer si le format réellement acheté diffère.
 
 | Repère | Quantité | Emplacement | Longueur × largeur de préparation |
 |:--|--:|:--|:--|
@@ -53,14 +67,16 @@ Pour un panneau OSB/3 de **250 × 125 × 1,5 cm**, préparer six morceaux :
 Les **largeurs de préparation sont définies** à partir des derniers relevés.
 Les longueurs A/B/R1/R2/R3 et la hauteur de C seront raccourcies après
 présentation. Le petit décrochement[^decrochement] de C sera reporté sur place.
-Il n’est pas prévu de longue recoupe manuelle sur 170 cm.
+La variante Leroy Merlin + maison prévoit **trois coupes manuelles de 170 cm
+et une de 50 cm**, soit **5,6 m** de sciage dans la longueur, plus les coupes
+en travers et les ajustements. Elle ne supprime donc pas les longues coupes.
 
-**Atelier de coupe à prévoir pour les six pièces.** [Leroy Merlin](https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html)
+**Autre variante : atelier pour les six pièces.** [Leroy Merlin](https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html)
 exclut les formats sous 20 × 20 ou 60 × 10 cm et annonce ±3 mm : les bandes
 B/R1/R2/R3 sont hors de ces formats. Pour conserver les jeux proposés de
 3 mm sans longue recoupe manuelle, privilégier un atelier capable de tenir
 une tolérance d’environ ±1 mm sur l’ensemble de la commande, à confirmer
-avec lui. Un fablab équipé ou un menuisier peut être sollicité.
+avec lui. Un atelier de menuiserie acceptant ces petites largeurs peut être sollicité.
 
 Les jeux proposés de **0,3 cm** contre le mur ou le bois sont déjà déduits
 des largeurs A/B/C. A suppose R2 maintenu vertical au repère de **45 cm**
@@ -78,8 +94,12 @@ Les longueurs des retours sont raccourcies après présentation ; le bas de
 R1/R2 dépend du rail aménagé et du petit espace de pose retenu. Le repli des
 ailes du rail est envisagé, pas déclaré réalisé.
 
-La scie japonaise et les serre-joints disponibles servent aux coupes courtes
-et aux petits ajustements. Les longues coupes sont confiées à un service équipé.
+Pour la nouvelle variante, la scie japonaise et les deux serre-joints disponibles
+servent aussi à découper les bandes dans P. Prévoir une table stable, le trajet
+de lame dégagé et le soutien des bandes en fin de coupe. Faire un essai sur
+une chute avant les morceaux utiles ; aucun outil électrique supplémentaire
+n’est ajouté à la liste. Contrôler A et C au retrait : la tolérance du magasin
+est égale aux jeux de 3 mm proposés et peut imposer une reprise.
 
 **[Rail au sol, calage et raccord — PDF](https://nextnet.top/cabane/bardage/detail_rail_raccord_v2.pdf)**
 
@@ -145,7 +165,7 @@ son défaut. [Conseils de préparation Placo](https://www.placo.fr/faut-il-trait
 
 | Fourniture | Quantité prévisionnelle | Condition |
 |:---|:---|:---|
-| **Vis de fixation de l’OSB** | Une petite boîte | Selon les 15 mm de panneau et le bois ou métal réellement rencontré. Avec une vis de 24 mm, il ne reste que 9 mm après le panneau, avant tout vide ou métal éventuel. Ne pas choisir sur cette seule longueur. |
+| **Vis de fixation du panneau** | Une petite boîte | Selon les 15 mm de panneau et le bois ou métal réellement rencontré. Avec une vis de 24 mm, il ne reste que 9 mm après le panneau, avant tout vide ou métal éventuel. Ne pas choisir sur cette seule longueur. |
 | **Fixation des baguettes** | Produit de collage ou petites pointes à choisir | Selon le bois, l’OSB et le plâtre peint ; éviter les têtes ou pointes saillantes. Présenter les profils avant choix définitif. |
 | **Tasseau[^tasseau] TA3, associé à T3** | **1 longueur permettant environ 170 cm utiles, à prévoir** | Section **32 × 19 mm**, identique à TA1/TA2, retenue par l’utilisateur. Appui de l’autre bord de A ; accès à T3 et fixation à vérifier. Mettre les appuis de TA2 et TA3 dans le même plan. Aucun achat ni pose de TA3 n’est confirmé. |
 | **Cales rigides[^cale] pour les appuis du bardage** | Un assortiment permettant environ **3 à 7 mm**, à ajuster | Environ **5 mm nominaux** derrière l’OSB si sa face visible vient contre le rebord intérieur du rail. Placer les cales aux fixations sur les tasseaux et devant la traverse ; vérifier les appuis et le plan. Stock non confirmé, prix non ajouté au total. |
@@ -164,7 +184,7 @@ n’est retenu dans les achats.
 
 ## Hypothèses, mesures manquantes et points de sécurité
 
-- **Hypothèses proposées :** OSB de 15 mm, jeu au sol de 1 cm, jeu de 3 mm sous
+- **Hypothèses proposées :** panneau de 15 mm, matériau à choisir, jeu au sol de 1 cm, jeu de 3 mm sous
   l’escalier pour C, et raccord A/C à ajuster. La profondeur de 6 cm est, elle,
   une mesure utilisateur avec variation de 2 mm.
 - **Ajustements restants :** contours des raccords et longueurs finales des
@@ -204,3 +224,4 @@ les scies, les serre-joints, les abrasifs et les protections déjà achetés
 [^cale]: **Cale** : petite pièce rigide placée entre le support et le panneau pour régler sa position, notamment au droit des vis.
 
 [^decrochement]: **Décrochement** : petite découpe en angle au raccord de C avec A.
+[^cp]: **Contreplaqué** : panneau constitué de fines feuilles de bois collées en couches croisées.

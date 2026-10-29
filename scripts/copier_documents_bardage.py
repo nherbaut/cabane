@@ -8,6 +8,8 @@ SOURCE = ROOT / 'fabrication/bardage'
 DESTINATION = ROOT / 'site/content/bardage'
 FILES = (
     'commande_decoupe.pdf',
+    'variante_leroy_maison.pdf',
+    'schema_leroy_maison.pdf', 'schema_leroy_maison.png',
     'decoupes_v1.pdf',
     'schema_decoupes.pdf', 'schema_decoupes.png',
     'debit_preparatoire.pdf',

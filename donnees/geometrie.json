@@ -537,7 +537,7 @@
       "finished_T2_T3_height_if_floor_gap_1cm": 169,
       "header_height_without_lining_overlap": 21.2,
       "header_height_with_15mm_lining_overlap_and_3mm_top_gap": 22.4,
-      "status": "dimensions des rectangles définies après relevés ; atelier de coupe adapté à prévoir pour les bandes étroites et une tolérance suffisante ; longueurs, hauteur sur A et petit décrochement C ajustés après présentation",
+      "status": "deux variantes de préparation : six rectangles par atelier adapté, ou trois panneaux Leroy Merlin et bandes recoupées manuellement à domicile ; matériau et transport à confirmer",
       "isometric_view": {
         "source": "fabrication/bardage/generer_isometrie.py",
         "thickness_cm": 1.5,
@@ -566,7 +566,7 @@
         "status": "proposition illustrée, dimensions et fixation à choisir ; aucune nouvelle coupe du mur cellier prescrite"
       },
       "lining_cutting_note": "Profondeur nominale retenue 8,25 cm après photos près de T1 et T2 et correction utilisateur ; les 8,5 cm provisoires sont remplacés. Longueurs préparatoires 170 cm pour R1/R2, 50 cm pour R3, à raccourcir. Précision des photos et tolérance de coupe à distinguer du nominal.",
-      "rough_blanks_note": "Rectangles de préparation : A 170 × 46,7 ; B 170 × 3,2 ; C 24 × 52,4 cm. Largeurs établies avec jeux proposés de 0,3 cm contre bois/mur et R2 vertical au repère de 45 cm depuis T1. Hauteurs et décrochement C à reporter après présentation ; aucune longue recoupe manuelle prévue.",
+      "rough_blanks_note": "Rectangles de préparation : A 170 × 46,7 ; B 170 × 3,2 ; C 24 × 52,4 cm. Largeurs établies avec jeux proposés de 0,3 cm contre bois/mur et R2 vertical au repère de 45 cm depuis T1. Hauteurs et décrochement C à reporter après présentation ; aucune longue recoupe dans la variante atelier ; la variante Leroy Merlin + maison comprend trois coupes manuelles de 170 cm et une de 50 cm.",
       "joint_option": {
         "status": "hypothèse demandée par utilisateur pour la vue 3D, pas gabarit de coupe validé",
         "type": "retours jusqu’à la face visible du bardage ; bardage au contact du rebord intérieur du rail, cales derrière ; plâtre après le rail",
@@ -666,7 +666,7 @@
       "preparation_cut_status": {
         "widths_defined": true,
         "sheet": "OSB proposé, 1,5 cm ; achat non confirmé",
-        "conditions": "atelier acceptant B 3,2 cm et retours 8,25 cm ; tolérance visée ±0,1 cm à confirmer ; formats Leroy Merlin incompatibles pour ces bandes. Les jeux de 0,3 sont proposés, soumis aux instructions fabricant.",
+        "conditions": "largeurs de préparation identiques dans les deux variantes ; bandes étroites soit par atelier adapté, soit découpées chez soi depuis P 170 × 30 cm ; tolérance Leroy Merlin ±0,3 cm à contrôler sur A et C avant départ",
         "remaining_short_cuts": [
           "longueurs A/B/R1/R2 après choix du jeu et vérification du rail",
           "longueur R3 entre retours présentés",
@@ -676,7 +676,7 @@
       },
       "cutting_service": {
         "source": "https://www.leroymerlin.fr/services/decoupe/decoupe-du-bois.html",
-        "source_checked": "2026-10-28",
+        "source_checked": "2026-10-29",
         "Leroy_Merlin": {
           "minimum_formats_cm": [
             [
@@ -697,8 +697,92 @@
           ],
           "A_C": "formats compatibles, mais tolérance annoncée égale au jeu de pose proposé ; ne pas promettre une pose sans recoupe sur cette base"
         },
-        "proposal": "confier les six rectangles à un atelier adapté aux petites largeurs et tenant environ ±0,1 cm, à confirmer avec lui ; fablab équipé ou menuisier envisageable",
+        "proposal": "variante atelier adaptée aux six rectangles conservée ; nouvelle variante Leroy Merlin + scie manuelle détaillée dans leroy_merlin_home_variant ; aucun prestataire confirmé",
         "workshop_confirmed": false
+      },
+      "leroy_merlin_home_variant": {
+        "date": "2026-10-29",
+        "status": "hypothèse demandée par utilisateur ; pas une commande exécutée ; transport non validé",
+        "units": "cm",
+        "thickness": 1.5,
+        "material": {
+          "status": "non choisi et non acheté",
+          "options": [
+            "OSB/3 1,5 cm, proposition initiale",
+            "contreplaqué tout peuplier 1,5 cm avec classement A+ explicitement documenté, alternative recherchée"
+          ],
+          "user_report": "contreplaqué vu chez Leroy Merlin classé A, pas A+ ; ne pas le présenter comme A+",
+          "A_plus_product_at_Leroy_Merlin_confirmed": false
+        },
+        "sheet": {
+          "height": 250,
+          "width": 125,
+          "status": "format de référence pour le placement ; à adapter au format réel du panneau choisi"
+        },
+        "store_pieces": [
+          {
+            "id": "A",
+            "length": 170,
+            "width": 46.7
+          },
+          {
+            "id": "C",
+            "length": 24,
+            "width": 52.4
+          },
+          {
+            "id": "P",
+            "length": 170,
+            "width": 30
+          }
+        ],
+        "parent_P": {
+          "id": "P",
+          "length": 170,
+          "width": 30,
+          "outputs": [
+            "R1",
+            "R2",
+            "B",
+            "R3"
+          ],
+          "manual_full_length_cuts": 3,
+          "manual_short_rip_length": 50,
+          "manual_total_rip_length": 560,
+          "manual_kerf_for_drawing": 0.1,
+          "kerf_status": "hypothèse graphique seulement ; tracer chaque bande depuis le bord restant, sans cumuler les cotes ni scier sur le trait utile",
+          "sequence": [
+            "R1 170 × 8,25",
+            "R2 170 × 8,25",
+            "B 170 × 3,2",
+            "prélever 50 cm dans la bande restante, puis recouper R3 à 8,25 cm de large"
+          ]
+        },
+        "store_kerf_for_drawing": 0.4,
+        "store_remainders_transport": {
+          "split_remaining_wide_block": true,
+          "leave_remainders_only_if_store_agrees": true,
+          "all_piece_count": 7,
+          "useful_piece_count": 3,
+          "unused_piece_count": 4,
+          "stack_thickness_nominal": 10.5,
+          "remainder_dimensions_depend_on_actual_kerf": true
+        },
+        "transport": {
+          "confirmed": false,
+          "car_model": null,
+          "measured_useful_length": null,
+          "measured_useful_width": null,
+          "largest_piece_length": 170,
+          "largest_piece_width": 52.4,
+          "suggested_cardboard_template_length": 171,
+          "suggested_cardboard_template_width": 54,
+          "note": "rectangle enveloppe des morceaux empilés ; ni dimensions de voiture ni garantie de chargement ; vérifier ouverture de coffre, trajet de chargement, place pour les personnes et maintien du chargement, coffre fermé",
+          "if_too_short": "ne pas couper les pièces longues en deux sans revoir les raccords et leurs supports"
+        },
+        "store_tolerance_cm": 0.3,
+        "store_check": "mesurer A et C avant départ ; la tolérance peut consommer les jeux proposés de 0,3 cm, reprise éventuelle non exclue",
+        "safety": "pièce maintenue sur table stable avec deux serre-joints ; trait dégagé de la table et de tout support ; main et métal hors du trajet de lame ; soutien de la chute en fin de coupe sans pincer la scie ; ponçage des bords"
       }
     }
   }

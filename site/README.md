@@ -49,7 +49,11 @@ mesures dans `donnees/geometrie.json`. La profondeur mesurée est de 6 cm
 (Matplotlib, NumPy, Shapely pour les occultations des vues 3D, Pandoc et
 XeLaTeX). Les dépendances Python figurent dans
 `fabrication/bardage/requirements.txt`. Les fichiers produits sont versionnés.
-`make site-build` copie uniquement onze PDF/PNG, dont la commande de découpe,
+`make site-build` copie uniquement quatorze PDF/PNG, dont la commande de découpe,
 explicitement désignés par
 `scripts/copier_documents_bardage.py` ; la CI n’a pas à installer les outils
 de dessin ou TeX. Aucun répertoire d’achat privé n’est parcouru par ce script.
+
+## Variante Leroy Merlin + scie manuelle du 29 octobre 2026
+
+`make -C fabrication/bardage variante-leroy` génère la fiche Markdown/PDF et le schéma coté depuis `leroy_merlin_home_variant` dans `donnees/geometrie.json`. Les trois morceaux utiles sont A 170 × 46,7, C 24 × 52,4 et P 170 × 30 cm. P donne B et R1–R3 par sciage manuel. Le plan prévoit aussi le fractionnement des chutes : sept morceaux au total, tous compris dans une enveloppe de 170 × 52,4 cm, hors tolérance et protection. La compatibilité avec la voiture reste à confirmer. Le matériau de 15 mm est à choisir ; le contreplaqué vu en magasin est A et aucun contreplaqué A+ Leroy Merlin n’est confirmé.
