@@ -25,7 +25,8 @@ reste un scénario budgétaire, pas une référence de contreplaqué.
 
 **Nouvelle hypothèse : [Leroy Merlin + scie à la maison](https://nextnet.top/cabane/bardage/#variante-leroy-maison).**
 Commander **A 170 × 46,7 cm**, **C 24 × 52,4 cm** et une planche **P 170 × 30 cm**.
-Chez vous, P donne B et R1–R3. Le transport reste à vérifier : tester un carton
+Chez vous, P donne B et R1–R3. Vous estimez les **170 cm transportables** ;
+la largeur et le passage du coffre restent à vérifier. Tester un carton
 de **171 × 54 cm**, coffre fermé. La [fiche imprimable](https://nextnet.top/cabane/bardage/variante_leroy_maison.pdf)
 montre aussi comment fractionner les chutes pour qu’elles restent transportables
 dans cette même enveloppe.

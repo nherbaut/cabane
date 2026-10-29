@@ -56,8 +56,10 @@ la recouper à **8,25 cm** pour R3. Le schéma de droite montre cet ordre.
 ajustements de pose. Les bandes de 170 cm ne sont pas divisées en petits
 tronçons. Faire un essai sur une chute[^chute] avant les pièces utiles.
 
-### Transport : encore à vérifier dans votre voiture
+### Transport : 170 cm estimés possibles, largeur à vérifier
 
+Vous estimez que **170 cm devraient rentrer**. La largeur disponible et
+le passage par l’ouverture du coffre restent à vérifier.
 Les trois morceaux utiles s’inscrivent, orientés et empilés, dans
 **170 × 52,4 cm**, sur **4,5 cm d’épaisseur de bois**. Tester un carton de
 **171 × 54 cm** dans la voiture : ouverture du coffre, trajet pour l’insérer,

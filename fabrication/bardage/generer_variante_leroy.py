@@ -153,7 +153,8 @@ l’opérateur ; aucun tarif total n’est déduit du nombre de coupes.
 
 ## Transport : mesure encore manquante
 
-La voiture et ses dimensions utiles ne sont pas connues. Les morceaux
+Vous estimez que **170 cm devraient rentrer** dans votre voiture. La largeur
+et le passage du coffre restent à vérifier. Les morceaux
 utiles s’inscrivent, empilés et orientés, dans **170 × 52,4 cm** ; il faut
 **4,5 cm d’épaisseur** pour les trois. Avec les quatre chutes fractionnées,
 compter **sept morceaux, soit 10,5 cm d’épaisseur de bois**, hors protection.

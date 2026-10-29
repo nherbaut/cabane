@@ -702,7 +702,7 @@
       },
       "leroy_merlin_home_variant": {
         "date": "2026-10-29",
-        "status": "hypothèse demandée par utilisateur ; pas une commande exécutée ; transport non validé",
+        "status": "hypothèse demandée par utilisateur ; pas une commande exécutée ; longueur de transport 170 cm estimée possible par utilisateur, largeur et accès du coffre à vérifier",
         "units": "cm",
         "thickness": 1.5,
         "material": {
@@ -777,8 +777,10 @@
           "largest_piece_width": 52.4,
           "suggested_cardboard_template_length": 171,
           "suggested_cardboard_template_width": 54,
-          "note": "rectangle enveloppe des morceaux empilés ; ni dimensions de voiture ni garantie de chargement ; vérifier ouverture de coffre, trajet de chargement, place pour les personnes et maintien du chargement, coffre fermé",
-          "if_too_short": "ne pas couper les pièces longues en deux sans revoir les raccords et leurs supports"
+          "note": "170 cm estimés transportables par utilisateur ; largeur, épaisseur, ouverture du coffre, trajet de chargement et maintien restent à vérifier, coffre fermé ; ni modèle ni capacité maximale mesurés",
+          "if_too_short": "ne pas couper les pièces longues en deux sans revoir les raccords et leurs supports",
+          "user_estimated_transport_length": 170,
+          "length_source": "Utilisateur : « ça devrait aller, 170cm » ; estimation, pas mesure de capacité maximale"
         },
         "store_tolerance_cm": 0.3,
         "store_check": "mesurer A et C avant départ ; la tolérance peut consommer les jeux proposés de 0,3 cm, reprise éventuelle non exclue",
